@@ -1,0 +1,3075 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/var/www/html/mkopo',
+5 verbose install   [ 'bootstrap-sass',
+5 verbose install     'gulp',
+5 verbose install     'jquery',
+5 verbose install     'laravel-elixir',
+5 verbose install     'laravel-elixir-vue-2',
+5 verbose install     'laravel-elixir-webpack-official',
+5 verbose install     'lodash',
+5 verbose install     'vue',
+5 verbose install     'vue-resource' ] ]
+6 info preinstall @
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'laravel-elixir-webpack-official@^1.0.2', null ]
+9 verbose cache add name=undefined spec="laravel-elixir-webpack-official@^1.0.2" args=["laravel-elixir-webpack-official@^1.0.2",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'laravel-elixir-webpack-official@^1.0.2',
+10 verbose parsed url   path: 'laravel-elixir-webpack-official@^1.0.2',
+10 verbose parsed url   href: 'laravel-elixir-webpack-official@^1.0.2' }
+11 verbose cache add name="laravel-elixir-webpack-official" spec="^1.0.2" args=["laravel-elixir-webpack-official","^1.0.2"]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: '^1.0.2',
+12 verbose parsed url   path: '^1.0.2',
+12 verbose parsed url   href: '^1.0.2' }
+13 verbose addNamed [ 'laravel-elixir-webpack-official', '^1.0.2' ]
+14 verbose addNamed [ null, '>=1.0.2-0 <2.0.0-0' ]
+15 verbose already installed skipping gulp@^3.9.1 /var/www/html/mkopo
+16 verbose already installed skipping jquery@^3.1.0 /var/www/html/mkopo
+17 verbose already installed skipping lodash@^4.16.2 /var/www/html/mkopo
+18 verbose cache add [ 'laravel-elixir@^6.0.0-14', null ]
+19 verbose cache add name=undefined spec="laravel-elixir@^6.0.0-14" args=["laravel-elixir@^6.0.0-14",null]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: 'laravel-elixir@^6.0.0-14',
+20 verbose parsed url   path: 'laravel-elixir@^6.0.0-14',
+20 verbose parsed url   href: 'laravel-elixir@^6.0.0-14' }
+21 verbose cache add name="laravel-elixir" spec="^6.0.0-14" args=["laravel-elixir","^6.0.0-14"]
+22 verbose parsed url { protocol: null,
+22 verbose parsed url   slashes: null,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: null,
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: null,
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: '^6.0.0-14',
+22 verbose parsed url   path: '^6.0.0-14',
+22 verbose parsed url   href: '^6.0.0-14' }
+23 verbose addNamed [ 'laravel-elixir', '^6.0.0-14' ]
+24 verbose addNamed [ null, '>=6.0.0-14 <7.0.0-0' ]
+25 verbose already installed skipping vue@^2.0.1 /var/www/html/mkopo
+26 verbose cache add [ 'laravel-elixir-vue-2@^0.2.0', null ]
+27 verbose cache add name=undefined spec="laravel-elixir-vue-2@^0.2.0" args=["laravel-elixir-vue-2@^0.2.0",null]
+28 verbose parsed url { protocol: null,
+28 verbose parsed url   slashes: null,
+28 verbose parsed url   auth: null,
+28 verbose parsed url   host: null,
+28 verbose parsed url   port: null,
+28 verbose parsed url   hostname: null,
+28 verbose parsed url   hash: null,
+28 verbose parsed url   search: null,
+28 verbose parsed url   query: null,
+28 verbose parsed url   pathname: 'laravel-elixir-vue-2@^0.2.0',
+28 verbose parsed url   path: 'laravel-elixir-vue-2@^0.2.0',
+28 verbose parsed url   href: 'laravel-elixir-vue-2@^0.2.0' }
+29 verbose cache add name="laravel-elixir-vue-2" spec="^0.2.0" args=["laravel-elixir-vue-2","^0.2.0"]
+30 verbose parsed url { protocol: null,
+30 verbose parsed url   slashes: null,
+30 verbose parsed url   auth: null,
+30 verbose parsed url   host: null,
+30 verbose parsed url   port: null,
+30 verbose parsed url   hostname: null,
+30 verbose parsed url   hash: null,
+30 verbose parsed url   search: null,
+30 verbose parsed url   query: null,
+30 verbose parsed url   pathname: '^0.2.0',
+30 verbose parsed url   path: '^0.2.0',
+30 verbose parsed url   href: '^0.2.0' }
+31 verbose addNamed [ 'laravel-elixir-vue-2', '^0.2.0' ]
+32 verbose addNamed [ null, '>=0.2.0-0 <0.3.0-0' ]
+33 verbose already installed skipping vue-resource@^1.0.3 /var/www/html/mkopo
+34 verbose already installed skipping bootstrap-sass@^3.3.7 /var/www/html/mkopo
+35 silly lockFile 60cfa36d-el-elixir-webpack-official-1-0-2 laravel-elixir-webpack-official@^1.0.2
+36 verbose lock laravel-elixir-webpack-official@^1.0.2 /home/lonac_rally/.npm/60cfa36d-el-elixir-webpack-official-1-0-2.lock
+37 silly lockFile 20571fbb-laravel-elixir-6-0-0-14 laravel-elixir@^6.0.0-14
+38 verbose lock laravel-elixir@^6.0.0-14 /home/lonac_rally/.npm/20571fbb-laravel-elixir-6-0-0-14.lock
+39 silly lockFile a11fa157-laravel-elixir-vue-2-0-2-0 laravel-elixir-vue-2@^0.2.0
+40 verbose lock laravel-elixir-vue-2@^0.2.0 /home/lonac_rally/.npm/a11fa157-laravel-elixir-vue-2-0-2-0.lock
+41 silly addNameRange { name: 'laravel-elixir-webpack-official',
+41 silly addNameRange   range: '>=1.0.2-0 <2.0.0-0',
+41 silly addNameRange   hasData: false }
+42 silly addNameRange { name: 'laravel-elixir',
+42 silly addNameRange   range: '>=6.0.0-14 <7.0.0-0',
+42 silly addNameRange   hasData: false }
+43 silly addNameRange { name: 'laravel-elixir-vue-2',
+43 silly addNameRange   range: '>=0.2.0-0 <0.3.0-0',
+43 silly addNameRange   hasData: false }
+44 verbose url raw laravel-elixir-webpack-official
+45 verbose url resolving [ 'https://registry.npmjs.org/',
+45 verbose url resolving   './laravel-elixir-webpack-official' ]
+46 verbose url resolved https://registry.npmjs.org/laravel-elixir-webpack-official
+47 info trying registry request attempt 1 at 08:05:35
+48 verbose etag "5810a219-3e52"
+49 http GET https://registry.npmjs.org/laravel-elixir-webpack-official
+50 verbose url raw laravel-elixir-vue-2
+51 verbose url resolving [ 'https://registry.npmjs.org/', './laravel-elixir-vue-2' ]
+52 verbose url resolved https://registry.npmjs.org/laravel-elixir-vue-2
+53 info trying registry request attempt 1 at 08:05:35
+54 verbose etag "57bc15d1-1178"
+55 http GET https://registry.npmjs.org/laravel-elixir-vue-2
+56 verbose url raw laravel-elixir
+57 verbose url resolving [ 'https://registry.npmjs.org/', './laravel-elixir' ]
+58 verbose url resolved https://registry.npmjs.org/laravel-elixir
+59 info trying registry request attempt 1 at 08:05:35
+60 verbose etag "58346b65-50802"
+61 http GET https://registry.npmjs.org/laravel-elixir
+62 http 304 https://registry.npmjs.org/laravel-elixir-webpack-official
+63 silly registry.get cb [ 304,
+63 silly registry.get   { date: 'Wed, 23 Nov 2016 05:05:37 GMT',
+63 silly registry.get     via: '1.1 varnish',
+63 silly registry.get     'cache-control': 'max-age=300',
+63 silly registry.get     etag: '"5810a219-3e52"',
+63 silly registry.get     age: '0',
+63 silly registry.get     connection: 'keep-alive',
+63 silly registry.get     'x-served-by': 'cache-lhr6324-LHR',
+63 silly registry.get     'x-cache': 'MISS',
+63 silly registry.get     'x-cache-hits': '0',
+63 silly registry.get     'x-timer': 'S1479877537.597288,VS0,VE105',
+63 silly registry.get     vary: 'Accept-Encoding' } ]
+64 verbose etag laravel-elixir-webpack-official from cache
+65 silly addNameRange number 2 { name: 'laravel-elixir-webpack-official',
+65 silly addNameRange   range: '>=1.0.2-0 <2.0.0-0',
+65 silly addNameRange   hasData: true }
+66 silly addNameRange versions [ 'laravel-elixir-webpack-official',
+66 silly addNameRange   [ '1.0.0',
+66 silly addNameRange     '1.0.1',
+66 silly addNameRange     '1.0.2',
+66 silly addNameRange     '1.0.3',
+66 silly addNameRange     '1.0.4',
+66 silly addNameRange     '1.0.5',
+66 silly addNameRange     '1.0.6',
+66 silly addNameRange     '1.0.8',
+66 silly addNameRange     '1.0.9' ] ]
+67 verbose addNamed [ 'laravel-elixir-webpack-official', '1.0.9' ]
+68 verbose addNamed [ '1.0.9', '1.0.9' ]
+69 silly lockFile 713b639e-el-elixir-webpack-official-1-0-9 laravel-elixir-webpack-official@1.0.9
+70 verbose lock laravel-elixir-webpack-official@1.0.9 /home/lonac_rally/.npm/713b639e-el-elixir-webpack-official-1-0-9.lock
+71 silly lockFile 713b639e-el-elixir-webpack-official-1-0-9 laravel-elixir-webpack-official@1.0.9
+72 silly lockFile 713b639e-el-elixir-webpack-official-1-0-9 laravel-elixir-webpack-official@1.0.9
+73 silly lockFile 60cfa36d-el-elixir-webpack-official-1-0-2 laravel-elixir-webpack-official@^1.0.2
+74 silly lockFile 60cfa36d-el-elixir-webpack-official-1-0-2 laravel-elixir-webpack-official@^1.0.2
+75 http 304 https://registry.npmjs.org/laravel-elixir
+76 silly registry.get cb [ 304,
+76 silly registry.get   { date: 'Wed, 23 Nov 2016 05:05:38 GMT',
+76 silly registry.get     via: '1.1 varnish',
+76 silly registry.get     'cache-control': 'max-age=300',
+76 silly registry.get     etag: '"58346b65-50802"',
+76 silly registry.get     age: '0',
+76 silly registry.get     connection: 'keep-alive',
+76 silly registry.get     'x-served-by': 'cache-lhr6326-LHR',
+76 silly registry.get     'x-cache': 'MISS',
+76 silly registry.get     'x-cache-hits': '0',
+76 silly registry.get     'x-timer': 'S1479877538.944189,VS0,VE86',
+76 silly registry.get     vary: 'Accept-Encoding' } ]
+77 verbose etag laravel-elixir from cache
+78 silly addNameRange number 2 { name: 'laravel-elixir',
+78 silly addNameRange   range: '>=6.0.0-14 <7.0.0-0',
+78 silly addNameRange   hasData: true }
+79 silly addNameRange versions [ 'laravel-elixir',
+79 silly addNameRange   [ '0.1.0',
+79 silly addNameRange     '0.1.1',
+79 silly addNameRange     '0.1.2',
+79 silly addNameRange     '0.1.3',
+79 silly addNameRange     '0.1.4',
+79 silly addNameRange     '0.1.5',
+79 silly addNameRange     '0.1.6',
+79 silly addNameRange     '0.1.7',
+79 silly addNameRange     '0.1.8',
+79 silly addNameRange     '0.1.9',
+79 silly addNameRange     '0.2.0',
+79 silly addNameRange     '0.2.1',
+79 silly addNameRange     '0.2.2',
+79 silly addNameRange     '0.3.0',
+79 silly addNameRange     '0.3.1',
+79 silly addNameRange     '0.3.2',
+79 silly addNameRange     '0.3.3',
+79 silly addNameRange     '0.3.4',
+79 silly addNameRange     '0.3.5',
+79 silly addNameRange     '0.3.7',
+79 silly addNameRange     '0.3.8',
+79 silly addNameRange     '0.3.9',
+79 silly addNameRange     '0.3.10',
+79 silly addNameRange     '0.3.11',
+79 silly addNameRange     '0.4.0',
+79 silly addNameRange     '0.4.1',
+79 silly addNameRange     '0.4.3',
+79 silly addNameRange     '0.4.4',
+79 silly addNameRange     '0.4.5',
+79 silly addNameRange     '0.4.6',
+79 silly addNameRange     '0.4.7',
+79 silly addNameRange     '0.4.8',
+79 silly addNameRange     '0.4.9',
+79 silly addNameRange     '0.4.10',
+79 silly addNameRange     '0.4.11',
+79 silly addNameRange     '0.4.12',
+79 silly addNameRange     '0.4.13',
+79 silly addNameRange     '0.4.14',
+79 silly addNameRange     '0.4.15',
+79 silly addNameRange     '0.4.16',
+79 silly addNameRange     '0.4.17',
+79 silly addNameRange     '0.5.0',
+79 silly addNameRange     '0.5.1',
+79 silly addNameRange     '0.5.2',
+79 silly addNameRange     '0.5.3',
+79 silly addNameRange     '0.5.4',
+79 silly addNameRange     '0.5.5',
+79 silly addNameRange     '0.5.6',
+79 silly addNameRange     '0.5.7',
+79 silly addNameRange     '0.5.8',
+79 silly addNameRange     '0.6.0',
+79 silly addNameRange     '0.6.1',
+79 silly addNameRange     '0.6.2',
+79 silly addNameRange     '0.6.3',
+79 silly addNameRange     '0.6.4',
+79 silly addNameRange     '0.6.5',
+79 silly addNameRange     '0.6.6',
+79 silly addNameRange     '0.7.0',
+79 silly addNameRange     '0.6.7',
+79 silly addNameRange     '0.6.8',
+79 silly addNameRange     '0.7.1',
+79 silly addNameRange     '0.7.3',
+79 silly addNameRange     '0.7.4',
+79 silly addNameRange     '0.7.5',
+79 silly addNameRange     '0.7.6',
+79 silly addNameRange     '0.7.7',
+79 silly addNameRange     '0.7.8',
+79 silly addNameRange     '0.7.9',
+79 silly addNameRange     '0.7.10',
+79 silly addNameRange     '0.7.11',
+79 silly addNameRange     '0.8.0',
+79 silly addNameRange     '0.8.1',
+79 silly addNameRange     '0.9.1',
+79 silly addNameRange     '0.10.0',
+79 silly addNameRange     '0.10.1',
+79 silly addNameRange     '0.10.2',
+79 silly addNameRange     '0.10.3',
+79 silly addNameRange     '0.10.4',
+79 silly addNameRange     '0.10.5',
+79 silly addNameRange     '0.10.6',
+79 silly addNameRange     '0.10.7',
+79 silly addNameRange     '0.11.0',
+79 silly addNameRange     '0.12.0',
+79 silly addNameRange     '0.12.2',
+79 silly addNameRange     '0.12.3',
+79 silly addNameRange     '0.13.0',
+79 silly addNameRange     '0.13.1',
+79 silly addNameRange     '0.13.2',
+79 silly addNameRange     '0.13.3',
+79 silly addNameRange     '0.14.0',
+79 silly addNameRange     '0.14.2',
+79 silly addNameRange     '0.14.3',
+79 silly addNameRange     '0.14.4',
+79 silly addNameRange     '0.15.0',
+79 silly addNameRange     '0.15.1',
+79 silly addNameRange     '0.15.2',
+79 silly addNameRange     '0.15.3',
+79 silly addNameRange     '0.15.4',
+79 silly addNameRange     '0.15.5',
+79 silly addNameRange     '0.16.0',
+79 silly addNameRange     '0.16.1',
+79 silly addNameRange     '0.16.2',
+79 silly addNameRange     '0.16.3',
+79 silly addNameRange     '0.18.0',
+79 silly addNameRange     '0.18.1',
+79 silly addNameRange     '0.18.2',
+79 silly addNameRange     '0.18.3',
+79 silly addNameRange     '0.18.4',
+79 silly addNameRange     '0.18.5',
+79 silly addNameRange     '0.18.6',
+79 silly addNameRange     '0.18.7',
+79 silly addNameRange     '1.0.1',
+79 silly addNameRange     '1.0.2',
+79 silly addNameRange     '1.0.3',
+79 silly addNameRange     '2.0.0',
+79 silly addNameRange     '2.0.1',
+79 silly addNameRange     '2.1.0',
+79 silly addNameRange     '2.1.1',
+79 silly addNameRange     '2.1.2',
+79 silly addNameRange     '2.2.0',
+79 silly addNameRange     '2.2.1',
+79 silly addNameRange     '2.2.2',
+79 silly addNameRange     '2.2.3',
+79 silly addNameRange     '2.2.4',
+79 silly addNameRange     '2.3.0',
+79 silly addNameRange     '2.3.1',
+79 silly addNameRange     '2.3.2',
+79 silly addNameRange     '2.3.3',
+79 silly addNameRange     '2.3.4',
+79 silly addNameRange     '2.3.5',
+79 silly addNameRange     '2.3.6',
+79 silly addNameRange     '2.3.8',
+79 silly addNameRange     '2.3.9',
+79 silly addNameRange     '2.3.10',
+79 silly addNameRange     '2.3.11',
+79 silly addNameRange     '2.3.12',
+79 silly addNameRange     '2.3.13',
+79 silly addNameRange     '3.0.0-beta1',
+79 silly addNameRange     '3.0.0-beta2',
+79 silly addNameRange     '3.0.0',
+79 silly addNameRange     '3.0.1',
+79 silly addNameRange     '3.0.3',
+79 silly addNameRange     '3.0.4',
+79 silly addNameRange     '3.0.5',
+79 silly addNameRange     '3.0.6',
+79 silly addNameRange     '3.0.7',
+79 silly addNameRange     '3.1.0',
+79 silly addNameRange     '3.1.1',
+79 silly addNameRange     '3.1.2',
+79 silly addNameRange     '3.2.1',
+79 silly addNameRange     '3.2.2',
+79 silly addNameRange     '3.2.3',
+79 silly addNameRange     '3.2.4',
+79 silly addNameRange     '3.2.5',
+79 silly addNameRange     '3.2.6',
+79 silly addNameRange     '3.2.7',
+79 silly addNameRange     '3.2.8',
+79 silly addNameRange     '3.3.0',
+79 silly addNameRange     '3.3.1',
+79 silly addNameRange     '3.3.2',
+79 silly addNameRange     '3.3.3',
+79 silly addNameRange     '3.3.4',
+79 silly addNameRange     '3.3.5',
+79 silly addNameRange     '3.4.0',
+79 silly addNameRange     '3.4.1',
+79 silly addNameRange     '3.4.2',
+79 silly addNameRange     '4.0.0',
+79 silly addNameRange     '3.4.3',
+79 silly addNameRange     '4.0.1',
+79 silly addNameRange     '4.0.3',
+79 silly addNameRange     '4.0.4',
+79 silly addNameRange     '4.1.0',
+79 silly addNameRange     '4.1.1',
+79 silly addNameRange     '4.1.2',
+79 silly addNameRange     '4.2.0',
+79 silly addNameRange     '4.2.1',
+79 silly addNameRange     '5.0.0',
+79 silly addNameRange     '6.0.0-0',
+79 silly addNameRange     '6.0.0-1',
+79 silly addNameRange     '6.0.0-2',
+79 silly addNameRange     '6.0.0-3',
+79 silly addNameRange     '6.0.0-4',
+79 silly addNameRange     '6.0.0-5',
+79 silly addNameRange     '6.0.0-6',
+79 silly addNameRange     '6.0.0-7',
+79 silly addNameRange     '6.0.0-8',
+79 silly addNameRange     '6.0.0-9',
+79 silly addNameRange     '6.0.0-10',
+79 silly addNameRange     '6.0.0-11',
+79 silly addNameRange     '6.0.0-13',
+79 silly addNameRange     '6.0.0-14',
+79 silly addNameRange     '6.0.0-15' ] ]
+80 verbose addNamed [ 'laravel-elixir', '6.0.0-15' ]
+81 verbose addNamed [ '6.0.0-15', '6.0.0-15' ]
+82 silly lockFile 43b687f8-laravel-elixir-6-0-0-15 laravel-elixir@6.0.0-15
+83 verbose lock laravel-elixir@6.0.0-15 /home/lonac_rally/.npm/43b687f8-laravel-elixir-6-0-0-15.lock
+84 silly lockFile 43b687f8-laravel-elixir-6-0-0-15 laravel-elixir@6.0.0-15
+85 silly lockFile 43b687f8-laravel-elixir-6-0-0-15 laravel-elixir@6.0.0-15
+86 silly lockFile 20571fbb-laravel-elixir-6-0-0-14 laravel-elixir@^6.0.0-14
+87 silly lockFile 20571fbb-laravel-elixir-6-0-0-14 laravel-elixir@^6.0.0-14
+88 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+89 info trying registry request attempt 2 at 08:05:55
+90 verbose etag "57bc15d1-1178"
+91 http GET https://registry.npmjs.org/laravel-elixir-vue-2
+92 http 304 https://registry.npmjs.org/laravel-elixir-vue-2
+93 silly registry.get cb [ 304,
+93 silly registry.get   { date: 'Wed, 23 Nov 2016 05:06:02 GMT',
+93 silly registry.get     via: '1.1 varnish',
+93 silly registry.get     'cache-control': 'max-age=300',
+93 silly registry.get     etag: '"57bc15d1-1178"',
+93 silly registry.get     age: '0',
+93 silly registry.get     connection: 'keep-alive',
+93 silly registry.get     'x-served-by': 'cache-lhr6348-LHR',
+93 silly registry.get     'x-cache': 'MISS',
+93 silly registry.get     'x-cache-hits': '0',
+93 silly registry.get     'x-timer': 'S1479877562.892605,VS0,VE105',
+93 silly registry.get     vary: 'Accept-Encoding' } ]
+94 verbose etag laravel-elixir-vue-2 from cache
+95 silly addNameRange number 2 { name: 'laravel-elixir-vue-2',
+95 silly addNameRange   range: '>=0.2.0-0 <0.3.0-0',
+95 silly addNameRange   hasData: true }
+96 silly addNameRange versions [ 'laravel-elixir-vue-2', [ '0.1.0', '0.1.1', '0.2.0' ] ]
+97 verbose addNamed [ 'laravel-elixir-vue-2', '0.2.0' ]
+98 verbose addNamed [ '0.2.0', '0.2.0' ]
+99 silly lockFile 25b78a1a-laravel-elixir-vue-2-0-2-0 laravel-elixir-vue-2@0.2.0
+100 verbose lock laravel-elixir-vue-2@0.2.0 /home/lonac_rally/.npm/25b78a1a-laravel-elixir-vue-2-0-2-0.lock
+101 silly lockFile 25b78a1a-laravel-elixir-vue-2-0-2-0 laravel-elixir-vue-2@0.2.0
+102 silly lockFile 25b78a1a-laravel-elixir-vue-2-0-2-0 laravel-elixir-vue-2@0.2.0
+103 silly lockFile a11fa157-laravel-elixir-vue-2-0-2-0 laravel-elixir-vue-2@^0.2.0
+104 silly lockFile a11fa157-laravel-elixir-vue-2-0-2-0 laravel-elixir-vue-2@^0.2.0
+105 silly resolved [ { name: 'laravel-elixir-webpack-official',
+105 silly resolved     version: '1.0.9',
+105 silly resolved     description: 'Laravel Elixir Webpack integration',
+105 silly resolved     main: 'dist/index.js',
+105 silly resolved     repository:
+105 silly resolved      { type: 'git',
+105 silly resolved        url: 'https://github.com/JeffreyWay/laravel-elixir-webpack-official.git' },
+105 silly resolved     homepage: 'https://github.com/JeffreyWay/laravel-elixir-webpack-official',
+105 silly resolved     scripts:
+105 silly resolved      { compile: 'babel --presets=es2015 -d dist src',
+105 silly resolved        prepublish: 'npm run compile' },
+105 silly resolved     keywords: [ 'laravel', 'elixir', 'webpack', 'gulp' ],
+105 silly resolved     author: { name: 'Jeffrey Way' },
+105 silly resolved     license: 'MIT',
+105 silly resolved     dependencies:
+105 silly resolved      { buble: '^0.12.3',
+105 silly resolved        'buble-loader': '^0.2.2',
+105 silly resolved        lodash: '^4.15.0',
+105 silly resolved        webpack: '2.1.0-beta.15 - 2.1.0-beta.22',
+105 silly resolved        'webpack-stream': 'github:jeroennoten/webpack-stream#patch-1' },
+105 silly resolved     devDependencies: { 'babel-cli': '^6.10.1', 'babel-preset-es2015': '^6.9.0' },
+105 silly resolved     readme: '# Laravel Elixir Webpack Integration\n\nThis extension brings Webpack support to Laravel Elixir, version 6 and up.\n\n## Step 1: Install\n\n```js\nnpm install laravel-elixir-webpack-official --save-dev\n```\n\n## Step 2: Usage\n\nSimilar to Browserify, the `webpack` method may be used to compile and bundle [ECMAScript 2015](https://babeljs.io/docs/learn-es2015/) into plain JavaScript.\nThis function accepts a file, relative to the `resources/assets/js` directory, and generates a single bundled file in the `public/js` directory:\n\n```javascript\nelixir(function(mix) {\n    mix.webpack(\'app.js\');\n});\n```\n\nTo choose a different output or base directory, simply specify your desired paths as the second and third arguments, respectively.\n\n```javascript\nelixir(function(mix) {\n    mix.webpack(\'app.js\', \'public/dist\', \'app/assets/js\');\n});\n```\n\nThis will compile `app/assets/js/app.js` to `public/dist/app.js`.\n\nIf you\'d like to leverage more of Webpack\'s functionality, Elixir will read any `webpack.config.js` file in your project root, and [factor its configuration](https://webpack.github.io/docs/configuration.html) into the build process. Alternatively, you may pass your Webpack-specific configuration as the fourth argument to `mix.webpack()`.\n\n## Step 3: Plugins\n\nIf you\'ve created a plugin, and need to hook your own Webpack config into Elixir\'s defaults, add the following to your script:\n\n```js\nElixir.webpack.mergeConfig({\n    babel: {\n        presets: [\'es2015\'],\n        plugins: [\'transform-runtime\'],\n    },\n    module: {\n        loaders: [{\n            test: /\\.vue$/,\n            loader: \'vue\'\n        }]\n    }\n});\n```\n\n`Elixir.webpack.mergeConfig(newConfig)` will recursively merge your provided configuration with ours. It also properly merges any nested  arrays, so as not to override important default configuration. For example, in the code snippet above, the addition of the Vue loader will not overwrite the default loaders that we provide.',
+105 silly resolved     readmeFilename: 'readme.md',
+105 silly resolved     bugs: { url: 'https://github.com/JeffreyWay/laravel-elixir-webpack-official/issues' },
+105 silly resolved     _id: 'laravel-elixir-webpack-official@1.0.9',
+105 silly resolved     _from: 'laravel-elixir-webpack-official@^1.0.2' },
+105 silly resolved   { name: 'laravel-elixir',
+105 silly resolved     version: '6.0.0-15',
+105 silly resolved     description: 'Laravel Elixir Core',
+105 silly resolved     main: 'dist/index.js',
+105 silly resolved     scripts:
+105 silly resolved      { compile: 'babel --presets=es2015 -d dist/ src/',
+105 silly resolved        test: 'cd elixir-test-app && mocha --require babel-core/register --require=test/bootstrap.js',
+105 silly resolved        prepublish: 'npm run compile' },
+105 silly resolved     repository: { type: 'git', url: 'https://github.com/laravel/elixir' },
+105 silly resolved     keywords: [ 'laravel', 'elixir', 'gulp' ],
+105 silly resolved     author: { name: 'Jeffrey Way' },
+105 silly resolved     license: 'MIT',
+105 silly resolved     homepage: 'https://github.com/laravel/elixir',
+105 silly resolved     dependencies:
+105 silly resolved      { 'clean-css': '^3.4.12',
+105 silly resolved        'cli-table': '^0.3.1',
+105 silly resolved        del: '^2.2.0',
+105 silly resolved        glob: '^7.0.3',
+105 silly resolved        'gulp-autoprefixer': '^3.1.0',
+105 silly resolved        'gulp-batch': '^1.0.5',
+105 silly resolved        'gulp-concat': '^2.6.0',
+105 silly resolved        'gulp-if': '^2.0.0',
+105 silly resolved        'gulp-less': '^3.0.5',
+105 silly resolved        'gulp-load-plugins': '^1.2.2',
+105 silly resolved        'gulp-notify': '^2.2.0',
+105 silly resolved        'gulp-rename': '^1.2.2',
+105 silly resolved        'gulp-rev': '^7.0.0',
+105 silly resolved        'gulp-rev-replace': '^0.4.3',
+105 silly resolved        'gulp-sass': '^2.3.1',
+105 silly resolved        'gulp-shell': '^0.5.2',
+105 silly resolved        'gulp-sourcemaps': '^1.6.0',
+105 silly resolved        'gulp-uglify': '^1.5.3',
+105 silly resolved        'gulp-util': '^3.0.7',
+105 silly resolved        'parse-filepath': '^1.0.1',
+105 silly resolved        path: '^0.12.7',
+105 silly resolved        q: '^1.4.1',
+105 silly resolved        'require-dir': '^0.3.0',
+105 silly resolved        'run-sequence': '^1.1.5',
+105 silly resolved        underscore: '^1.8.3',
+105 silly resolved        'vinyl-map2': '^1.2.1' },
+105 silly resolved     devDependencies:
+105 silly resolved      { 'babel-cli': '^6.7.7',
+105 silly resolved        'babel-preset-es2015': '^6.9.0',
+105 silly resolved        chai: '^3.5.0',
+105 silly resolved        gulp: '^3.9.1',
+105 silly resolved        'laravel-elixir-browserify-official': '^0.1.3',
+105 silly resolved        'laravel-elixir-coffeescript': '^1.0.2',
+105 silly resolved        'laravel-elixir-rollup-official': '^1.0.4',
+105 silly resolved        'laravel-elixir-stylus': '^2.0.2',
+105 silly resolved        'laravel-elixir-vue': '^0.1.4',
+105 silly resolved        'laravel-elixir-webpack-official': '^1.0.1',
+105 silly resolved        mocha: '^2.4.5',
+105 silly resolved        rimraf: '^2.5.2' },
+105 silly resolved     readme: '# Laravel Elixir\n\n## Introduction\n\nLaravel Elixir provides a clean, fluent API for defining basic Gulp tasks for your Laravel application. Elixir supports several common CSS and JavaScript pre-processors, and even testing tools.\n\nIf you\'ve ever been confused about how to get started with Gulp and asset compilation, you will love Laravel Elixir!\n\n## Official Documentation\n\nDocumentation for Elixir can be found on the [Laravel website](http://laravel.com/docs/elixir).\n\n## License\n\nLaravel Elixir is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).\n',
+105 silly resolved     readmeFilename: 'readme.md',
+105 silly resolved     bugs: { url: 'https://github.com/laravel/elixir/issues' },
+105 silly resolved     _id: 'laravel-elixir@6.0.0-15',
+105 silly resolved     _from: 'laravel-elixir@^6.0.0-14' },
+105 silly resolved   { name: 'laravel-elixir-vue-2',
+105 silly resolved     version: '0.2.0',
+105 silly resolved     description: '\'Laravel Elixir Vue 2.0 Integration\'',
+105 silly resolved     main: 'index.js',
+105 silly resolved     repository:
+105 silly resolved      { type: 'git',
+105 silly resolved        url: 'git+https://github.com/vuejs/laravel-elixir-vue-2.git' },
+105 silly resolved     keywords: [ 'vue', 'laravel' ],
+105 silly resolved     author: { name: 'Evan You' },
+105 silly resolved     license: 'MIT',
+105 silly resolved     bugs: { url: 'https://github.com/vuejs/laravel-elixir-vue-2/issues' },
+105 silly resolved     homepage: 'https://github.com/vuejs/laravel-elixir-vue-2#readme',
+105 silly resolved     dependencies:
+105 silly resolved      { 'css-loader': '^0.23.1',
+105 silly resolved        'file-loader': '^0.9.0',
+105 silly resolved        'sass-loader': '^4.0.0',
+105 silly resolved        'url-loader': '^0.5.7',
+105 silly resolved        'vue-loader': '^9.3.2' },
+105 silly resolved     readme: 'ERROR: No README data found!',
+105 silly resolved     _id: 'laravel-elixir-vue-2@0.2.0',
+105 silly resolved     _from: 'laravel-elixir-vue-2@^0.2.0' } ]
+106 info install laravel-elixir-webpack-official@1.0.9 into /var/www/html/mkopo
+107 info install laravel-elixir@6.0.0-15 into /var/www/html/mkopo
+108 info install laravel-elixir-vue-2@0.2.0 into /var/www/html/mkopo
+109 info installOne laravel-elixir-webpack-official@1.0.9
+110 info installOne laravel-elixir@6.0.0-15
+111 info installOne laravel-elixir-vue-2@0.2.0
+112 info /var/www/html/mkopo/node_modules/laravel-elixir-webpack-official unbuild
+113 info /var/www/html/mkopo/node_modules/laravel-elixir unbuild
+114 info /var/www/html/mkopo/node_modules/laravel-elixir-vue-2 unbuild
+115 verbose tar unpack /home/lonac_rally/.npm/laravel-elixir-webpack-official/1.0.9/package.tgz
+116 silly lockFile 47e6263c--laravel-elixir-webpack-official tar:///var/www/html/mkopo/node_modules/laravel-elixir-webpack-official
+117 verbose lock tar:///var/www/html/mkopo/node_modules/laravel-elixir-webpack-official /home/lonac_rally/.npm/47e6263c--laravel-elixir-webpack-official.lock
+118 silly lockFile 06708362-bpack-official-1-0-9-package-tgz tar:///home/lonac_rally/.npm/laravel-elixir-webpack-official/1.0.9/package.tgz
+119 verbose lock tar:///home/lonac_rally/.npm/laravel-elixir-webpack-official/1.0.9/package.tgz /home/lonac_rally/.npm/06708362-bpack-official-1-0-9-package-tgz.lock
+120 verbose tar unpack /home/lonac_rally/.npm/laravel-elixir/6.0.0-15/package.tgz
+121 silly lockFile 0d4f8277-kopo-node-modules-laravel-elixir tar:///var/www/html/mkopo/node_modules/laravel-elixir
+122 verbose lock tar:///var/www/html/mkopo/node_modules/laravel-elixir /home/lonac_rally/.npm/0d4f8277-kopo-node-modules-laravel-elixir.lock
+123 silly lockFile bd4df4df-avel-elixir-6-0-0-15-package-tgz tar:///home/lonac_rally/.npm/laravel-elixir/6.0.0-15/package.tgz
+124 verbose lock tar:///home/lonac_rally/.npm/laravel-elixir/6.0.0-15/package.tgz /home/lonac_rally/.npm/bd4df4df-avel-elixir-6-0-0-15-package-tgz.lock
+125 silly gunzTarPerm modes [ '755', '644' ]
+126 silly gunzTarPerm modes [ '755', '644' ]
+127 verbose tar unpack /home/lonac_rally/.npm/laravel-elixir-vue-2/0.2.0/package.tgz
+128 silly lockFile 7a2fb76f-ode-modules-laravel-elixir-vue-2 tar:///var/www/html/mkopo/node_modules/laravel-elixir-vue-2
+129 verbose lock tar:///var/www/html/mkopo/node_modules/laravel-elixir-vue-2 /home/lonac_rally/.npm/7a2fb76f-ode-modules-laravel-elixir-vue-2.lock
+130 silly lockFile c8c7b1b3-l-elixir-vue-2-0-2-0-package-tgz tar:///home/lonac_rally/.npm/laravel-elixir-vue-2/0.2.0/package.tgz
+131 verbose lock tar:///home/lonac_rally/.npm/laravel-elixir-vue-2/0.2.0/package.tgz /home/lonac_rally/.npm/c8c7b1b3-l-elixir-vue-2-0-2-0-package-tgz.lock
+132 silly gunzTarPerm extractEntry package.json
+133 silly gunzTarPerm modes [ '755', '644' ]
+134 silly gunzTarPerm extractEntry package.json
+135 silly gunzTarPerm extractEntry .npmignore
+136 silly gunzTarPerm extractEntry .babelrc
+137 silly gunzTarPerm extractEntry .npmignore
+138 silly gunzTarPerm extractEntry dist/WebpackTask.js
+139 silly gunzTarPerm extractEntry package.json
+140 silly gunzTarPerm extractEntry .editorconfig
+141 silly gunzTarPerm extractEntry CHANGELOG.md
+142 silly gunzTarPerm extractEntry dist/index.js
+143 silly gunzTarPerm extractEntry project.sublime-workspace
+144 silly gunzTarPerm extractEntry .npmignore
+145 silly gunzTarPerm extractEntry index.js
+146 silly gunzTarPerm extractEntry dist/Config.js
+147 silly gunzTarPerm extractEntry dist/Log.js
+148 silly gunzTarPerm extractEntry dist/Notification.js
+149 silly gunzTarPerm extractEntry dist/index.js
+150 silly gunzTarPerm extractEntry dist/bootstrap/EnableExtension.js
+151 silly gunzTarPerm extractEntry dist/bootstrap/LoadExtensions.js
+152 silly gunzTarPerm extractEntry dist/bootstrap/SetDependencies.js
+153 silly gunzTarPerm extractEntry dist/bootstrap/SetHooks.js
+154 silly gunzTarPerm extractEntry dist/reporters/MinimalTaskReporter.js
+155 silly gunzTarPerm extractEntry dist/reporters/TaskReporter.js
+156 silly gunzTarPerm extractEntry dist/tasks/CombineTask.js
+157 silly gunzTarPerm extractEntry dist/tasks/CssTask.js
+158 silly gunzTarPerm extractEntry dist/tasks/GulpBuilder.js
+159 silly gunzTarPerm extractEntry dist/tasks/GulpPaths.js
+160 silly gunzTarPerm extractEntry dist/tasks/Task.js
+161 silly gunzTarPerm extractEntry dist/tasks/TaskCollection.js
+162 silly gunzTarPerm extractEntry dist/tasks/TestingTask.js
+163 silly gunzTarPerm extractEntry dist/tasks/VersionTask.js
+164 silly gunzTarPerm extractEntry dist/tasks/recipes/combine.js
+165 silly gunzTarPerm extractEntry dist/tasks/recipes/exec.js
+166 silly gunzTarPerm extractEntry dist/tasks/recipes/external-recipes.js
+167 silly gunzTarPerm extractEntry dist/tasks/recipes/less.js
+168 silly gunzTarPerm extractEntry dist/tasks/recipes/phpspec.js
+169 silly gunzTarPerm extractEntry dist/tasks/recipes/deprecated.js
+170 silly gunzTarPerm extractEntry dist/tasks/recipes/sass.js
+171 silly gunzTarPerm extractEntry dist/tasks/recipes/scripts.js
+172 silly gunzTarPerm extractEntry dist/tasks/recipes/styles.js
+173 silly gunzTarPerm extractEntry dist/tasks/recipes/task.js
+174 silly gunzTarPerm extractEntry dist/tasks/recipes/tdd.js
+175 silly gunzTarPerm extractEntry dist/tasks/recipes/default.js
+176 silly gunzTarPerm extractEntry dist/tasks/recipes/version.js
+177 silly gunzTarPerm extractEntry dist/tasks/recipes/copy.js
+178 silly gunzTarPerm extractEntry dist/tasks/recipes/watch.js
+179 silly gunzTarPerm extractEntry dist/tasks/recipes/phpunit.js
+180 silly gunzTarPerm extractEntry dist/tasks/utilities/minifier.js
+181 silly gunzTarPerm extractEntry icons/fail.png
+182 silly gunzTarPerm extractEntry icons/laravel.png
+183 silly gunzTarPerm extractEntry icons/pass.png
+184 silly gunzTarPerm extractEntry readme.md
+185 silly gunzTarPerm extractEntry readme.md
+186 silly lockFile 7a2fb76f-ode-modules-laravel-elixir-vue-2 tar:///var/www/html/mkopo/node_modules/laravel-elixir-vue-2
+187 silly lockFile 7a2fb76f-ode-modules-laravel-elixir-vue-2 tar:///var/www/html/mkopo/node_modules/laravel-elixir-vue-2
+188 silly lockFile c8c7b1b3-l-elixir-vue-2-0-2-0-package-tgz tar:///home/lonac_rally/.npm/laravel-elixir-vue-2/0.2.0/package.tgz
+189 silly lockFile c8c7b1b3-l-elixir-vue-2-0-2-0-package-tgz tar:///home/lonac_rally/.npm/laravel-elixir-vue-2/0.2.0/package.tgz
+190 info preinstall laravel-elixir-vue-2@0.2.0
+191 verbose readDependencies using package.json deps
+192 verbose readDependencies using package.json deps
+193 verbose cache add [ 'css-loader@^0.23.1', null ]
+194 verbose cache add name=undefined spec="css-loader@^0.23.1" args=["css-loader@^0.23.1",null]
+195 verbose parsed url { protocol: null,
+195 verbose parsed url   slashes: null,
+195 verbose parsed url   auth: null,
+195 verbose parsed url   host: null,
+195 verbose parsed url   port: null,
+195 verbose parsed url   hostname: null,
+195 verbose parsed url   hash: null,
+195 verbose parsed url   search: null,
+195 verbose parsed url   query: null,
+195 verbose parsed url   pathname: 'css-loader@^0.23.1',
+195 verbose parsed url   path: 'css-loader@^0.23.1',
+195 verbose parsed url   href: 'css-loader@^0.23.1' }
+196 verbose cache add name="css-loader" spec="^0.23.1" args=["css-loader","^0.23.1"]
+197 verbose parsed url { protocol: null,
+197 verbose parsed url   slashes: null,
+197 verbose parsed url   auth: null,
+197 verbose parsed url   host: null,
+197 verbose parsed url   port: null,
+197 verbose parsed url   hostname: null,
+197 verbose parsed url   hash: null,
+197 verbose parsed url   search: null,
+197 verbose parsed url   query: null,
+197 verbose parsed url   pathname: '^0.23.1',
+197 verbose parsed url   path: '^0.23.1',
+197 verbose parsed url   href: '^0.23.1' }
+198 verbose addNamed [ 'css-loader', '^0.23.1' ]
+199 verbose addNamed [ null, '>=0.23.1-0 <0.24.0-0' ]
+200 silly lockFile b4e238d3-css-loader-0-23-1 css-loader@^0.23.1
+201 verbose lock css-loader@^0.23.1 /home/lonac_rally/.npm/b4e238d3-css-loader-0-23-1.lock
+202 verbose cache add [ 'file-loader@^0.9.0', null ]
+203 verbose cache add name=undefined spec="file-loader@^0.9.0" args=["file-loader@^0.9.0",null]
+204 verbose parsed url { protocol: null,
+204 verbose parsed url   slashes: null,
+204 verbose parsed url   auth: null,
+204 verbose parsed url   host: null,
+204 verbose parsed url   port: null,
+204 verbose parsed url   hostname: null,
+204 verbose parsed url   hash: null,
+204 verbose parsed url   search: null,
+204 verbose parsed url   query: null,
+204 verbose parsed url   pathname: 'file-loader@^0.9.0',
+204 verbose parsed url   path: 'file-loader@^0.9.0',
+204 verbose parsed url   href: 'file-loader@^0.9.0' }
+205 verbose cache add name="file-loader" spec="^0.9.0" args=["file-loader","^0.9.0"]
+206 verbose parsed url { protocol: null,
+206 verbose parsed url   slashes: null,
+206 verbose parsed url   auth: null,
+206 verbose parsed url   host: null,
+206 verbose parsed url   port: null,
+206 verbose parsed url   hostname: null,
+206 verbose parsed url   hash: null,
+206 verbose parsed url   search: null,
+206 verbose parsed url   query: null,
+206 verbose parsed url   pathname: '^0.9.0',
+206 verbose parsed url   path: '^0.9.0',
+206 verbose parsed url   href: '^0.9.0' }
+207 verbose addNamed [ 'file-loader', '^0.9.0' ]
+208 verbose addNamed [ null, '>=0.9.0-0 <0.10.0-0' ]
+209 silly lockFile 398b9e9c-file-loader-0-9-0 file-loader@^0.9.0
+210 verbose lock file-loader@^0.9.0 /home/lonac_rally/.npm/398b9e9c-file-loader-0-9-0.lock
+211 verbose cache add [ 'vue-loader@^9.3.2', null ]
+212 verbose cache add name=undefined spec="vue-loader@^9.3.2" args=["vue-loader@^9.3.2",null]
+213 verbose parsed url { protocol: null,
+213 verbose parsed url   slashes: null,
+213 verbose parsed url   auth: null,
+213 verbose parsed url   host: null,
+213 verbose parsed url   port: null,
+213 verbose parsed url   hostname: null,
+213 verbose parsed url   hash: null,
+213 verbose parsed url   search: null,
+213 verbose parsed url   query: null,
+213 verbose parsed url   pathname: 'vue-loader@^9.3.2',
+213 verbose parsed url   path: 'vue-loader@^9.3.2',
+213 verbose parsed url   href: 'vue-loader@^9.3.2' }
+214 verbose cache add name="vue-loader" spec="^9.3.2" args=["vue-loader","^9.3.2"]
+215 verbose parsed url { protocol: null,
+215 verbose parsed url   slashes: null,
+215 verbose parsed url   auth: null,
+215 verbose parsed url   host: null,
+215 verbose parsed url   port: null,
+215 verbose parsed url   hostname: null,
+215 verbose parsed url   hash: null,
+215 verbose parsed url   search: null,
+215 verbose parsed url   query: null,
+215 verbose parsed url   pathname: '^9.3.2',
+215 verbose parsed url   path: '^9.3.2',
+215 verbose parsed url   href: '^9.3.2' }
+216 verbose addNamed [ 'vue-loader', '^9.3.2' ]
+217 verbose addNamed [ null, '>=9.3.2-0 <10.0.0-0' ]
+218 silly lockFile a7f6ca26-vue-loader-9-3-2 vue-loader@^9.3.2
+219 verbose lock vue-loader@^9.3.2 /home/lonac_rally/.npm/a7f6ca26-vue-loader-9-3-2.lock
+220 verbose cache add [ 'sass-loader@^4.0.0', null ]
+221 verbose cache add name=undefined spec="sass-loader@^4.0.0" args=["sass-loader@^4.0.0",null]
+222 verbose parsed url { protocol: null,
+222 verbose parsed url   slashes: null,
+222 verbose parsed url   auth: null,
+222 verbose parsed url   host: null,
+222 verbose parsed url   port: null,
+222 verbose parsed url   hostname: null,
+222 verbose parsed url   hash: null,
+222 verbose parsed url   search: null,
+222 verbose parsed url   query: null,
+222 verbose parsed url   pathname: 'sass-loader@^4.0.0',
+222 verbose parsed url   path: 'sass-loader@^4.0.0',
+222 verbose parsed url   href: 'sass-loader@^4.0.0' }
+223 verbose cache add name="sass-loader" spec="^4.0.0" args=["sass-loader","^4.0.0"]
+224 verbose parsed url { protocol: null,
+224 verbose parsed url   slashes: null,
+224 verbose parsed url   auth: null,
+224 verbose parsed url   host: null,
+224 verbose parsed url   port: null,
+224 verbose parsed url   hostname: null,
+224 verbose parsed url   hash: null,
+224 verbose parsed url   search: null,
+224 verbose parsed url   query: null,
+224 verbose parsed url   pathname: '^4.0.0',
+224 verbose parsed url   path: '^4.0.0',
+224 verbose parsed url   href: '^4.0.0' }
+225 verbose addNamed [ 'sass-loader', '^4.0.0' ]
+226 verbose addNamed [ null, '>=4.0.0-0 <5.0.0-0' ]
+227 silly lockFile e7f467ec-sass-loader-4-0-0 sass-loader@^4.0.0
+228 verbose lock sass-loader@^4.0.0 /home/lonac_rally/.npm/e7f467ec-sass-loader-4-0-0.lock
+229 verbose cache add [ 'url-loader@^0.5.7', null ]
+230 verbose cache add name=undefined spec="url-loader@^0.5.7" args=["url-loader@^0.5.7",null]
+231 verbose parsed url { protocol: null,
+231 verbose parsed url   slashes: null,
+231 verbose parsed url   auth: null,
+231 verbose parsed url   host: null,
+231 verbose parsed url   port: null,
+231 verbose parsed url   hostname: null,
+231 verbose parsed url   hash: null,
+231 verbose parsed url   search: null,
+231 verbose parsed url   query: null,
+231 verbose parsed url   pathname: 'url-loader@^0.5.7',
+231 verbose parsed url   path: 'url-loader@^0.5.7',
+231 verbose parsed url   href: 'url-loader@^0.5.7' }
+232 verbose cache add name="url-loader" spec="^0.5.7" args=["url-loader","^0.5.7"]
+233 verbose parsed url { protocol: null,
+233 verbose parsed url   slashes: null,
+233 verbose parsed url   auth: null,
+233 verbose parsed url   host: null,
+233 verbose parsed url   port: null,
+233 verbose parsed url   hostname: null,
+233 verbose parsed url   hash: null,
+233 verbose parsed url   search: null,
+233 verbose parsed url   query: null,
+233 verbose parsed url   pathname: '^0.5.7',
+233 verbose parsed url   path: '^0.5.7',
+233 verbose parsed url   href: '^0.5.7' }
+234 verbose addNamed [ 'url-loader', '^0.5.7' ]
+235 verbose addNamed [ null, '>=0.5.7-0 <0.6.0-0' ]
+236 silly lockFile 6e6af105-url-loader-0-5-7 url-loader@^0.5.7
+237 verbose lock url-loader@^0.5.7 /home/lonac_rally/.npm/6e6af105-url-loader-0-5-7.lock
+238 silly addNameRange { name: 'css-loader',
+238 silly addNameRange   range: '>=0.23.1-0 <0.24.0-0',
+238 silly addNameRange   hasData: false }
+239 silly addNameRange { name: 'file-loader',
+239 silly addNameRange   range: '>=0.9.0-0 <0.10.0-0',
+239 silly addNameRange   hasData: false }
+240 silly addNameRange { name: 'vue-loader',
+240 silly addNameRange   range: '>=9.3.2-0 <10.0.0-0',
+240 silly addNameRange   hasData: false }
+241 silly addNameRange { name: 'sass-loader',
+241 silly addNameRange   range: '>=4.0.0-0 <5.0.0-0',
+241 silly addNameRange   hasData: false }
+242 silly addNameRange { name: 'url-loader',
+242 silly addNameRange   range: '>=0.5.7-0 <0.6.0-0',
+242 silly addNameRange   hasData: false }
+243 verbose url raw css-loader
+244 verbose url resolving [ 'https://registry.npmjs.org/', './css-loader' ]
+245 verbose url resolved https://registry.npmjs.org/css-loader
+246 info trying registry request attempt 1 at 08:06:03
+247 verbose etag "58303585-15659"
+248 http GET https://registry.npmjs.org/css-loader
+249 verbose url raw file-loader
+250 verbose url resolving [ 'https://registry.npmjs.org/', './file-loader' ]
+251 verbose url resolved https://registry.npmjs.org/file-loader
+252 info trying registry request attempt 1 at 08:06:03
+253 verbose etag "58286cbd-4b50"
+254 http GET https://registry.npmjs.org/file-loader
+255 verbose url raw sass-loader
+256 verbose url resolving [ 'https://registry.npmjs.org/', './sass-loader' ]
+257 verbose url resolved https://registry.npmjs.org/sass-loader
+258 info trying registry request attempt 1 at 08:06:03
+259 verbose etag "5830356a-eda4"
+260 http GET https://registry.npmjs.org/sass-loader
+261 verbose url raw url-loader
+262 verbose url resolving [ 'https://registry.npmjs.org/', './url-loader' ]
+263 verbose url resolved https://registry.npmjs.org/url-loader
+264 info trying registry request attempt 1 at 08:06:03
+265 verbose etag "5825904c-2c5a"
+266 http GET https://registry.npmjs.org/url-loader
+267 verbose url raw vue-loader
+268 verbose url resolving [ 'https://registry.npmjs.org/', './vue-loader' ]
+269 verbose url resolved https://registry.npmjs.org/vue-loader
+270 info trying registry request attempt 1 at 08:06:03
+271 verbose etag "583327aa-37caf"
+272 http GET https://registry.npmjs.org/vue-loader
+273 silly lockFile 47e6263c--laravel-elixir-webpack-official tar:///var/www/html/mkopo/node_modules/laravel-elixir-webpack-official
+274 silly lockFile 47e6263c--laravel-elixir-webpack-official tar:///var/www/html/mkopo/node_modules/laravel-elixir-webpack-official
+275 silly lockFile 06708362-bpack-official-1-0-9-package-tgz tar:///home/lonac_rally/.npm/laravel-elixir-webpack-official/1.0.9/package.tgz
+276 silly lockFile 06708362-bpack-official-1-0-9-package-tgz tar:///home/lonac_rally/.npm/laravel-elixir-webpack-official/1.0.9/package.tgz
+277 info preinstall laravel-elixir-webpack-official@1.0.9
+278 verbose readDependencies using package.json deps
+279 verbose readDependencies using package.json deps
+280 verbose cache add [ 'webpack-stream@github:jeroennoten/webpack-stream#patch-1',
+280 verbose cache add   null ]
+281 verbose cache add name=undefined spec="webpack-stream@github:jeroennoten/webpack-stream#patch-1" args=["webpack-stream@github:jeroennoten/webpack-stream#patch-1",null]
+282 verbose parsed url { protocol: null,
+282 verbose parsed url   slashes: null,
+282 verbose parsed url   auth: null,
+282 verbose parsed url   host: null,
+282 verbose parsed url   port: null,
+282 verbose parsed url   hostname: null,
+282 verbose parsed url   hash: '#patch-1',
+282 verbose parsed url   search: null,
+282 verbose parsed url   query: null,
+282 verbose parsed url   pathname: 'webpack-stream@github:jeroennoten/webpack-stream',
+282 verbose parsed url   path: 'webpack-stream@github:jeroennoten/webpack-stream',
+282 verbose parsed url   href: 'webpack-stream@github:jeroennoten/webpack-stream#patch-1' }
+283 verbose cache add name="webpack-stream" spec="github:jeroennoten/webpack-stream#patch-1" args=["webpack-stream","github:jeroennoten/webpack-stream#patch-1"]
+284 verbose parsed url { protocol: 'github:',
+284 verbose parsed url   slashes: null,
+284 verbose parsed url   auth: null,
+284 verbose parsed url   host: 'jeroennoten',
+284 verbose parsed url   port: null,
+284 verbose parsed url   hostname: 'jeroennoten',
+284 verbose parsed url   hash: '#patch-1',
+284 verbose parsed url   search: null,
+284 verbose parsed url   query: null,
+284 verbose parsed url   pathname: '/webpack-stream',
+284 verbose parsed url   path: '/webpack-stream',
+284 verbose parsed url   href: 'github:jeroennoten/webpack-stream#patch-1' }
+285 verbose addNamed [ 'webpack-stream',
+285 verbose addNamed   'github:jeroennoten/webpack-stream#patch-1' ]
+286 verbose addNamed [ null, null ]
+287 silly lockFile 48f7376d-roennoten-webpack-stream-patch-1 webpack-stream@github:jeroennoten/webpack-stream#patch-1
+288 verbose lock webpack-stream@github:jeroennoten/webpack-stream#patch-1 /home/lonac_rally/.npm/48f7376d-roennoten-webpack-stream-patch-1.lock
+289 verbose cache add [ 'webpack@2.1.0-beta.15 - 2.1.0-beta.22', null ]
+290 verbose cache add name=undefined spec="webpack@2.1.0-beta.15 - 2.1.0-beta.22" args=["webpack@2.1.0-beta.15 - 2.1.0-beta.22",null]
+291 verbose parsed url { protocol: null,
+291 verbose parsed url   slashes: null,
+291 verbose parsed url   auth: null,
+291 verbose parsed url   host: null,
+291 verbose parsed url   port: null,
+291 verbose parsed url   hostname: null,
+291 verbose parsed url   hash: null,
+291 verbose parsed url   search: null,
+291 verbose parsed url   query: null,
+291 verbose parsed url   pathname: 'webpack@2.1.0-beta.15%20-%202.1.0-beta.22',
+291 verbose parsed url   path: 'webpack@2.1.0-beta.15%20-%202.1.0-beta.22',
+291 verbose parsed url   href: 'webpack@2.1.0-beta.15%20-%202.1.0-beta.22' }
+292 verbose cache add name="webpack" spec="2.1.0-beta.15 - 2.1.0-beta.22" args=["webpack","2.1.0-beta.15 - 2.1.0-beta.22"]
+293 verbose parsed url { protocol: null,
+293 verbose parsed url   slashes: null,
+293 verbose parsed url   auth: null,
+293 verbose parsed url   host: null,
+293 verbose parsed url   port: null,
+293 verbose parsed url   hostname: null,
+293 verbose parsed url   hash: null,
+293 verbose parsed url   search: null,
+293 verbose parsed url   query: null,
+293 verbose parsed url   pathname: '2.1.0-beta.15%20-%202.1.0-beta.22',
+293 verbose parsed url   path: '2.1.0-beta.15%20-%202.1.0-beta.22',
+293 verbose parsed url   href: '2.1.0-beta.15%20-%202.1.0-beta.22' }
+294 verbose addNamed [ 'webpack', '2.1.0-beta.15 - 2.1.0-beta.22' ]
+295 verbose addNamed [ null, '>=2.1.0-beta.15 <=2.1.0--beta.22' ]
+296 silly lockFile ac0bcb2f-pack-2-1-0-beta-15-2-1-0-beta-22 webpack@2.1.0-beta.15 - 2.1.0-beta.22
+297 verbose lock webpack@2.1.0-beta.15 - 2.1.0-beta.22 /home/lonac_rally/.npm/ac0bcb2f-pack-2-1-0-beta-15-2-1-0-beta-22.lock
+298 verbose cache add [ 'buble@^0.12.3', null ]
+299 verbose cache add name=undefined spec="buble@^0.12.3" args=["buble@^0.12.3",null]
+300 verbose parsed url { protocol: null,
+300 verbose parsed url   slashes: null,
+300 verbose parsed url   auth: null,
+300 verbose parsed url   host: null,
+300 verbose parsed url   port: null,
+300 verbose parsed url   hostname: null,
+300 verbose parsed url   hash: null,
+300 verbose parsed url   search: null,
+300 verbose parsed url   query: null,
+300 verbose parsed url   pathname: 'buble@^0.12.3',
+300 verbose parsed url   path: 'buble@^0.12.3',
+300 verbose parsed url   href: 'buble@^0.12.3' }
+301 verbose cache add name="buble" spec="^0.12.3" args=["buble","^0.12.3"]
+302 verbose parsed url { protocol: null,
+302 verbose parsed url   slashes: null,
+302 verbose parsed url   auth: null,
+302 verbose parsed url   host: null,
+302 verbose parsed url   port: null,
+302 verbose parsed url   hostname: null,
+302 verbose parsed url   hash: null,
+302 verbose parsed url   search: null,
+302 verbose parsed url   query: null,
+302 verbose parsed url   pathname: '^0.12.3',
+302 verbose parsed url   path: '^0.12.3',
+302 verbose parsed url   href: '^0.12.3' }
+303 verbose addNamed [ 'buble', '^0.12.3' ]
+304 verbose addNamed [ null, '>=0.12.3-0 <0.13.0-0' ]
+305 silly lockFile c87ec1a5-buble-0-12-3 buble@^0.12.3
+306 verbose lock buble@^0.12.3 /home/lonac_rally/.npm/c87ec1a5-buble-0-12-3.lock
+307 verbose cache add [ 'buble-loader@^0.2.2', null ]
+308 verbose cache add name=undefined spec="buble-loader@^0.2.2" args=["buble-loader@^0.2.2",null]
+309 verbose parsed url { protocol: null,
+309 verbose parsed url   slashes: null,
+309 verbose parsed url   auth: null,
+309 verbose parsed url   host: null,
+309 verbose parsed url   port: null,
+309 verbose parsed url   hostname: null,
+309 verbose parsed url   hash: null,
+309 verbose parsed url   search: null,
+309 verbose parsed url   query: null,
+309 verbose parsed url   pathname: 'buble-loader@^0.2.2',
+309 verbose parsed url   path: 'buble-loader@^0.2.2',
+309 verbose parsed url   href: 'buble-loader@^0.2.2' }
+310 verbose cache add name="buble-loader" spec="^0.2.2" args=["buble-loader","^0.2.2"]
+311 verbose parsed url { protocol: null,
+311 verbose parsed url   slashes: null,
+311 verbose parsed url   auth: null,
+311 verbose parsed url   host: null,
+311 verbose parsed url   port: null,
+311 verbose parsed url   hostname: null,
+311 verbose parsed url   hash: null,
+311 verbose parsed url   search: null,
+311 verbose parsed url   query: null,
+311 verbose parsed url   pathname: '^0.2.2',
+311 verbose parsed url   path: '^0.2.2',
+311 verbose parsed url   href: '^0.2.2' }
+312 verbose addNamed [ 'buble-loader', '^0.2.2' ]
+313 verbose addNamed [ null, '>=0.2.2-0 <0.3.0-0' ]
+314 silly lockFile aba3153c-buble-loader-0-2-2 buble-loader@^0.2.2
+315 verbose lock buble-loader@^0.2.2 /home/lonac_rally/.npm/aba3153c-buble-loader-0-2-2.lock
+316 silly addNameRange { name: 'webpack',
+316 silly addNameRange   range: '>=2.1.0-beta.15 <=2.1.0--beta.22',
+316 silly addNameRange   hasData: false }
+317 silly addNameRange { name: 'buble', range: '>=0.12.3-0 <0.13.0-0', hasData: false }
+318 silly addNameRange { name: 'buble-loader',
+318 silly addNameRange   range: '>=0.2.2-0 <0.3.0-0',
+318 silly addNameRange   hasData: false }
+319 info addNameTag [ 'webpack-stream',
+319 info addNameTag   'github:jeroennoten/webpack-stream#patch-1' ]
+320 verbose url raw buble
+321 verbose url resolving [ 'https://registry.npmjs.org/', './buble' ]
+322 verbose url resolved https://registry.npmjs.org/buble
+323 info trying registry request attempt 1 at 08:06:03
+324 verbose etag "582ace70-2b55c"
+325 http GET https://registry.npmjs.org/buble
+326 verbose url raw webpack
+327 verbose url resolving [ 'https://registry.npmjs.org/', './webpack' ]
+328 verbose url resolved https://registry.npmjs.org/webpack
+329 info trying registry request attempt 1 at 08:06:04
+330 verbose etag "5832d490-d2163"
+331 http GET https://registry.npmjs.org/webpack
+332 verbose url raw webpack-stream
+333 verbose url resolving [ 'https://registry.npmjs.org/', './webpack-stream' ]
+334 verbose url resolved https://registry.npmjs.org/webpack-stream
+335 info trying registry request attempt 1 at 08:06:04
+336 verbose etag "5831fc8a-50a8"
+337 http GET https://registry.npmjs.org/webpack-stream
+338 verbose url raw buble-loader
+339 verbose url resolving [ 'https://registry.npmjs.org/', './buble-loader' ]
+340 verbose url resolved https://registry.npmjs.org/buble-loader
+341 info trying registry request attempt 1 at 08:06:04
+342 verbose etag "581da117-28c6"
+343 http GET https://registry.npmjs.org/buble-loader
+344 silly lockFile 0d4f8277-kopo-node-modules-laravel-elixir tar:///var/www/html/mkopo/node_modules/laravel-elixir
+345 silly lockFile 0d4f8277-kopo-node-modules-laravel-elixir tar:///var/www/html/mkopo/node_modules/laravel-elixir
+346 silly lockFile bd4df4df-avel-elixir-6-0-0-15-package-tgz tar:///home/lonac_rally/.npm/laravel-elixir/6.0.0-15/package.tgz
+347 silly lockFile bd4df4df-avel-elixir-6-0-0-15-package-tgz tar:///home/lonac_rally/.npm/laravel-elixir/6.0.0-15/package.tgz
+348 info preinstall laravel-elixir@6.0.0-15
+349 verbose readDependencies using package.json deps
+350 verbose readDependencies using package.json deps
+351 verbose cache add [ 'glob@^7.0.3', null ]
+352 verbose cache add name=undefined spec="glob@^7.0.3" args=["glob@^7.0.3",null]
+353 verbose parsed url { protocol: null,
+353 verbose parsed url   slashes: null,
+353 verbose parsed url   auth: null,
+353 verbose parsed url   host: null,
+353 verbose parsed url   port: null,
+353 verbose parsed url   hostname: null,
+353 verbose parsed url   hash: null,
+353 verbose parsed url   search: null,
+353 verbose parsed url   query: null,
+353 verbose parsed url   pathname: 'glob@^7.0.3',
+353 verbose parsed url   path: 'glob@^7.0.3',
+353 verbose parsed url   href: 'glob@^7.0.3' }
+354 verbose cache add name="glob" spec="^7.0.3" args=["glob","^7.0.3"]
+355 verbose parsed url { protocol: null,
+355 verbose parsed url   slashes: null,
+355 verbose parsed url   auth: null,
+355 verbose parsed url   host: null,
+355 verbose parsed url   port: null,
+355 verbose parsed url   hostname: null,
+355 verbose parsed url   hash: null,
+355 verbose parsed url   search: null,
+355 verbose parsed url   query: null,
+355 verbose parsed url   pathname: '^7.0.3',
+355 verbose parsed url   path: '^7.0.3',
+355 verbose parsed url   href: '^7.0.3' }
+356 verbose addNamed [ 'glob', '^7.0.3' ]
+357 verbose addNamed [ null, '>=7.0.3-0 <8.0.0-0' ]
+358 silly lockFile a2f41c87-glob-7-0-3 glob@^7.0.3
+359 verbose lock glob@^7.0.3 /home/lonac_rally/.npm/a2f41c87-glob-7-0-3.lock
+360 verbose cache add [ 'del@^2.2.0', null ]
+361 verbose cache add name=undefined spec="del@^2.2.0" args=["del@^2.2.0",null]
+362 verbose parsed url { protocol: null,
+362 verbose parsed url   slashes: null,
+362 verbose parsed url   auth: null,
+362 verbose parsed url   host: null,
+362 verbose parsed url   port: null,
+362 verbose parsed url   hostname: null,
+362 verbose parsed url   hash: null,
+362 verbose parsed url   search: null,
+362 verbose parsed url   query: null,
+362 verbose parsed url   pathname: 'del@^2.2.0',
+362 verbose parsed url   path: 'del@^2.2.0',
+362 verbose parsed url   href: 'del@^2.2.0' }
+363 verbose cache add name="del" spec="^2.2.0" args=["del","^2.2.0"]
+364 verbose parsed url { protocol: null,
+364 verbose parsed url   slashes: null,
+364 verbose parsed url   auth: null,
+364 verbose parsed url   host: null,
+364 verbose parsed url   port: null,
+364 verbose parsed url   hostname: null,
+364 verbose parsed url   hash: null,
+364 verbose parsed url   search: null,
+364 verbose parsed url   query: null,
+364 verbose parsed url   pathname: '^2.2.0',
+364 verbose parsed url   path: '^2.2.0',
+364 verbose parsed url   href: '^2.2.0' }
+365 verbose addNamed [ 'del', '^2.2.0' ]
+366 verbose addNamed [ null, '>=2.2.0-0 <3.0.0-0' ]
+367 silly lockFile 89598b2c-del-2-2-0 del@^2.2.0
+368 verbose lock del@^2.2.0 /home/lonac_rally/.npm/89598b2c-del-2-2-0.lock
+369 verbose cache add [ 'gulp-autoprefixer@^3.1.0', null ]
+370 verbose cache add name=undefined spec="gulp-autoprefixer@^3.1.0" args=["gulp-autoprefixer@^3.1.0",null]
+371 verbose parsed url { protocol: null,
+371 verbose parsed url   slashes: null,
+371 verbose parsed url   auth: null,
+371 verbose parsed url   host: null,
+371 verbose parsed url   port: null,
+371 verbose parsed url   hostname: null,
+371 verbose parsed url   hash: null,
+371 verbose parsed url   search: null,
+371 verbose parsed url   query: null,
+371 verbose parsed url   pathname: 'gulp-autoprefixer@^3.1.0',
+371 verbose parsed url   path: 'gulp-autoprefixer@^3.1.0',
+371 verbose parsed url   href: 'gulp-autoprefixer@^3.1.0' }
+372 verbose cache add name="gulp-autoprefixer" spec="^3.1.0" args=["gulp-autoprefixer","^3.1.0"]
+373 verbose parsed url { protocol: null,
+373 verbose parsed url   slashes: null,
+373 verbose parsed url   auth: null,
+373 verbose parsed url   host: null,
+373 verbose parsed url   port: null,
+373 verbose parsed url   hostname: null,
+373 verbose parsed url   hash: null,
+373 verbose parsed url   search: null,
+373 verbose parsed url   query: null,
+373 verbose parsed url   pathname: '^3.1.0',
+373 verbose parsed url   path: '^3.1.0',
+373 verbose parsed url   href: '^3.1.0' }
+374 verbose addNamed [ 'gulp-autoprefixer', '^3.1.0' ]
+375 verbose addNamed [ null, '>=3.1.0-0 <4.0.0-0' ]
+376 silly lockFile d42afd85-gulp-autoprefixer-3-1-0 gulp-autoprefixer@^3.1.0
+377 verbose lock gulp-autoprefixer@^3.1.0 /home/lonac_rally/.npm/d42afd85-gulp-autoprefixer-3-1-0.lock
+378 verbose cache add [ 'gulp-batch@^1.0.5', null ]
+379 verbose cache add name=undefined spec="gulp-batch@^1.0.5" args=["gulp-batch@^1.0.5",null]
+380 verbose parsed url { protocol: null,
+380 verbose parsed url   slashes: null,
+380 verbose parsed url   auth: null,
+380 verbose parsed url   host: null,
+380 verbose parsed url   port: null,
+380 verbose parsed url   hostname: null,
+380 verbose parsed url   hash: null,
+380 verbose parsed url   search: null,
+380 verbose parsed url   query: null,
+380 verbose parsed url   pathname: 'gulp-batch@^1.0.5',
+380 verbose parsed url   path: 'gulp-batch@^1.0.5',
+380 verbose parsed url   href: 'gulp-batch@^1.0.5' }
+381 verbose cache add name="gulp-batch" spec="^1.0.5" args=["gulp-batch","^1.0.5"]
+382 verbose parsed url { protocol: null,
+382 verbose parsed url   slashes: null,
+382 verbose parsed url   auth: null,
+382 verbose parsed url   host: null,
+382 verbose parsed url   port: null,
+382 verbose parsed url   hostname: null,
+382 verbose parsed url   hash: null,
+382 verbose parsed url   search: null,
+382 verbose parsed url   query: null,
+382 verbose parsed url   pathname: '^1.0.5',
+382 verbose parsed url   path: '^1.0.5',
+382 verbose parsed url   href: '^1.0.5' }
+383 verbose addNamed [ 'gulp-batch', '^1.0.5' ]
+384 verbose addNamed [ null, '>=1.0.5-0 <2.0.0-0' ]
+385 silly lockFile 0a167b19-gulp-batch-1-0-5 gulp-batch@^1.0.5
+386 verbose lock gulp-batch@^1.0.5 /home/lonac_rally/.npm/0a167b19-gulp-batch-1-0-5.lock
+387 verbose cache add [ 'gulp-concat@^2.6.0', null ]
+388 verbose cache add name=undefined spec="gulp-concat@^2.6.0" args=["gulp-concat@^2.6.0",null]
+389 verbose parsed url { protocol: null,
+389 verbose parsed url   slashes: null,
+389 verbose parsed url   auth: null,
+389 verbose parsed url   host: null,
+389 verbose parsed url   port: null,
+389 verbose parsed url   hostname: null,
+389 verbose parsed url   hash: null,
+389 verbose parsed url   search: null,
+389 verbose parsed url   query: null,
+389 verbose parsed url   pathname: 'gulp-concat@^2.6.0',
+389 verbose parsed url   path: 'gulp-concat@^2.6.0',
+389 verbose parsed url   href: 'gulp-concat@^2.6.0' }
+390 verbose cache add name="gulp-concat" spec="^2.6.0" args=["gulp-concat","^2.6.0"]
+391 verbose parsed url { protocol: null,
+391 verbose parsed url   slashes: null,
+391 verbose parsed url   auth: null,
+391 verbose parsed url   host: null,
+391 verbose parsed url   port: null,
+391 verbose parsed url   hostname: null,
+391 verbose parsed url   hash: null,
+391 verbose parsed url   search: null,
+391 verbose parsed url   query: null,
+391 verbose parsed url   pathname: '^2.6.0',
+391 verbose parsed url   path: '^2.6.0',
+391 verbose parsed url   href: '^2.6.0' }
+392 verbose addNamed [ 'gulp-concat', '^2.6.0' ]
+393 verbose addNamed [ null, '>=2.6.0-0 <3.0.0-0' ]
+394 silly lockFile 743f1d08-gulp-concat-2-6-0 gulp-concat@^2.6.0
+395 verbose lock gulp-concat@^2.6.0 /home/lonac_rally/.npm/743f1d08-gulp-concat-2-6-0.lock
+396 verbose cache add [ 'gulp-if@^2.0.0', null ]
+397 verbose cache add name=undefined spec="gulp-if@^2.0.0" args=["gulp-if@^2.0.0",null]
+398 verbose parsed url { protocol: null,
+398 verbose parsed url   slashes: null,
+398 verbose parsed url   auth: null,
+398 verbose parsed url   host: null,
+398 verbose parsed url   port: null,
+398 verbose parsed url   hostname: null,
+398 verbose parsed url   hash: null,
+398 verbose parsed url   search: null,
+398 verbose parsed url   query: null,
+398 verbose parsed url   pathname: 'gulp-if@^2.0.0',
+398 verbose parsed url   path: 'gulp-if@^2.0.0',
+398 verbose parsed url   href: 'gulp-if@^2.0.0' }
+399 verbose cache add name="gulp-if" spec="^2.0.0" args=["gulp-if","^2.0.0"]
+400 verbose parsed url { protocol: null,
+400 verbose parsed url   slashes: null,
+400 verbose parsed url   auth: null,
+400 verbose parsed url   host: null,
+400 verbose parsed url   port: null,
+400 verbose parsed url   hostname: null,
+400 verbose parsed url   hash: null,
+400 verbose parsed url   search: null,
+400 verbose parsed url   query: null,
+400 verbose parsed url   pathname: '^2.0.0',
+400 verbose parsed url   path: '^2.0.0',
+400 verbose parsed url   href: '^2.0.0' }
+401 verbose addNamed [ 'gulp-if', '^2.0.0' ]
+402 verbose addNamed [ null, '>=2.0.0-0 <3.0.0-0' ]
+403 silly lockFile c571e3df-gulp-if-2-0-0 gulp-if@^2.0.0
+404 verbose lock gulp-if@^2.0.0 /home/lonac_rally/.npm/c571e3df-gulp-if-2-0-0.lock
+405 verbose cache add [ 'gulp-less@^3.0.5', null ]
+406 verbose cache add name=undefined spec="gulp-less@^3.0.5" args=["gulp-less@^3.0.5",null]
+407 verbose parsed url { protocol: null,
+407 verbose parsed url   slashes: null,
+407 verbose parsed url   auth: null,
+407 verbose parsed url   host: null,
+407 verbose parsed url   port: null,
+407 verbose parsed url   hostname: null,
+407 verbose parsed url   hash: null,
+407 verbose parsed url   search: null,
+407 verbose parsed url   query: null,
+407 verbose parsed url   pathname: 'gulp-less@^3.0.5',
+407 verbose parsed url   path: 'gulp-less@^3.0.5',
+407 verbose parsed url   href: 'gulp-less@^3.0.5' }
+408 verbose cache add name="gulp-less" spec="^3.0.5" args=["gulp-less","^3.0.5"]
+409 verbose parsed url { protocol: null,
+409 verbose parsed url   slashes: null,
+409 verbose parsed url   auth: null,
+409 verbose parsed url   host: null,
+409 verbose parsed url   port: null,
+409 verbose parsed url   hostname: null,
+409 verbose parsed url   hash: null,
+409 verbose parsed url   search: null,
+409 verbose parsed url   query: null,
+409 verbose parsed url   pathname: '^3.0.5',
+409 verbose parsed url   path: '^3.0.5',
+409 verbose parsed url   href: '^3.0.5' }
+410 verbose addNamed [ 'gulp-less', '^3.0.5' ]
+411 verbose addNamed [ null, '>=3.0.5-0 <4.0.0-0' ]
+412 silly lockFile c6611a93-gulp-less-3-0-5 gulp-less@^3.0.5
+413 verbose lock gulp-less@^3.0.5 /home/lonac_rally/.npm/c6611a93-gulp-less-3-0-5.lock
+414 verbose cache add [ 'gulp-load-plugins@^1.2.2', null ]
+415 verbose cache add name=undefined spec="gulp-load-plugins@^1.2.2" args=["gulp-load-plugins@^1.2.2",null]
+416 verbose parsed url { protocol: null,
+416 verbose parsed url   slashes: null,
+416 verbose parsed url   auth: null,
+416 verbose parsed url   host: null,
+416 verbose parsed url   port: null,
+416 verbose parsed url   hostname: null,
+416 verbose parsed url   hash: null,
+416 verbose parsed url   search: null,
+416 verbose parsed url   query: null,
+416 verbose parsed url   pathname: 'gulp-load-plugins@^1.2.2',
+416 verbose parsed url   path: 'gulp-load-plugins@^1.2.2',
+416 verbose parsed url   href: 'gulp-load-plugins@^1.2.2' }
+417 verbose cache add name="gulp-load-plugins" spec="^1.2.2" args=["gulp-load-plugins","^1.2.2"]
+418 verbose parsed url { protocol: null,
+418 verbose parsed url   slashes: null,
+418 verbose parsed url   auth: null,
+418 verbose parsed url   host: null,
+418 verbose parsed url   port: null,
+418 verbose parsed url   hostname: null,
+418 verbose parsed url   hash: null,
+418 verbose parsed url   search: null,
+418 verbose parsed url   query: null,
+418 verbose parsed url   pathname: '^1.2.2',
+418 verbose parsed url   path: '^1.2.2',
+418 verbose parsed url   href: '^1.2.2' }
+419 verbose addNamed [ 'gulp-load-plugins', '^1.2.2' ]
+420 verbose addNamed [ null, '>=1.2.2-0 <2.0.0-0' ]
+421 silly lockFile 5c952f06-gulp-load-plugins-1-2-2 gulp-load-plugins@^1.2.2
+422 verbose lock gulp-load-plugins@^1.2.2 /home/lonac_rally/.npm/5c952f06-gulp-load-plugins-1-2-2.lock
+423 verbose cache add [ 'gulp-notify@^2.2.0', null ]
+424 verbose cache add name=undefined spec="gulp-notify@^2.2.0" args=["gulp-notify@^2.2.0",null]
+425 verbose parsed url { protocol: null,
+425 verbose parsed url   slashes: null,
+425 verbose parsed url   auth: null,
+425 verbose parsed url   host: null,
+425 verbose parsed url   port: null,
+425 verbose parsed url   hostname: null,
+425 verbose parsed url   hash: null,
+425 verbose parsed url   search: null,
+425 verbose parsed url   query: null,
+425 verbose parsed url   pathname: 'gulp-notify@^2.2.0',
+425 verbose parsed url   path: 'gulp-notify@^2.2.0',
+425 verbose parsed url   href: 'gulp-notify@^2.2.0' }
+426 verbose cache add name="gulp-notify" spec="^2.2.0" args=["gulp-notify","^2.2.0"]
+427 verbose parsed url { protocol: null,
+427 verbose parsed url   slashes: null,
+427 verbose parsed url   auth: null,
+427 verbose parsed url   host: null,
+427 verbose parsed url   port: null,
+427 verbose parsed url   hostname: null,
+427 verbose parsed url   hash: null,
+427 verbose parsed url   search: null,
+427 verbose parsed url   query: null,
+427 verbose parsed url   pathname: '^2.2.0',
+427 verbose parsed url   path: '^2.2.0',
+427 verbose parsed url   href: '^2.2.0' }
+428 verbose addNamed [ 'gulp-notify', '^2.2.0' ]
+429 verbose addNamed [ null, '>=2.2.0-0 <3.0.0-0' ]
+430 silly lockFile a8c5b448-gulp-notify-2-2-0 gulp-notify@^2.2.0
+431 verbose lock gulp-notify@^2.2.0 /home/lonac_rally/.npm/a8c5b448-gulp-notify-2-2-0.lock
+432 verbose cache add [ 'gulp-rename@^1.2.2', null ]
+433 verbose cache add name=undefined spec="gulp-rename@^1.2.2" args=["gulp-rename@^1.2.2",null]
+434 verbose parsed url { protocol: null,
+434 verbose parsed url   slashes: null,
+434 verbose parsed url   auth: null,
+434 verbose parsed url   host: null,
+434 verbose parsed url   port: null,
+434 verbose parsed url   hostname: null,
+434 verbose parsed url   hash: null,
+434 verbose parsed url   search: null,
+434 verbose parsed url   query: null,
+434 verbose parsed url   pathname: 'gulp-rename@^1.2.2',
+434 verbose parsed url   path: 'gulp-rename@^1.2.2',
+434 verbose parsed url   href: 'gulp-rename@^1.2.2' }
+435 verbose cache add name="gulp-rename" spec="^1.2.2" args=["gulp-rename","^1.2.2"]
+436 verbose parsed url { protocol: null,
+436 verbose parsed url   slashes: null,
+436 verbose parsed url   auth: null,
+436 verbose parsed url   host: null,
+436 verbose parsed url   port: null,
+436 verbose parsed url   hostname: null,
+436 verbose parsed url   hash: null,
+436 verbose parsed url   search: null,
+436 verbose parsed url   query: null,
+436 verbose parsed url   pathname: '^1.2.2',
+436 verbose parsed url   path: '^1.2.2',
+436 verbose parsed url   href: '^1.2.2' }
+437 verbose addNamed [ 'gulp-rename', '^1.2.2' ]
+438 verbose addNamed [ null, '>=1.2.2-0 <2.0.0-0' ]
+439 silly lockFile 1035ba1c-gulp-rename-1-2-2 gulp-rename@^1.2.2
+440 verbose lock gulp-rename@^1.2.2 /home/lonac_rally/.npm/1035ba1c-gulp-rename-1-2-2.lock
+441 verbose cache add [ 'gulp-rev@^7.0.0', null ]
+442 verbose cache add name=undefined spec="gulp-rev@^7.0.0" args=["gulp-rev@^7.0.0",null]
+443 verbose parsed url { protocol: null,
+443 verbose parsed url   slashes: null,
+443 verbose parsed url   auth: null,
+443 verbose parsed url   host: null,
+443 verbose parsed url   port: null,
+443 verbose parsed url   hostname: null,
+443 verbose parsed url   hash: null,
+443 verbose parsed url   search: null,
+443 verbose parsed url   query: null,
+443 verbose parsed url   pathname: 'gulp-rev@^7.0.0',
+443 verbose parsed url   path: 'gulp-rev@^7.0.0',
+443 verbose parsed url   href: 'gulp-rev@^7.0.0' }
+444 verbose cache add name="gulp-rev" spec="^7.0.0" args=["gulp-rev","^7.0.0"]
+445 verbose parsed url { protocol: null,
+445 verbose parsed url   slashes: null,
+445 verbose parsed url   auth: null,
+445 verbose parsed url   host: null,
+445 verbose parsed url   port: null,
+445 verbose parsed url   hostname: null,
+445 verbose parsed url   hash: null,
+445 verbose parsed url   search: null,
+445 verbose parsed url   query: null,
+445 verbose parsed url   pathname: '^7.0.0',
+445 verbose parsed url   path: '^7.0.0',
+445 verbose parsed url   href: '^7.0.0' }
+446 verbose addNamed [ 'gulp-rev', '^7.0.0' ]
+447 verbose addNamed [ null, '>=7.0.0-0 <8.0.0-0' ]
+448 silly lockFile 9d6b0811-gulp-rev-7-0-0 gulp-rev@^7.0.0
+449 verbose lock gulp-rev@^7.0.0 /home/lonac_rally/.npm/9d6b0811-gulp-rev-7-0-0.lock
+450 verbose cache add [ 'gulp-rev-replace@^0.4.3', null ]
+451 verbose cache add name=undefined spec="gulp-rev-replace@^0.4.3" args=["gulp-rev-replace@^0.4.3",null]
+452 verbose parsed url { protocol: null,
+452 verbose parsed url   slashes: null,
+452 verbose parsed url   auth: null,
+452 verbose parsed url   host: null,
+452 verbose parsed url   port: null,
+452 verbose parsed url   hostname: null,
+452 verbose parsed url   hash: null,
+452 verbose parsed url   search: null,
+452 verbose parsed url   query: null,
+452 verbose parsed url   pathname: 'gulp-rev-replace@^0.4.3',
+452 verbose parsed url   path: 'gulp-rev-replace@^0.4.3',
+452 verbose parsed url   href: 'gulp-rev-replace@^0.4.3' }
+453 verbose cache add name="gulp-rev-replace" spec="^0.4.3" args=["gulp-rev-replace","^0.4.3"]
+454 verbose parsed url { protocol: null,
+454 verbose parsed url   slashes: null,
+454 verbose parsed url   auth: null,
+454 verbose parsed url   host: null,
+454 verbose parsed url   port: null,
+454 verbose parsed url   hostname: null,
+454 verbose parsed url   hash: null,
+454 verbose parsed url   search: null,
+454 verbose parsed url   query: null,
+454 verbose parsed url   pathname: '^0.4.3',
+454 verbose parsed url   path: '^0.4.3',
+454 verbose parsed url   href: '^0.4.3' }
+455 verbose addNamed [ 'gulp-rev-replace', '^0.4.3' ]
+456 verbose addNamed [ null, '>=0.4.3-0 <0.5.0-0' ]
+457 silly lockFile c9fb0094-gulp-rev-replace-0-4-3 gulp-rev-replace@^0.4.3
+458 verbose lock gulp-rev-replace@^0.4.3 /home/lonac_rally/.npm/c9fb0094-gulp-rev-replace-0-4-3.lock
+459 verbose cache add [ 'gulp-sass@^2.3.1', null ]
+460 verbose cache add name=undefined spec="gulp-sass@^2.3.1" args=["gulp-sass@^2.3.1",null]
+461 verbose parsed url { protocol: null,
+461 verbose parsed url   slashes: null,
+461 verbose parsed url   auth: null,
+461 verbose parsed url   host: null,
+461 verbose parsed url   port: null,
+461 verbose parsed url   hostname: null,
+461 verbose parsed url   hash: null,
+461 verbose parsed url   search: null,
+461 verbose parsed url   query: null,
+461 verbose parsed url   pathname: 'gulp-sass@^2.3.1',
+461 verbose parsed url   path: 'gulp-sass@^2.3.1',
+461 verbose parsed url   href: 'gulp-sass@^2.3.1' }
+462 verbose cache add name="gulp-sass" spec="^2.3.1" args=["gulp-sass","^2.3.1"]
+463 verbose parsed url { protocol: null,
+463 verbose parsed url   slashes: null,
+463 verbose parsed url   auth: null,
+463 verbose parsed url   host: null,
+463 verbose parsed url   port: null,
+463 verbose parsed url   hostname: null,
+463 verbose parsed url   hash: null,
+463 verbose parsed url   search: null,
+463 verbose parsed url   query: null,
+463 verbose parsed url   pathname: '^2.3.1',
+463 verbose parsed url   path: '^2.3.1',
+463 verbose parsed url   href: '^2.3.1' }
+464 verbose addNamed [ 'gulp-sass', '^2.3.1' ]
+465 verbose addNamed [ null, '>=2.3.1-0 <3.0.0-0' ]
+466 silly lockFile c42be1d7-gulp-sass-2-3-1 gulp-sass@^2.3.1
+467 verbose lock gulp-sass@^2.3.1 /home/lonac_rally/.npm/c42be1d7-gulp-sass-2-3-1.lock
+468 verbose cache add [ 'gulp-shell@^0.5.2', null ]
+469 verbose cache add name=undefined spec="gulp-shell@^0.5.2" args=["gulp-shell@^0.5.2",null]
+470 verbose parsed url { protocol: null,
+470 verbose parsed url   slashes: null,
+470 verbose parsed url   auth: null,
+470 verbose parsed url   host: null,
+470 verbose parsed url   port: null,
+470 verbose parsed url   hostname: null,
+470 verbose parsed url   hash: null,
+470 verbose parsed url   search: null,
+470 verbose parsed url   query: null,
+470 verbose parsed url   pathname: 'gulp-shell@^0.5.2',
+470 verbose parsed url   path: 'gulp-shell@^0.5.2',
+470 verbose parsed url   href: 'gulp-shell@^0.5.2' }
+471 verbose cache add name="gulp-shell" spec="^0.5.2" args=["gulp-shell","^0.5.2"]
+472 verbose parsed url { protocol: null,
+472 verbose parsed url   slashes: null,
+472 verbose parsed url   auth: null,
+472 verbose parsed url   host: null,
+472 verbose parsed url   port: null,
+472 verbose parsed url   hostname: null,
+472 verbose parsed url   hash: null,
+472 verbose parsed url   search: null,
+472 verbose parsed url   query: null,
+472 verbose parsed url   pathname: '^0.5.2',
+472 verbose parsed url   path: '^0.5.2',
+472 verbose parsed url   href: '^0.5.2' }
+473 verbose addNamed [ 'gulp-shell', '^0.5.2' ]
+474 verbose addNamed [ null, '>=0.5.2-0 <0.6.0-0' ]
+475 silly lockFile d958323e-gulp-shell-0-5-2 gulp-shell@^0.5.2
+476 verbose lock gulp-shell@^0.5.2 /home/lonac_rally/.npm/d958323e-gulp-shell-0-5-2.lock
+477 verbose cache add [ 'gulp-sourcemaps@^1.6.0', null ]
+478 verbose cache add name=undefined spec="gulp-sourcemaps@^1.6.0" args=["gulp-sourcemaps@^1.6.0",null]
+479 verbose parsed url { protocol: null,
+479 verbose parsed url   slashes: null,
+479 verbose parsed url   auth: null,
+479 verbose parsed url   host: null,
+479 verbose parsed url   port: null,
+479 verbose parsed url   hostname: null,
+479 verbose parsed url   hash: null,
+479 verbose parsed url   search: null,
+479 verbose parsed url   query: null,
+479 verbose parsed url   pathname: 'gulp-sourcemaps@^1.6.0',
+479 verbose parsed url   path: 'gulp-sourcemaps@^1.6.0',
+479 verbose parsed url   href: 'gulp-sourcemaps@^1.6.0' }
+480 verbose cache add name="gulp-sourcemaps" spec="^1.6.0" args=["gulp-sourcemaps","^1.6.0"]
+481 verbose parsed url { protocol: null,
+481 verbose parsed url   slashes: null,
+481 verbose parsed url   auth: null,
+481 verbose parsed url   host: null,
+481 verbose parsed url   port: null,
+481 verbose parsed url   hostname: null,
+481 verbose parsed url   hash: null,
+481 verbose parsed url   search: null,
+481 verbose parsed url   query: null,
+481 verbose parsed url   pathname: '^1.6.0',
+481 verbose parsed url   path: '^1.6.0',
+481 verbose parsed url   href: '^1.6.0' }
+482 verbose addNamed [ 'gulp-sourcemaps', '^1.6.0' ]
+483 verbose addNamed [ null, '>=1.6.0-0 <2.0.0-0' ]
+484 silly lockFile c55741cd-gulp-sourcemaps-1-6-0 gulp-sourcemaps@^1.6.0
+485 verbose lock gulp-sourcemaps@^1.6.0 /home/lonac_rally/.npm/c55741cd-gulp-sourcemaps-1-6-0.lock
+486 verbose cache add [ 'gulp-uglify@^1.5.3', null ]
+487 verbose cache add name=undefined spec="gulp-uglify@^1.5.3" args=["gulp-uglify@^1.5.3",null]
+488 verbose parsed url { protocol: null,
+488 verbose parsed url   slashes: null,
+488 verbose parsed url   auth: null,
+488 verbose parsed url   host: null,
+488 verbose parsed url   port: null,
+488 verbose parsed url   hostname: null,
+488 verbose parsed url   hash: null,
+488 verbose parsed url   search: null,
+488 verbose parsed url   query: null,
+488 verbose parsed url   pathname: 'gulp-uglify@^1.5.3',
+488 verbose parsed url   path: 'gulp-uglify@^1.5.3',
+488 verbose parsed url   href: 'gulp-uglify@^1.5.3' }
+489 verbose cache add name="gulp-uglify" spec="^1.5.3" args=["gulp-uglify","^1.5.3"]
+490 verbose parsed url { protocol: null,
+490 verbose parsed url   slashes: null,
+490 verbose parsed url   auth: null,
+490 verbose parsed url   host: null,
+490 verbose parsed url   port: null,
+490 verbose parsed url   hostname: null,
+490 verbose parsed url   hash: null,
+490 verbose parsed url   search: null,
+490 verbose parsed url   query: null,
+490 verbose parsed url   pathname: '^1.5.3',
+490 verbose parsed url   path: '^1.5.3',
+490 verbose parsed url   href: '^1.5.3' }
+491 verbose addNamed [ 'gulp-uglify', '^1.5.3' ]
+492 verbose addNamed [ null, '>=1.5.3-0 <2.0.0-0' ]
+493 silly lockFile 1d3bd04f-gulp-uglify-1-5-3 gulp-uglify@^1.5.3
+494 verbose lock gulp-uglify@^1.5.3 /home/lonac_rally/.npm/1d3bd04f-gulp-uglify-1-5-3.lock
+495 verbose cache add [ 'gulp-util@^3.0.7', null ]
+496 verbose cache add name=undefined spec="gulp-util@^3.0.7" args=["gulp-util@^3.0.7",null]
+497 verbose parsed url { protocol: null,
+497 verbose parsed url   slashes: null,
+497 verbose parsed url   auth: null,
+497 verbose parsed url   host: null,
+497 verbose parsed url   port: null,
+497 verbose parsed url   hostname: null,
+497 verbose parsed url   hash: null,
+497 verbose parsed url   search: null,
+497 verbose parsed url   query: null,
+497 verbose parsed url   pathname: 'gulp-util@^3.0.7',
+497 verbose parsed url   path: 'gulp-util@^3.0.7',
+497 verbose parsed url   href: 'gulp-util@^3.0.7' }
+498 verbose cache add name="gulp-util" spec="^3.0.7" args=["gulp-util","^3.0.7"]
+499 verbose parsed url { protocol: null,
+499 verbose parsed url   slashes: null,
+499 verbose parsed url   auth: null,
+499 verbose parsed url   host: null,
+499 verbose parsed url   port: null,
+499 verbose parsed url   hostname: null,
+499 verbose parsed url   hash: null,
+499 verbose parsed url   search: null,
+499 verbose parsed url   query: null,
+499 verbose parsed url   pathname: '^3.0.7',
+499 verbose parsed url   path: '^3.0.7',
+499 verbose parsed url   href: '^3.0.7' }
+500 verbose addNamed [ 'gulp-util', '^3.0.7' ]
+501 verbose addNamed [ null, '>=3.0.7-0 <4.0.0-0' ]
+502 silly lockFile e02585f0-gulp-util-3-0-7 gulp-util@^3.0.7
+503 verbose lock gulp-util@^3.0.7 /home/lonac_rally/.npm/e02585f0-gulp-util-3-0-7.lock
+504 verbose cache add [ 'parse-filepath@^1.0.1', null ]
+505 verbose cache add name=undefined spec="parse-filepath@^1.0.1" args=["parse-filepath@^1.0.1",null]
+506 verbose parsed url { protocol: null,
+506 verbose parsed url   slashes: null,
+506 verbose parsed url   auth: null,
+506 verbose parsed url   host: null,
+506 verbose parsed url   port: null,
+506 verbose parsed url   hostname: null,
+506 verbose parsed url   hash: null,
+506 verbose parsed url   search: null,
+506 verbose parsed url   query: null,
+506 verbose parsed url   pathname: 'parse-filepath@^1.0.1',
+506 verbose parsed url   path: 'parse-filepath@^1.0.1',
+506 verbose parsed url   href: 'parse-filepath@^1.0.1' }
+507 verbose cache add name="parse-filepath" spec="^1.0.1" args=["parse-filepath","^1.0.1"]
+508 verbose parsed url { protocol: null,
+508 verbose parsed url   slashes: null,
+508 verbose parsed url   auth: null,
+508 verbose parsed url   host: null,
+508 verbose parsed url   port: null,
+508 verbose parsed url   hostname: null,
+508 verbose parsed url   hash: null,
+508 verbose parsed url   search: null,
+508 verbose parsed url   query: null,
+508 verbose parsed url   pathname: '^1.0.1',
+508 verbose parsed url   path: '^1.0.1',
+508 verbose parsed url   href: '^1.0.1' }
+509 verbose addNamed [ 'parse-filepath', '^1.0.1' ]
+510 verbose addNamed [ null, '>=1.0.1-0 <2.0.0-0' ]
+511 silly lockFile 92dd6a09-parse-filepath-1-0-1 parse-filepath@^1.0.1
+512 verbose lock parse-filepath@^1.0.1 /home/lonac_rally/.npm/92dd6a09-parse-filepath-1-0-1.lock
+513 verbose cache add [ 'path@^0.12.7', null ]
+514 verbose cache add name=undefined spec="path@^0.12.7" args=["path@^0.12.7",null]
+515 verbose parsed url { protocol: null,
+515 verbose parsed url   slashes: null,
+515 verbose parsed url   auth: null,
+515 verbose parsed url   host: null,
+515 verbose parsed url   port: null,
+515 verbose parsed url   hostname: null,
+515 verbose parsed url   hash: null,
+515 verbose parsed url   search: null,
+515 verbose parsed url   query: null,
+515 verbose parsed url   pathname: 'path@^0.12.7',
+515 verbose parsed url   path: 'path@^0.12.7',
+515 verbose parsed url   href: 'path@^0.12.7' }
+516 verbose cache add name="path" spec="^0.12.7" args=["path","^0.12.7"]
+517 verbose parsed url { protocol: null,
+517 verbose parsed url   slashes: null,
+517 verbose parsed url   auth: null,
+517 verbose parsed url   host: null,
+517 verbose parsed url   port: null,
+517 verbose parsed url   hostname: null,
+517 verbose parsed url   hash: null,
+517 verbose parsed url   search: null,
+517 verbose parsed url   query: null,
+517 verbose parsed url   pathname: '^0.12.7',
+517 verbose parsed url   path: '^0.12.7',
+517 verbose parsed url   href: '^0.12.7' }
+518 verbose addNamed [ 'path', '^0.12.7' ]
+519 verbose addNamed [ null, '>=0.12.7-0 <0.13.0-0' ]
+520 silly lockFile b89ee5ab-path-0-12-7 path@^0.12.7
+521 verbose lock path@^0.12.7 /home/lonac_rally/.npm/b89ee5ab-path-0-12-7.lock
+522 silly addNameRange { name: 'glob', range: '>=7.0.3-0 <8.0.0-0', hasData: false }
+523 silly addNameRange { name: 'del', range: '>=2.2.0-0 <3.0.0-0', hasData: false }
+524 silly addNameRange { name: 'gulp-autoprefixer',
+524 silly addNameRange   range: '>=3.1.0-0 <4.0.0-0',
+524 silly addNameRange   hasData: false }
+525 verbose cache add [ 'q@^1.4.1', null ]
+526 verbose cache add name=undefined spec="q@^1.4.1" args=["q@^1.4.1",null]
+527 verbose parsed url { protocol: null,
+527 verbose parsed url   slashes: null,
+527 verbose parsed url   auth: null,
+527 verbose parsed url   host: null,
+527 verbose parsed url   port: null,
+527 verbose parsed url   hostname: null,
+527 verbose parsed url   hash: null,
+527 verbose parsed url   search: null,
+527 verbose parsed url   query: null,
+527 verbose parsed url   pathname: 'q@^1.4.1',
+527 verbose parsed url   path: 'q@^1.4.1',
+527 verbose parsed url   href: 'q@^1.4.1' }
+528 verbose cache add name="q" spec="^1.4.1" args=["q","^1.4.1"]
+529 verbose parsed url { protocol: null,
+529 verbose parsed url   slashes: null,
+529 verbose parsed url   auth: null,
+529 verbose parsed url   host: null,
+529 verbose parsed url   port: null,
+529 verbose parsed url   hostname: null,
+529 verbose parsed url   hash: null,
+529 verbose parsed url   search: null,
+529 verbose parsed url   query: null,
+529 verbose parsed url   pathname: '^1.4.1',
+529 verbose parsed url   path: '^1.4.1',
+529 verbose parsed url   href: '^1.4.1' }
+530 verbose addNamed [ 'q', '^1.4.1' ]
+531 verbose addNamed [ null, '>=1.4.1-0 <2.0.0-0' ]
+532 silly lockFile efb9d2e2-q-1-4-1 q@^1.4.1
+533 verbose lock q@^1.4.1 /home/lonac_rally/.npm/efb9d2e2-q-1-4-1.lock
+534 verbose cache add [ 'require-dir@^0.3.0', null ]
+535 verbose cache add name=undefined spec="require-dir@^0.3.0" args=["require-dir@^0.3.0",null]
+536 verbose parsed url { protocol: null,
+536 verbose parsed url   slashes: null,
+536 verbose parsed url   auth: null,
+536 verbose parsed url   host: null,
+536 verbose parsed url   port: null,
+536 verbose parsed url   hostname: null,
+536 verbose parsed url   hash: null,
+536 verbose parsed url   search: null,
+536 verbose parsed url   query: null,
+536 verbose parsed url   pathname: 'require-dir@^0.3.0',
+536 verbose parsed url   path: 'require-dir@^0.3.0',
+536 verbose parsed url   href: 'require-dir@^0.3.0' }
+537 verbose cache add name="require-dir" spec="^0.3.0" args=["require-dir","^0.3.0"]
+538 verbose parsed url { protocol: null,
+538 verbose parsed url   slashes: null,
+538 verbose parsed url   auth: null,
+538 verbose parsed url   host: null,
+538 verbose parsed url   port: null,
+538 verbose parsed url   hostname: null,
+538 verbose parsed url   hash: null,
+538 verbose parsed url   search: null,
+538 verbose parsed url   query: null,
+538 verbose parsed url   pathname: '^0.3.0',
+538 verbose parsed url   path: '^0.3.0',
+538 verbose parsed url   href: '^0.3.0' }
+539 verbose addNamed [ 'require-dir', '^0.3.0' ]
+540 verbose addNamed [ null, '>=0.3.0-0 <0.4.0-0' ]
+541 silly lockFile 7e03fb3c-require-dir-0-3-0 require-dir@^0.3.0
+542 verbose lock require-dir@^0.3.0 /home/lonac_rally/.npm/7e03fb3c-require-dir-0-3-0.lock
+543 verbose cache add [ 'run-sequence@^1.1.5', null ]
+544 verbose cache add name=undefined spec="run-sequence@^1.1.5" args=["run-sequence@^1.1.5",null]
+545 verbose parsed url { protocol: null,
+545 verbose parsed url   slashes: null,
+545 verbose parsed url   auth: null,
+545 verbose parsed url   host: null,
+545 verbose parsed url   port: null,
+545 verbose parsed url   hostname: null,
+545 verbose parsed url   hash: null,
+545 verbose parsed url   search: null,
+545 verbose parsed url   query: null,
+545 verbose parsed url   pathname: 'run-sequence@^1.1.5',
+545 verbose parsed url   path: 'run-sequence@^1.1.5',
+545 verbose parsed url   href: 'run-sequence@^1.1.5' }
+546 verbose cache add name="run-sequence" spec="^1.1.5" args=["run-sequence","^1.1.5"]
+547 verbose parsed url { protocol: null,
+547 verbose parsed url   slashes: null,
+547 verbose parsed url   auth: null,
+547 verbose parsed url   host: null,
+547 verbose parsed url   port: null,
+547 verbose parsed url   hostname: null,
+547 verbose parsed url   hash: null,
+547 verbose parsed url   search: null,
+547 verbose parsed url   query: null,
+547 verbose parsed url   pathname: '^1.1.5',
+547 verbose parsed url   path: '^1.1.5',
+547 verbose parsed url   href: '^1.1.5' }
+548 verbose addNamed [ 'run-sequence', '^1.1.5' ]
+549 verbose addNamed [ null, '>=1.1.5-0 <2.0.0-0' ]
+550 silly lockFile d9fe3c88-run-sequence-1-1-5 run-sequence@^1.1.5
+551 verbose lock run-sequence@^1.1.5 /home/lonac_rally/.npm/d9fe3c88-run-sequence-1-1-5.lock
+552 verbose cache add [ 'underscore@^1.8.3', null ]
+553 verbose cache add name=undefined spec="underscore@^1.8.3" args=["underscore@^1.8.3",null]
+554 verbose parsed url { protocol: null,
+554 verbose parsed url   slashes: null,
+554 verbose parsed url   auth: null,
+554 verbose parsed url   host: null,
+554 verbose parsed url   port: null,
+554 verbose parsed url   hostname: null,
+554 verbose parsed url   hash: null,
+554 verbose parsed url   search: null,
+554 verbose parsed url   query: null,
+554 verbose parsed url   pathname: 'underscore@^1.8.3',
+554 verbose parsed url   path: 'underscore@^1.8.3',
+554 verbose parsed url   href: 'underscore@^1.8.3' }
+555 verbose cache add name="underscore" spec="^1.8.3" args=["underscore","^1.8.3"]
+556 verbose parsed url { protocol: null,
+556 verbose parsed url   slashes: null,
+556 verbose parsed url   auth: null,
+556 verbose parsed url   host: null,
+556 verbose parsed url   port: null,
+556 verbose parsed url   hostname: null,
+556 verbose parsed url   hash: null,
+556 verbose parsed url   search: null,
+556 verbose parsed url   query: null,
+556 verbose parsed url   pathname: '^1.8.3',
+556 verbose parsed url   path: '^1.8.3',
+556 verbose parsed url   href: '^1.8.3' }
+557 verbose addNamed [ 'underscore', '^1.8.3' ]
+558 verbose addNamed [ null, '>=1.8.3-0 <2.0.0-0' ]
+559 silly lockFile 763d0bdd-underscore-1-8-3 underscore@^1.8.3
+560 verbose lock underscore@^1.8.3 /home/lonac_rally/.npm/763d0bdd-underscore-1-8-3.lock
+561 verbose cache add [ 'vinyl-map2@^1.2.1', null ]
+562 verbose cache add name=undefined spec="vinyl-map2@^1.2.1" args=["vinyl-map2@^1.2.1",null]
+563 verbose parsed url { protocol: null,
+563 verbose parsed url   slashes: null,
+563 verbose parsed url   auth: null,
+563 verbose parsed url   host: null,
+563 verbose parsed url   port: null,
+563 verbose parsed url   hostname: null,
+563 verbose parsed url   hash: null,
+563 verbose parsed url   search: null,
+563 verbose parsed url   query: null,
+563 verbose parsed url   pathname: 'vinyl-map2@^1.2.1',
+563 verbose parsed url   path: 'vinyl-map2@^1.2.1',
+563 verbose parsed url   href: 'vinyl-map2@^1.2.1' }
+564 verbose cache add name="vinyl-map2" spec="^1.2.1" args=["vinyl-map2","^1.2.1"]
+565 verbose parsed url { protocol: null,
+565 verbose parsed url   slashes: null,
+565 verbose parsed url   auth: null,
+565 verbose parsed url   host: null,
+565 verbose parsed url   port: null,
+565 verbose parsed url   hostname: null,
+565 verbose parsed url   hash: null,
+565 verbose parsed url   search: null,
+565 verbose parsed url   query: null,
+565 verbose parsed url   pathname: '^1.2.1',
+565 verbose parsed url   path: '^1.2.1',
+565 verbose parsed url   href: '^1.2.1' }
+566 verbose addNamed [ 'vinyl-map2', '^1.2.1' ]
+567 verbose addNamed [ null, '>=1.2.1-0 <2.0.0-0' ]
+568 silly lockFile e9b9f231-vinyl-map2-1-2-1 vinyl-map2@^1.2.1
+569 verbose lock vinyl-map2@^1.2.1 /home/lonac_rally/.npm/e9b9f231-vinyl-map2-1-2-1.lock
+570 verbose cache add [ 'clean-css@^3.4.12', null ]
+571 verbose cache add name=undefined spec="clean-css@^3.4.12" args=["clean-css@^3.4.12",null]
+572 verbose parsed url { protocol: null,
+572 verbose parsed url   slashes: null,
+572 verbose parsed url   auth: null,
+572 verbose parsed url   host: null,
+572 verbose parsed url   port: null,
+572 verbose parsed url   hostname: null,
+572 verbose parsed url   hash: null,
+572 verbose parsed url   search: null,
+572 verbose parsed url   query: null,
+572 verbose parsed url   pathname: 'clean-css@^3.4.12',
+572 verbose parsed url   path: 'clean-css@^3.4.12',
+572 verbose parsed url   href: 'clean-css@^3.4.12' }
+573 verbose cache add name="clean-css" spec="^3.4.12" args=["clean-css","^3.4.12"]
+574 verbose parsed url { protocol: null,
+574 verbose parsed url   slashes: null,
+574 verbose parsed url   auth: null,
+574 verbose parsed url   host: null,
+574 verbose parsed url   port: null,
+574 verbose parsed url   hostname: null,
+574 verbose parsed url   hash: null,
+574 verbose parsed url   search: null,
+574 verbose parsed url   query: null,
+574 verbose parsed url   pathname: '^3.4.12',
+574 verbose parsed url   path: '^3.4.12',
+574 verbose parsed url   href: '^3.4.12' }
+575 verbose addNamed [ 'clean-css', '^3.4.12' ]
+576 verbose addNamed [ null, '>=3.4.12-0 <4.0.0-0' ]
+577 silly lockFile ecfc6c0c-clean-css-3-4-12 clean-css@^3.4.12
+578 verbose lock clean-css@^3.4.12 /home/lonac_rally/.npm/ecfc6c0c-clean-css-3-4-12.lock
+579 verbose cache add [ 'cli-table@^0.3.1', null ]
+580 verbose cache add name=undefined spec="cli-table@^0.3.1" args=["cli-table@^0.3.1",null]
+581 verbose parsed url { protocol: null,
+581 verbose parsed url   slashes: null,
+581 verbose parsed url   auth: null,
+581 verbose parsed url   host: null,
+581 verbose parsed url   port: null,
+581 verbose parsed url   hostname: null,
+581 verbose parsed url   hash: null,
+581 verbose parsed url   search: null,
+581 verbose parsed url   query: null,
+581 verbose parsed url   pathname: 'cli-table@^0.3.1',
+581 verbose parsed url   path: 'cli-table@^0.3.1',
+581 verbose parsed url   href: 'cli-table@^0.3.1' }
+582 verbose cache add name="cli-table" spec="^0.3.1" args=["cli-table","^0.3.1"]
+583 verbose parsed url { protocol: null,
+583 verbose parsed url   slashes: null,
+583 verbose parsed url   auth: null,
+583 verbose parsed url   host: null,
+583 verbose parsed url   port: null,
+583 verbose parsed url   hostname: null,
+583 verbose parsed url   hash: null,
+583 verbose parsed url   search: null,
+583 verbose parsed url   query: null,
+583 verbose parsed url   pathname: '^0.3.1',
+583 verbose parsed url   path: '^0.3.1',
+583 verbose parsed url   href: '^0.3.1' }
+584 verbose addNamed [ 'cli-table', '^0.3.1' ]
+585 verbose addNamed [ null, '>=0.3.1-0 <0.4.0-0' ]
+586 silly lockFile 602a4864-cli-table-0-3-1 cli-table@^0.3.1
+587 verbose lock cli-table@^0.3.1 /home/lonac_rally/.npm/602a4864-cli-table-0-3-1.lock
+588 silly addNameRange { name: 'gulp-batch',
+588 silly addNameRange   range: '>=1.0.5-0 <2.0.0-0',
+588 silly addNameRange   hasData: false }
+589 silly addNameRange { name: 'gulp-concat',
+589 silly addNameRange   range: '>=2.6.0-0 <3.0.0-0',
+589 silly addNameRange   hasData: false }
+590 silly addNameRange { name: 'gulp-if', range: '>=2.0.0-0 <3.0.0-0', hasData: false }
+591 silly addNameRange { name: 'gulp-less',
+591 silly addNameRange   range: '>=3.0.5-0 <4.0.0-0',
+591 silly addNameRange   hasData: false }
+592 silly addNameRange { name: 'gulp-load-plugins',
+592 silly addNameRange   range: '>=1.2.2-0 <2.0.0-0',
+592 silly addNameRange   hasData: false }
+593 silly addNameRange { name: 'gulp-notify',
+593 silly addNameRange   range: '>=2.2.0-0 <3.0.0-0',
+593 silly addNameRange   hasData: false }
+594 silly addNameRange { name: 'gulp-rename',
+594 silly addNameRange   range: '>=1.2.2-0 <2.0.0-0',
+594 silly addNameRange   hasData: false }
+595 silly addNameRange { name: 'gulp-rev', range: '>=7.0.0-0 <8.0.0-0', hasData: false }
+596 silly addNameRange { name: 'gulp-rev-replace',
+596 silly addNameRange   range: '>=0.4.3-0 <0.5.0-0',
+596 silly addNameRange   hasData: false }
+597 silly addNameRange { name: 'gulp-sass',
+597 silly addNameRange   range: '>=2.3.1-0 <3.0.0-0',
+597 silly addNameRange   hasData: false }
+598 silly addNameRange { name: 'gulp-shell',
+598 silly addNameRange   range: '>=0.5.2-0 <0.6.0-0',
+598 silly addNameRange   hasData: false }
+599 silly addNameRange { name: 'gulp-sourcemaps',
+599 silly addNameRange   range: '>=1.6.0-0 <2.0.0-0',
+599 silly addNameRange   hasData: false }
+600 silly addNameRange { name: 'gulp-uglify',
+600 silly addNameRange   range: '>=1.5.3-0 <2.0.0-0',
+600 silly addNameRange   hasData: false }
+601 silly addNameRange { name: 'gulp-util',
+601 silly addNameRange   range: '>=3.0.7-0 <4.0.0-0',
+601 silly addNameRange   hasData: false }
+602 silly addNameRange { name: 'parse-filepath',
+602 silly addNameRange   range: '>=1.0.1-0 <2.0.0-0',
+602 silly addNameRange   hasData: false }
+603 silly addNameRange { name: 'path', range: '>=0.12.7-0 <0.13.0-0', hasData: false }
+604 silly addNameRange { name: 'q', range: '>=1.4.1-0 <2.0.0-0', hasData: false }
+605 silly addNameRange { name: 'require-dir',
+605 silly addNameRange   range: '>=0.3.0-0 <0.4.0-0',
+605 silly addNameRange   hasData: false }
+606 silly addNameRange { name: 'run-sequence',
+606 silly addNameRange   range: '>=1.1.5-0 <2.0.0-0',
+606 silly addNameRange   hasData: false }
+607 silly addNameRange { name: 'underscore',
+607 silly addNameRange   range: '>=1.8.3-0 <2.0.0-0',
+607 silly addNameRange   hasData: false }
+608 silly addNameRange { name: 'vinyl-map2',
+608 silly addNameRange   range: '>=1.2.1-0 <2.0.0-0',
+608 silly addNameRange   hasData: false }
+609 silly addNameRange { name: 'clean-css',
+609 silly addNameRange   range: '>=3.4.12-0 <4.0.0-0',
+609 silly addNameRange   hasData: false }
+610 silly addNameRange { name: 'cli-table',
+610 silly addNameRange   range: '>=0.3.1-0 <0.4.0-0',
+610 silly addNameRange   hasData: false }
+611 verbose url raw glob
+612 verbose url resolving [ 'https://registry.npmjs.org/', './glob' ]
+613 verbose url resolved https://registry.npmjs.org/glob
+614 info trying registry request attempt 1 at 08:06:04
+615 verbose etag "58317aeb-1f4f0"
+616 http GET https://registry.npmjs.org/glob
+617 verbose url raw del
+618 verbose url resolving [ 'https://registry.npmjs.org/', './del' ]
+619 verbose url resolved https://registry.npmjs.org/del
+620 info trying registry request attempt 1 at 08:06:04
+621 verbose etag "58336d98-71d1"
+622 http GET https://registry.npmjs.org/del
+623 verbose url raw gulp-autoprefixer
+624 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-autoprefixer' ]
+625 verbose url resolved https://registry.npmjs.org/gulp-autoprefixer
+626 info trying registry request attempt 1 at 08:06:04
+627 verbose etag "58351fed-8975"
+628 http GET https://registry.npmjs.org/gulp-autoprefixer
+629 verbose url raw gulp-concat
+630 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-concat' ]
+631 verbose url resolved https://registry.npmjs.org/gulp-concat
+632 info trying registry request attempt 1 at 08:06:04
+633 verbose etag "58337634-a110"
+634 http GET https://registry.npmjs.org/gulp-concat
+635 verbose url raw gulp-batch
+636 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-batch' ]
+637 verbose url resolved https://registry.npmjs.org/gulp-batch
+638 info trying registry request attempt 1 at 08:06:04
+639 verbose etag "580017bb-7f6b"
+640 http GET https://registry.npmjs.org/gulp-batch
+641 verbose url raw gulp-if
+642 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-if' ]
+643 verbose url resolved https://registry.npmjs.org/gulp-if
+644 info trying registry request attempt 1 at 08:06:04
+645 verbose etag "582ee398-6a51"
+646 http GET https://registry.npmjs.org/gulp-if
+647 verbose url raw gulp-load-plugins
+648 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-load-plugins' ]
+649 verbose url resolved https://registry.npmjs.org/gulp-load-plugins
+650 info trying registry request attempt 1 at 08:06:04
+651 verbose etag "58337b74-ced2"
+652 http GET https://registry.npmjs.org/gulp-load-plugins
+653 verbose url raw gulp-less
+654 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-less' ]
+655 verbose url resolved https://registry.npmjs.org/gulp-less
+656 info trying registry request attempt 1 at 08:06:04
+657 verbose etag "582b08d9-e329"
+658 http GET https://registry.npmjs.org/gulp-less
+659 verbose url raw gulp-rename
+660 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-rename' ]
+661 verbose url resolved https://registry.npmjs.org/gulp-rename
+662 info trying registry request attempt 1 at 08:06:04
+663 verbose etag "583375e3-3acd"
+664 http GET https://registry.npmjs.org/gulp-rename
+665 verbose url raw gulp-rev-replace
+666 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-rev-replace' ]
+667 verbose url resolved https://registry.npmjs.org/gulp-rev-replace
+668 info trying registry request attempt 1 at 08:06:04
+669 verbose etag "58331d43-561e"
+670 http GET https://registry.npmjs.org/gulp-rev-replace
+671 verbose url raw gulp-sass
+672 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-sass' ]
+673 verbose url resolved https://registry.npmjs.org/gulp-sass
+674 info trying registry request attempt 1 at 08:06:04
+675 verbose etag "58331608-d8c4"
+676 http GET https://registry.npmjs.org/gulp-sass
+677 verbose url raw gulp-notify
+678 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-notify' ]
+679 verbose url resolved https://registry.npmjs.org/gulp-notify
+680 info trying registry request attempt 1 at 08:06:04
+681 verbose etag "582ad5f8-12921"
+682 http GET https://registry.npmjs.org/gulp-notify
+683 verbose url raw gulp-shell
+684 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-shell' ]
+685 verbose url resolved https://registry.npmjs.org/gulp-shell
+686 info trying registry request attempt 1 at 08:06:04
+687 verbose etag "5832d7c2-7b8a"
+688 http GET https://registry.npmjs.org/gulp-shell
+689 verbose url raw gulp-util
+690 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-util' ]
+691 verbose url resolved https://registry.npmjs.org/gulp-util
+692 info trying registry request attempt 1 at 08:06:04
+693 verbose etag "582e796c-f52c"
+694 http GET https://registry.npmjs.org/gulp-util
+695 verbose url raw parse-filepath
+696 verbose url resolving [ 'https://registry.npmjs.org/', './parse-filepath' ]
+697 verbose url resolved https://registry.npmjs.org/parse-filepath
+698 info trying registry request attempt 1 at 08:06:04
+699 verbose etag "56fa3013-64cf"
+700 http GET https://registry.npmjs.org/parse-filepath
+701 verbose url raw gulp-sourcemaps
+702 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-sourcemaps' ]
+703 verbose url resolved https://registry.npmjs.org/gulp-sourcemaps
+704 info trying registry request attempt 1 at 08:06:04
+705 verbose etag "58334ea0-14d2e"
+706 http GET https://registry.npmjs.org/gulp-sourcemaps
+707 verbose url raw gulp-rev
+708 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-rev' ]
+709 verbose url resolved https://registry.npmjs.org/gulp-rev
+710 info trying registry request attempt 1 at 08:06:04
+711 verbose etag "582d7b42-a6ca"
+712 http GET https://registry.npmjs.org/gulp-rev
+713 verbose url raw q
+714 verbose url resolving [ 'https://registry.npmjs.org/', './q' ]
+715 verbose url resolved https://registry.npmjs.org/q
+716 info trying registry request attempt 1 at 08:06:04
+717 verbose etag "582b57cf-2388e"
+718 http GET https://registry.npmjs.org/q
+719 verbose url raw gulp-uglify
+720 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-uglify' ]
+721 verbose url resolved https://registry.npmjs.org/gulp-uglify
+722 info trying registry request attempt 1 at 08:06:04
+723 verbose etag "583376e6-ba22"
+724 http GET https://registry.npmjs.org/gulp-uglify
+725 verbose url raw path
+726 verbose url resolving [ 'https://registry.npmjs.org/', './path' ]
+727 verbose url resolved https://registry.npmjs.org/path
+728 info trying registry request attempt 1 at 08:06:04
+729 verbose etag "5830bac9-163b"
+730 http GET https://registry.npmjs.org/path
+731 verbose url raw require-dir
+732 verbose url resolving [ 'https://registry.npmjs.org/', './require-dir' ]
+733 verbose url resolved https://registry.npmjs.org/require-dir
+734 info trying registry request attempt 1 at 08:06:04
+735 verbose etag "582d80c2-256b"
+736 http GET https://registry.npmjs.org/require-dir
+737 verbose url raw run-sequence
+738 verbose url resolving [ 'https://registry.npmjs.org/', './run-sequence' ]
+739 verbose url resolved https://registry.npmjs.org/run-sequence
+740 info trying registry request attempt 1 at 08:06:04
+741 verbose etag "582e0f87-78ab"
+742 http GET https://registry.npmjs.org/run-sequence
+743 verbose url raw underscore
+744 verbose url resolving [ 'https://registry.npmjs.org/', './underscore' ]
+745 verbose url resolved https://registry.npmjs.org/underscore
+746 info trying registry request attempt 1 at 08:06:04
+747 verbose etag "582dc695-aa64"
+748 http GET https://registry.npmjs.org/underscore
+749 verbose url raw vinyl-map2
+750 verbose url resolving [ 'https://registry.npmjs.org/', './vinyl-map2' ]
+751 verbose url resolved https://registry.npmjs.org/vinyl-map2
+752 info trying registry request attempt 1 at 08:06:04
+753 verbose etag "57190a00-2e92"
+754 http GET https://registry.npmjs.org/vinyl-map2
+755 verbose url raw cli-table
+756 verbose url resolving [ 'https://registry.npmjs.org/', './cli-table' ]
+757 verbose url resolved https://registry.npmjs.org/cli-table
+758 info trying registry request attempt 1 at 08:06:04
+759 verbose etag "580cec9c-2ced"
+760 http GET https://registry.npmjs.org/cli-table
+761 verbose url raw clean-css
+762 verbose url resolving [ 'https://registry.npmjs.org/', './clean-css' ]
+763 verbose url resolved https://registry.npmjs.org/clean-css
+764 info trying registry request attempt 1 at 08:06:04
+765 verbose etag "582da912-393c5"
+766 http GET https://registry.npmjs.org/clean-css
+767 http 304 https://registry.npmjs.org/sass-loader
+768 silly registry.get cb [ 304,
+768 silly registry.get   { date: 'Wed, 23 Nov 2016 05:06:05 GMT',
+768 silly registry.get     via: '1.1 varnish',
+768 silly registry.get     'cache-control': 'max-age=300',
+768 silly registry.get     etag: '"5830356a-eda4"',
+768 silly registry.get     age: '0',
+768 silly registry.get     connection: 'keep-alive',
+768 silly registry.get     'x-served-by': 'cache-lcy1133-LCY',
+768 silly registry.get     'x-cache': 'MISS',
+768 silly registry.get     'x-cache-hits': '0',
+768 silly registry.get     'x-timer': 'S1479877565.035146,VS0,VE50',
+768 silly registry.get     vary: 'Accept-Encoding' } ]
+769 verbose etag sass-loader from cache
+770 silly addNameRange number 2 { name: 'sass-loader',
+770 silly addNameRange   range: '>=4.0.0-0 <5.0.0-0',
+770 silly addNameRange   hasData: true }
+771 silly addNameRange versions [ 'sass-loader',
+771 silly addNameRange   [ '0.0.1',
+771 silly addNameRange     '0.0.2',
+771 silly addNameRange     '0.1.0',
+771 silly addNameRange     '0.1.1',
+771 silly addNameRange     '0.2.0',
+771 silly addNameRange     '0.3.0',
+771 silly addNameRange     '0.3.1',
+771 silly addNameRange     '0.4.0-beta.1',
+771 silly addNameRange     '0.4.0',
+771 silly addNameRange     '0.4.1',
+771 silly addNameRange     '0.4.2',
+771 silly addNameRange     '0.5.0',
+771 silly addNameRange     '1.0.0',
+771 silly addNameRange     '1.0.1',
+771 silly addNameRange     '0.6.0',
+771 silly addNameRange     '1.0.2',
+771 silly addNameRange     '1.0.3',
+771 silly addNameRange     '1.0.4',
+771 silly addNameRange     '2.0.0',
+771 silly addNameRange     '2.0.1',
+771 silly addNameRange     '3.0.0',
+771 silly addNameRange     '3.1.0',
+771 silly addNameRange     '3.1.1',
+771 silly addNameRange     '3.1.2',
+771 silly addNameRange     '3.2.0',
+771 silly addNameRange     '3.2.1',
+771 silly addNameRange     '3.2.2',
+771 silly addNameRange     '4.0.0',
+771 silly addNameRange     '3.2.3',
+771 silly addNameRange     '4.0.1',
+771 silly addNameRange     '4.0.2' ] ]
+772 verbose addNamed [ 'sass-loader', '4.0.2' ]
+773 verbose addNamed [ '4.0.2', '4.0.2' ]
+774 silly lockFile f9528867-sass-loader-4-0-2 sass-loader@4.0.2
+775 verbose lock sass-loader@4.0.2 /home/lonac_rally/.npm/f9528867-sass-loader-4-0-2.lock
+776 silly lockFile f9528867-sass-loader-4-0-2 sass-loader@4.0.2
+777 silly lockFile f9528867-sass-loader-4-0-2 sass-loader@4.0.2
+778 silly lockFile e7f467ec-sass-loader-4-0-0 sass-loader@^4.0.0
+779 silly lockFile e7f467ec-sass-loader-4-0-0 sass-loader@^4.0.0
+780 http 304 https://registry.npmjs.org/url-loader
+781 silly registry.get cb [ 304,
+781 silly registry.get   { date: 'Wed, 23 Nov 2016 05:06:05 GMT',
+781 silly registry.get     via: '1.1 varnish',
+781 silly registry.get     'cache-control': 'max-age=300',
+781 silly registry.get     etag: '"5825904c-2c5a"',
+781 silly registry.get     age: '0',
+781 silly registry.get     connection: 'keep-alive',
+781 silly registry.get     'x-served-by': 'cache-lhr6322-LHR',
+781 silly registry.get     'x-cache': 'MISS',
+781 silly registry.get     'x-cache-hits': '0',
+781 silly registry.get     'x-timer': 'S1479877565.335872,VS0,VE17',
+781 silly registry.get     vary: 'Accept-Encoding' } ]
+782 verbose etag url-loader from cache
+783 silly addNameRange number 2 { name: 'url-loader',
+783 silly addNameRange   range: '>=0.5.7-0 <0.6.0-0',
+783 silly addNameRange   hasData: true }
+784 silly addNameRange versions [ 'url-loader',
+784 silly addNameRange   [ '0.1.0',
+784 silly addNameRange     '0.1.1',
+784 silly addNameRange     '0.1.2',
+784 silly addNameRange     '0.1.3',
+784 silly addNameRange     '0.5.0',
+784 silly addNameRange     '0.5.1',
+784 silly addNameRange     '0.5.2',
+784 silly addNameRange     '0.5.3',
+784 silly addNameRange     '0.5.4',
+784 silly addNameRange     '0.5.5',
+784 silly addNameRange     '0.5.6',
+784 silly addNameRange     '0.5.7' ] ]
+785 verbose addNamed [ 'url-loader', '0.5.7' ]
+786 verbose addNamed [ '0.5.7', '0.5.7' ]
+787 silly lockFile 73c96ba3-url-loader-0-5-7 url-loader@0.5.7
+788 verbose lock url-loader@0.5.7 /home/lonac_rally/.npm/73c96ba3-url-loader-0-5-7.lock
+789 silly lockFile 73c96ba3-url-loader-0-5-7 url-loader@0.5.7
+790 silly lockFile 73c96ba3-url-loader-0-5-7 url-loader@0.5.7
+791 silly lockFile 6e6af105-url-loader-0-5-7 url-loader@^0.5.7
+792 silly lockFile 6e6af105-url-loader-0-5-7 url-loader@^0.5.7
+793 http 304 https://registry.npmjs.org/buble
+794 silly registry.get cb [ 304,
+794 silly registry.get   { date: 'Wed, 23 Nov 2016 05:06:05 GMT',
+794 silly registry.get     via: '1.1 varnish',
+794 silly registry.get     'cache-control': 'max-age=300',
+794 silly registry.get     etag: '"582ace70-2b55c"',
+794 silly registry.get     age: '0',
+794 silly registry.get     connection: 'keep-alive',
+794 silly registry.get     'x-served-by': 'cache-lcy1133-LCY',
+794 silly registry.get     'x-cache': 'MISS',
+794 silly registry.get     'x-cache-hits': '0',
+794 silly registry.get     'x-timer': 'S1479877565.361155,VS0,VE67',
+794 silly registry.get     vary: 'Accept-Encoding' } ]
+795 verbose etag buble from cache
+796 silly addNameRange number 2 { name: 'buble', range: '>=0.12.3-0 <0.13.0-0', hasData: true }
+797 silly addNameRange versions [ 'buble',
+797 silly addNameRange   [ '0.1.0',
+797 silly addNameRange     '0.2.0',
+797 silly addNameRange     '0.2.1',
+797 silly addNameRange     '0.2.2',
+797 silly addNameRange     '0.3.0',
+797 silly addNameRange     '0.3.1',
+797 silly addNameRange     '0.3.2',
+797 silly addNameRange     '0.3.3',
+797 silly addNameRange     '0.3.4',
+797 silly addNameRange     '0.4.0',
+797 silly addNameRange     '0.4.1',
+797 silly addNameRange     '0.4.2',
+797 silly addNameRange     '0.4.3',
+797 silly addNameRange     '0.4.4',
+797 silly addNameRange     '0.4.5',
+797 silly addNameRange     '0.4.6',
+797 silly addNameRange     '0.4.7',
+797 silly addNameRange     '0.4.8',
+797 silly addNameRange     '0.4.9',
+797 silly addNameRange     '0.4.10',
+797 silly addNameRange     '0.4.11',
+797 silly addNameRange     '0.4.12',
+797 silly addNameRange     '0.4.13',
+797 silly addNameRange     '0.4.14',
+797 silly addNameRange     '0.4.15',
+797 silly addNameRange     '0.4.16',
+797 silly addNameRange     '0.4.17',
+797 silly addNameRange     '0.4.18',
+797 silly addNameRange     '0.4.20',
+797 silly addNameRange     '0.4.21',
+797 silly addNameRange     '0.4.22',
+797 silly addNameRange     '0.4.23',
+797 silly addNameRange     '0.4.24',
+797 silly addNameRange     '0.5.0',
+797 silly addNameRange     '0.5.1',
+797 silly addNameRange     '0.5.2',
+797 silly addNameRange     '0.5.3',
+797 silly addNameRange     '0.5.4',
+797 silly addNameRange     '0.5.5',
+797 silly addNameRange     '0.5.6',
+797 silly addNameRange     '0.5.7',
+797 silly addNameRange     '0.5.8',
+797 silly addNameRange     '0.6.0',
+797 silly addNameRange     '0.6.1',
+797 silly addNameRange     '0.6.2',
+797 silly addNameRange     '0.6.3',
+797 silly addNameRange     '0.6.4',
+797 silly addNameRange     '0.6.5',
+797 silly addNameRange     '0.6.6',
+797 silly addNameRange     '0.6.7',
+797 silly addNameRange     '0.7.0',
+797 silly addNameRange     '0.7.1',
+797 silly addNameRange     '0.8.0',
+797 silly addNameRange     '0.8.1',
+797 silly addNameRange     '0.8.2',
+797 silly addNameRange     '0.8.3',
+797 silly addNameRange     '0.8.4',
+797 silly addNameRange     '0.8.5',
+797 silly addNameRange     '0.9.0',
+797 silly addNameRange     '0.9.1',
+797 silly addNameRange     '0.9.2',
+797 silly addNameRange     '0.9.3',
+797 silly addNameRange     '0.10.0',
+797 silly addNameRange     '0.10.1',
+797 silly addNameRange     '0.10.2',
+797 silly addNameRange     '0.10.3',
+797 silly addNameRange     '0.10.4',
+797 silly addNameRange     '0.10.5',
+797 silly addNameRange     '0.10.6',
+797 silly addNameRange     '0.10.7',
+797 silly addNameRange     '0.11.0',
+797 silly addNameRange     '0.11.1',
+797 silly addNameRange     '0.11.2',
+797 silly addNameRange     '0.11.3',
+797 silly addNameRange     '0.11.4',
+797 silly addNameRange     '0.11.5',
+797 silly addNameRange     '0.11.6',
+797 silly addNameRange     '0.12.0',
+797 silly addNameRange     '0.12.1',
+797 silly addNameRange     '0.12.2',
+797 silly addNameRange     '0.12.3',
+797 silly addNameRange     '0.12.4',
+797 silly addNameRange     '0.12.5',
+797 silly addNameRange     '0.13.0',
+797 silly addNameRange     '0.13.1',
+797 silly addNameRange     '0.13.2',
+797 silly addNameRange     '0.14.0',
+797 silly addNameRange     '0.14.1',
+797 silly addNameRange     '0.14.2' ] ]
+798 verbose addNamed [ 'buble', '0.12.5' ]
+799 verbose addNamed [ '0.12.5', '0.12.5' ]
+800 silly lockFile e17dd4e4-buble-0-12-5 buble@0.12.5
+801 verbose lock buble@0.12.5 /home/lonac_rally/.npm/e17dd4e4-buble-0-12-5.lock
+802 silly lockFile e17dd4e4-buble-0-12-5 buble@0.12.5
+803 silly lockFile e17dd4e4-buble-0-12-5 buble@0.12.5
+804 silly lockFile c87ec1a5-buble-0-12-3 buble@^0.12.3
+805 silly lockFile c87ec1a5-buble-0-12-3 buble@^0.12.3
+806 http 304 https://registry.npmjs.org/file-loader
+807 silly registry.get cb [ 304,
+807 silly registry.get   { date: 'Wed, 23 Nov 2016 05:06:05 GMT',
+807 silly registry.get     via: '1.1 varnish',
+807 silly registry.get     'cache-control': 'max-age=300',
+807 silly registry.get     etag: '"58286cbd-4b50"',
+807 silly registry.get     age: '0',
+807 silly registry.get     connection: 'keep-alive',
+807 silly registry.get     'x-served-by': 'cache-lhr6334-LHR',
+807 silly registry.get     'x-cache': 'HIT',
+807 silly registry.get     'x-cache-hits': '1',
+807 silly registry.get     'x-timer': 'S1479877565.655146,VS0,VE82',
+807 silly registry.get     vary: 'Accept-Encoding' } ]
+808 verbose etag file-loader from cache
+809 silly addNameRange number 2 { name: 'file-loader',
+809 silly addNameRange   range: '>=0.9.0-0 <0.10.0-0',
+809 silly addNameRange   hasData: true }
+810 silly addNameRange versions [ 'file-loader',
+810 silly addNameRange   [ '0.1.0',
+810 silly addNameRange     '0.1.1',
+810 silly addNameRange     '0.1.2',
+810 silly addNameRange     '0.5.0',
+810 silly addNameRange     '0.5.1',
+810 silly addNameRange     '0.6.1',
+810 silly addNameRange     '0.7.0',
+810 silly addNameRange     '0.7.1',
+810 silly addNameRange     '0.7.2',
+810 silly addNameRange     '0.8.0',
+810 silly addNameRange     '0.8.1',
+810 silly addNameRange     '0.8.2',
+810 silly addNameRange     '0.8.3',
+810 silly addNameRange     '0.8.4',
+810 silly addNameRange     '0.8.5',
+810 silly addNameRange     '0.9.0' ] ]
+811 verbose addNamed [ 'file-loader', '0.9.0' ]
+812 verbose addNamed [ '0.9.0', '0.9.0' ]
+813 silly lockFile 356ca48d-file-loader-0-9-0 file-loader@0.9.0
+814 verbose lock file-loader@0.9.0 /home/lonac_rally/.npm/356ca48d-file-loader-0-9-0.lock
+815 http 304 https://registry.npmjs.org/webpack-stream
+816 silly registry.get cb [ 304,
+816 silly registry.get   { date: 'Wed, 23 Nov 2016 05:06:05 GMT',
+816 silly registry.get     via: '1.1 varnish',
+816 silly registry.get     'cache-control': 'max-age=300',
+816 silly registry.get     etag: '"5831fc8a-50a8"',
+816 silly registry.get     age: '0',
+816 silly registry.get     connection: 'keep-alive',
+816 silly registry.get     'x-served-by': 'cache-lcy1133-LCY',
+816 silly registry.get     'x-cache': 'MISS',
+816 silly registry.get     'x-cache-hits': '0',
+816 silly registry.get     'x-timer': 'S1479877565.695466,VS0,VE56',
+816 silly registry.get     vary: 'Accept-Encoding' } ]
+817 verbose etag webpack-stream from cache
+818 info maybeGithub Attempting github:jeroennoten/webpack-stream#patch-1 from git://github.com/github:jeroennoten/webpack-stream#patch-1
+819 silly lockFile 0afbe261-roennoten-webpack-stream-patch-1 git://github.com/github:jeroennoten/webpack-stream#patch-1
+820 verbose lock git://github.com/github:jeroennoten/webpack-stream#patch-1 /home/lonac_rally/.npm/0afbe261-roennoten-webpack-stream-patch-1.lock
+821 verbose addRemoteGit [ 'git://github.com/github:jeroennoten/webpack-stream',
+821 verbose addRemoteGit   'patch-1' ]
+822 silly lockFile 356ca48d-file-loader-0-9-0 file-loader@0.9.0
+823 silly lockFile 356ca48d-file-loader-0-9-0 file-loader@0.9.0
+824 silly lockFile 398b9e9c-file-loader-0-9-0 file-loader@^0.9.0
+825 silly lockFile 398b9e9c-file-loader-0-9-0 file-loader@^0.9.0
+826 http 304 https://registry.npmjs.org/buble-loader
+827 silly registry.get cb [ 304,
+827 silly registry.get   { date: 'Wed, 23 Nov 2016 05:06:06 GMT',
+827 silly registry.get     via: '1.1 varnish',
+827 silly registry.get     'cache-control': 'max-age=300',
+827 silly registry.get     etag: '"581da117-28c6"',
+827 silly registry.get     age: '0',
+827 silly registry.get     connection: 'keep-alive',
+827 silly registry.get     'x-served-by': 'cache-lhr6334-LHR',
+827 silly registry.get     'x-cache': 'MISS',
+827 silly registry.get     'x-cache-hits': '0',
+827 silly registry.get     'x-timer': 'S1479877566.001856,VS0,VE17',
+827 silly registry.get     vary: 'Accept-Encoding' } ]
+828 verbose etag buble-loader from cache
+829 http 304 https://registry.npmjs.org/glob
+830 silly registry.get cb [ 304,
+830 silly registry.get   { date: 'Wed, 23 Nov 2016 05:06:06 GMT',
+830 silly registry.get     via: '1.1 varnish',
+830 silly registry.get     'cache-control': 'max-age=300',
+830 silly registry.get     etag: '"58317aeb-1f4f0"',
+830 silly registry.get     age: '136',
+830 silly registry.get     connection: 'keep-alive',
+830 silly registry.get     'x-served-by': 'cache-lcy1133-LCY',
+830 silly registry.get     'x-cache': 'HIT',
+830 silly registry.get     'x-cache-hits': '1',
+830 silly registry.get     'x-timer': 'S1479877566.017340,VS0,VE0',
+830 silly registry.get     vary: 'Accept-Encoding' } ]
+831 verbose etag glob from cache
+832 silly addNameRange number 2 { name: 'buble-loader',
+832 silly addNameRange   range: '>=0.2.2-0 <0.3.0-0',
+832 silly addNameRange   hasData: true }
+833 silly addNameRange versions [ 'buble-loader',
+833 silly addNameRange   [ '0.1.0', '0.2.0', '0.2.1', '0.2.2', '0.3.0', '0.3.1', '0.3.2' ] ]
+834 verbose addNamed [ 'buble-loader', '0.2.2' ]
+835 verbose addNamed [ '0.2.2', '0.2.2' ]
+836 silly lockFile 808f88a0-buble-loader-0-2-2 buble-loader@0.2.2
+837 verbose lock buble-loader@0.2.2 /home/lonac_rally/.npm/808f88a0-buble-loader-0-2-2.lock
+838 silly addNameRange number 2 { name: 'glob', range: '>=7.0.3-0 <8.0.0-0', hasData: true }
+839 silly addNameRange versions [ 'glob',
+839 silly addNameRange   [ '1.1.0',
+839 silly addNameRange     '2.0.9',
+839 silly addNameRange     '2.0.8',
+839 silly addNameRange     '2.0.7',
+839 silly addNameRange     '2.1.0',
+839 silly addNameRange     '3.0.0',
+839 silly addNameRange     '3.0.1',
+839 silly addNameRange     '3.1.0',
+839 silly addNameRange     '3.1.1',
+839 silly addNameRange     '3.1.2',
+839 silly addNameRange     '3.1.3',
+839 silly addNameRange     '3.1.4',
+839 silly addNameRange     '3.1.5',
+839 silly addNameRange     '3.1.6',
+839 silly addNameRange     '3.1.7',
+839 silly addNameRange     '3.1.9',
+839 silly addNameRange     '3.1.10',
+839 silly addNameRange     '3.1.11',
+839 silly addNameRange     '3.1.12',
+839 silly addNameRange     '3.1.13',
+839 silly addNameRange     '3.1.14',
+839 silly addNameRange     '3.1.15',
+839 silly addNameRange     '3.1.16',
+839 silly addNameRange     '3.1.17',
+839 silly addNameRange     '3.1.18',
+839 silly addNameRange     '3.1.19',
+839 silly addNameRange     '3.1.20',
+839 silly addNameRange     '3.1.21',
+839 silly addNameRange     '3.2.0',
+839 silly addNameRange     '3.2.1',
+839 silly addNameRange     '3.2.3',
+839 silly addNameRange     '3.2.4',
+839 silly addNameRange     '3.2.5',
+839 silly addNameRange     '3.2.6',
+839 silly addNameRange     '3.2.7',
+839 silly addNameRange     '3.2.8',
+839 silly addNameRange     '3.2.9',
+839 silly addNameRange     '3.2.10',
+839 silly addNameRange     '3.2.11',
+839 silly addNameRange     '4.0.0',
+839 silly addNameRange     '4.0.1',
+839 silly addNameRange     '4.0.2',
+839 silly addNameRange     '4.0.3',
+839 silly addNameRange     '4.0.4',
+839 silly addNameRange     '4.0.5',
+839 silly addNameRange     '4.0.6',
+839 silly addNameRange     '4.1.2-beta',
+839 silly addNameRange     '4.1.2',
+839 silly addNameRange     '4.1.3',
+839 silly addNameRange     '4.1.4',
+839 silly addNameRange     '4.1.5',
+839 silly addNameRange     '4.1.6',
+839 silly addNameRange     '4.2.0',
+839 silly addNameRange     '4.2.1',
+839 silly addNameRange     '4.2.2',
+839 silly addNameRange     '4.3.0',
+839 silly addNameRange     '4.3.1',
+839 silly addNameRange     '4.3.2',
+839 silly addNameRange     '4.3.3',
+839 silly addNameRange     '4.3.4',
+839 silly addNameRange     '4.3.5',
+839 silly addNameRange     '4.4.0',
+839 silly addNameRange     '4.4.2',
+839 silly addNameRange     '4.5.0',
+839 silly addNameRange     '5.0.0',
+839 silly addNameRange     '4.5.1',
+839 silly addNameRange     '5.0.1',
+839 silly addNameRange     '4.5.2',
+839 silly addNameRange     '5.0.2',
+839 silly addNameRange     '4.5.3',
+839 silly addNameRange     '5.0.3',
+839 silly addNameRange     '5.0.4',
+839 silly addNameRange     '5.0.5',
+839 silly addNameRange     '5.0.6',
+839 silly addNameRange     '5.0.7',
+839 silly addNameRange     '5.0.9',
+839 silly addNameRange     '5.0.10',
+839 silly addNameRange     '5.0.11',
+839 silly addNameRange     '5.0.12',
+839 silly addNameRange     '5.0.13',
+839 silly addNameRange     '5.0.14',
+839 silly addNameRange     '5.0.15',
+839 silly addNameRange     '6.0.1',
+839 silly addNameRange     '6.0.2',
+839 silly addNameRange     '6.0.3',
+839 silly addNameRange     '6.0.4',
+839 silly addNameRange     '7.0.0',
+839 silly addNameRange     '7.0.1',
+839 silly addNameRange     '7.0.3',
+839 silly addNameRange     '7.0.4',
+839 silly addNameRange     '7.0.5',
+839 silly addNameRange     '7.0.6',
+839 silly addNameRange     '7.1.0',
+839 silly addNameRange     '7.1.1' ] ]
+840 verbose addNamed [ 'glob', '7.1.1' ]
+841 verbose addNamed [ '7.1.1', '7.1.1' ]
+842 silly lockFile 3d8250d2-glob-7-1-1 glob@7.1.1
+843 verbose lock glob@7.1.1 /home/lonac_rally/.npm/3d8250d2-glob-7-1-1.lock
+844 silly lockFile 3d8250d2-glob-7-1-1 glob@7.1.1
+845 silly lockFile 3d8250d2-glob-7-1-1 glob@7.1.1
+846 silly lockFile a2f41c87-glob-7-0-3 glob@^7.0.3
+847 silly lockFile a2f41c87-glob-7-0-3 glob@^7.0.3
+848 silly lockFile 808f88a0-buble-loader-0-2-2 buble-loader@0.2.2
+849 silly lockFile 808f88a0-buble-loader-0-2-2 buble-loader@0.2.2
+850 silly lockFile aba3153c-buble-loader-0-2-2 buble-loader@^0.2.2
+851 silly lockFile aba3153c-buble-loader-0-2-2 buble-loader@^0.2.2
+852 http 304 https://registry.npmjs.org/webpack
+853 silly registry.get cb [ 304,
+853 silly registry.get   { date: 'Wed, 23 Nov 2016 05:06:06 GMT',
+853 silly registry.get     via: '1.1 varnish',
+853 silly registry.get     'cache-control': 'max-age=300',
+853 silly registry.get     etag: '"5832d490-d2163"',
+853 silly registry.get     age: '0',
+853 silly registry.get     connection: 'keep-alive',
+853 silly registry.get     'x-served-by': 'cache-lhr6322-LHR',
+853 silly registry.get     'x-cache': 'MISS',
+853 silly registry.get     'x-cache-hits': '0',
+853 silly registry.get     'x-timer': 'S1479877566.112571,VS0,VE32',
+853 silly registry.get     vary: 'Accept-Encoding' } ]
+854 verbose etag webpack from cache
+855 silly addNameRange number 2 { name: 'webpack',
+855 silly addNameRange   range: '>=2.1.0-beta.15 <=2.1.0--beta.22',
+855 silly addNameRange   hasData: true }
+856 silly addNameRange versions [ 'webpack',
+856 silly addNameRange   [ '0.1.0',
+856 silly addNameRange     '0.1.1',
+856 silly addNameRange     '0.1.2',
+856 silly addNameRange     '0.1.3',
+856 silly addNameRange     '0.1.4',
+856 silly addNameRange     '0.1.5',
+856 silly addNameRange     '0.1.6',
+856 silly addNameRange     '0.2.0',
+856 silly addNameRange     '0.2.1',
+856 silly addNameRange     '0.2.2',
+856 silly addNameRange     '0.2.3',
+856 silly addNameRange     '0.2.4',
+856 silly addNameRange     '0.2.6',
+856 silly addNameRange     '0.2.7',
+856 silly addNameRange     '0.2.8',
+856 silly addNameRange     '0.3.0',
+856 silly addNameRange     '0.3.1',
+856 silly addNameRange     '0.3.2',
+856 silly addNameRange     '0.3.3',
+856 silly addNameRange     '0.3.4',
+856 silly addNameRange     '0.3.6',
+856 silly addNameRange     '0.3.7',
+856 silly addNameRange     '0.3.8',
+856 silly addNameRange     '0.3.9',
+856 silly addNameRange     '0.3.10',
+856 silly addNameRange     '0.3.11',
+856 silly addNameRange     '0.3.12',
+856 silly addNameRange     '0.3.13',
+856 silly addNameRange     '0.3.14',
+856 silly addNameRange     '0.3.15',
+856 silly addNameRange     '0.3.16',
+856 silly addNameRange     '0.3.17',
+856 silly addNameRange     '0.3.18',
+856 silly addNameRange     '0.3.19',
+856 silly addNameRange     '0.3.20',
+856 silly addNameRange     '0.4.0',
+856 silly addNameRange     '0.4.1',
+856 silly addNameRange     '0.4.2',
+856 silly addNameRange     '0.4.3',
+856 silly addNameRange     '0.4.4',
+856 silly addNameRange     '0.4.5',
+856 silly addNameRange     '0.4.6',
+856 silly addNameRange     '0.4.7',
+856 silly addNameRange     '0.4.8',
+856 silly addNameRange     '0.4.9',
+856 silly addNameRange     '0.4.10',
+856 silly addNameRange     '0.4.11',
+856 silly addNameRange     '0.4.12',
+856 silly addNameRange     '0.4.13',
+856 silly addNameRange     '0.4.14',
+856 silly addNameRange     '0.4.15',
+856 silly addNameRange     '0.4.16',
+856 silly addNameRange     '0.4.17',
+856 silly addNameRange     '0.4.18',
+856 silly addNameRange     '0.4.19',
+856 silly addNameRange     '0.4.20',
+856 silly addNameRange     '0.4.21',
+856 silly addNameRange     '0.4.23',
+856 silly addNameRange     '0.4.24',
+856 silly addNameRange     '0.4.25',
+856 silly addNameRange     '0.5.0',
+856 silly addNameRange     '0.5.1',
+856 silly addNameRange     '0.5.2',
+856 silly addNameRange     '0.5.3',
+856 silly addNameRange     '0.5.4',
+856 silly addNameRange     '0.5.5',
+856 silly addNameRange     '0.5.6',
+856 silly addNameRange     '0.5.7',
+856 silly addNameRange     '0.5.8',
+856 silly addNameRange     '0.5.10',
+856 silly addNameRange     '0.6.0',
+856 silly addNameRange     '0.6.1',
+856 silly addNameRange     '0.6.2',
+856 silly addNameRange     '0.7.0-beta',
+856 silly addNameRange     '0.7.0-beta2',
+856 silly addNameRange     '0.7.0-beta3',
+856 silly addNameRange     '0.7.0-beta4',
+856 silly addNameRange     '0.7.0-beta5',
+856 silly addNameRange     '0.7.0-beta6',
+856 silly addNameRange     '0.7.0-beta7',
+856 silly addNameRange     '0.7.0-beta8',
+856 silly addNameRange     '0.7.0',
+856 silly addNameRange     '0.7.1',
+856 silly addNameRange     '0.7.2',
+856 silly addNameRange     '0.7.3',
+856 silly addNameRange     '0.7.4',
+856 silly addNameRange     '0.7.5',
+856 silly addNameRange     '0.7.6',
+856 silly addNameRange     '0.7.7',
+856 silly addNameRange     '0.7.8',
+856 silly addNameRange     '0.7.9',
+856 silly addNameRange     '0.7.11',
+856 silly addNameRange     '0.7.12',
+856 silly addNameRange     '0.7.13',
+856 silly addNameRange     '0.7.14',
+856 silly addNameRange     '0.7.15',
+856 silly addNameRange     '0.7.16',
+856 silly addNameRange     '0.7.17',
+856 silly addNameRange     '0.8.0-beta1',
+856 silly addNameRange     '0.8.0-beta2',
+856 silly addNameRange     '0.8.0-beta3',
+856 silly addNameRange     '0.8.0-beta4',
+856 silly addNameRange     '0.8.0',
+856 silly addNameRange     '0.8.2',
+856 silly addNameRange     '0.8.3',
+856 silly addNameRange     '0.9.0-beta1',
+856 silly addNameRange     '0.9.0-beta2',
+856 silly addNameRange     '0.9.0-beta4',
+856 silly addNameRange     '0.9.0-beta5',
+856 silly addNameRange     '0.9.0-beta6',
+856 silly addNameRange     '0.9.0-beta7',
+856 silly addNameRange     '0.9.0-beta8',
+856 silly addNameRange     '0.9.0-beta9',
+856 silly addNameRange     '0.9.0-beta10',
+856 silly addNameRange     '0.9.0-beta11',
+856 silly addNameRange     '0.9.0-beta12',
+856 silly addNameRange     '0.9.0-beta13',
+856 silly addNameRange     '0.9.0-beta14',
+856 silly addNameRange     '0.9.0-beta15',
+856 silly addNameRange     '0.9.0-beta16',
+856 silly addNameRange     '0.9.0-beta17',
+856 silly addNameRange     '0.9.0-beta18',
+856 silly addNameRange     '0.9.0-beta19',
+856 silly addNameRange     '0.9.0-beta20',
+856 silly addNameRange     '0.9.0-beta21',
+856 silly addNameRange     '0.9.0-beta22',
+856 silly addNameRange     '0.9.0-beta23',
+856 silly addNameRange     '0.9.0-beta24',
+856 silly addNameRange     '0.9.0-beta25',
+856 silly addNameRange     '0.9.0-beta26',
+856 silly addNameRange     '0.9.0-beta27',
+856 silly addNameRange     '0.9.0-beta28',
+856 silly addNameRange     '0.9.0-beta29',
+856 silly addNameRange     '0.9.0-beta30',
+856 silly addNameRange     '0.9.0-beta31',
+856 silly addNameRange     '0.9.0-beta32',
+856 silly addNameRange     '0.9.0-beta33',
+856 silly addNameRange     '0.9.0-beta34',
+856 silly addNameRange     '0.9.0-beta35',
+856 silly addNameRange     '0.9.0-beta36',
+856 silly addNameRange     '0.9.0-beta37',
+856 silly addNameRange     '0.9.0-beta38',
+856 silly addNameRange     '0.9.0',
+856 silly addNameRange     '0.9.1',
+856 silly addNameRange     '0.9.2',
+856 silly addNameRange     '0.9.3',
+856 silly addNameRange     '0.10.0-beta2',
+856 silly addNameRange     '0.10.0-beta3',
+856 silly addNameRange     '0.10.0-beta5',
+856 silly addNameRange     '0.10.0-beta6',
+856 silly addNameRange     '0.10.0-beta7',
+856 silly addNameRange     '0.10.0-beta8',
+856 silly addNameRange     '0.10.0-beta9',
+856 silly addNameRange     '0.10.0-beta10',
+856 silly addNameRange     '0.10.0-beta11',
+856 silly addNameRange     '0.10.0-beta12',
+856 silly addNameRange     '0.10.0-beta13',
+856 silly addNameRange     '0.10.0-beta14',
+856 silly addNameRange     '0.10.0-beta15',
+856 silly addNameRange     '0.10.0-beta16',
+856 silly addNameRange     '0.10.0-beta17',
+856 silly addNameRange     '0.10.0-beta18',
+856 silly addNameRange     '0.10.0-beta19',
+856 silly addNameRange     '0.10.0-beta20',
+856 silly addNameRange     '0.10.0-beta21',
+856 silly addNameRange     '0.10.0-beta22',
+856 silly addNameRange     '0.10.0-beta23',
+856 silly addNameRange     '0.10.0-beta24',
+856 silly addNameRange     '0.10.0-beta25',
+856 silly addNameRange     '0.10.0',
+856 silly addNameRange     '0.11.0-beta1',
+856 silly addNameRange     '0.11.0-beta2',
+856 silly addNameRange     '0.11.0-beta3',
+856 silly addNameRange     '0.11.0-beta4',
+856 silly addNameRange     '0.11.0-beta5',
+856 silly addNameRange     '0.11.0-beta6',
+856 silly addNameRange     '0.11.0-beta7',
+856 silly addNameRange     '0.11.0-beta8',
+856 silly addNameRange     '0.11.0-beta9',
+856 silly addNameRange     '0.11.0-beta10',
+856 silly addNameRange     '0.11.0-beta11',
+856 silly addNameRange     '0.11.0-beta12',
+856 silly addNameRange     '0.11.0-beta13',
+856 silly addNameRange     '0.11.0-beta14',
+856 silly addNameRange     '0.11.0-beta15',
+856 silly addNameRange     '0.11.0-beta16',
+856 silly addNameRange     '0.11.0-beta17',
+856 silly addNameRange     '0.11.0-beta18',
+856 silly addNameRange     '0.11.0-beta19',
+856 silly addNameRange     '0.11.0-beta20',
+856 silly addNameRange     '0.11.0-beta21',
+856 silly addNameRange     '0.11.0-beta22',
+856 silly addNameRange     '0.11.0-beta23',
+856 silly addNameRange     '0.11.0-beta24',
+856 silly addNameRange     '0.11.0-beta25',
+856 silly addNameRange     '0.11.0-beta26',
+856 silly addNameRange     '0.11.0-beta27',
+856 silly addNameRange     '0.11.0-beta28',
+856 silly addNameRange     '0.11.0-beta29',
+856 silly addNameRange     '0.11.0',
+856 silly addNameRange     '0.11.1',
+856 silly addNameRange     '0.11.2',
+856 silly addNameRange     '0.11.3',
+856 silly addNameRange     '0.11.4',
+856 silly addNameRange     '0.11.5',
+856 silly addNameRange     '0.11.6',
+856 silly addNameRange     '0.11.7',
+856 silly addNameRange     '0.11.8',
+856 silly addNameRange     '0.11.9',
+856 silly addNameRange     '0.11.10',
+856 silly addNameRange     '0.11.11',
+856 silly addNameRange     '0.11.12',
+856 silly addNameRange     '0.11.13',
+856 silly addNameRange     '0.11.14',
+856 silly addNameRange     '0.11.15',
+856 silly addNameRange     '1.0.0-beta1',
+856 silly addNameRange     '1.0.0-beta2',
+856 silly addNameRange     '1.0.0-beta3',
+856 silly addNameRange     '1.0.0-beta4',
+856 silly addNameRange     '0.11.16',
+856 silly addNameRange     '0.11.17',
+856 silly addNameRange     '0.11.18',
+856 silly addNameRange     '1.0.0-beta5',
+856 silly addNameRange     '1.0.0-beta6',
+856 silly addNameRange     '1.0.0-beta7',
+856 silly addNameRange     '1.0.0-beta8',
+856 silly addNameRange     '1.0.0-beta9',
+856 silly addNameRange     '1.0.0-rc1',
+856 silly addNameRange     '1.0.0-rc2',
+856 silly addNameRange     '1.0.0-rc3',
+856 silly addNameRange     '1.0.0-rc4',
+856 silly addNameRange     '1.0.0-rc5',
+856 silly addNameRange     '1.0.0-rc7',
+856 silly addNameRange     '1.0.0-rc8',
+856 silly addNameRange     '1.0.0-rc9',
+856 silly addNameRange     '1.0.0-rc11',
+856 silly addNameRange     '1.0.0-rc12',
+856 silly addNameRange     '1.0.0',
+856 silly addNameRange     '1.0.1',
+856 silly addNameRange     '1.0.3',
+856 silly addNameRange     '1.0.4',
+856 silly addNameRange     '1.0.5',
+856 silly addNameRange     '1.1.0-beta1',
+856 silly addNameRange     '1.1.0-beta2',
+856 silly addNameRange     '1.1.0-beta3',
+856 silly addNameRange     '1.1.0-beta4',
+856 silly addNameRange     '1.1.0-beta5',
+856 silly addNameRange     '1.1.0-beta6',
+856 silly addNameRange     '1.1.0-beta7',
+856 silly addNameRange     '1.1.0-beta8',
+856 silly addNameRange     '1.1.0-beta9',
+856 silly addNameRange     '1.1.0-beta10',
+856 silly addNameRange     '1.1.0-beta12',
+856 silly addNameRange     '1.1.0',
+856 silly addNameRange     '1.1.1',
+856 silly addNameRange     '1.1.2',
+856 silly addNameRange     '1.1.3',
+856 silly addNameRange     '1.1.4',
+856 silly addNameRange     '1.1.5',
+856 silly addNameRange     '1.1.6',
+856 silly addNameRange     '1.1.7',
+856 silly addNameRange     '1.1.8',
+856 silly addNameRange     '1.1.9',
+856 silly addNameRange     '1.1.10',
+856 silly addNameRange     '1.1.11',
+856 silly addNameRange     '1.2.0-beta1',
+856 silly addNameRange     '1.2.0-beta2',
+856 silly addNameRange     '1.2.0-beta4',
+856 silly addNameRange     '1.2.0-beta5',
+856 silly addNameRange     '1.2.0-beta6',
+856 silly addNameRange     '1.3.0-beta1',
+856 silly addNameRange     '1.3.0-beta2',
+856 silly addNameRange     '1.3.0-beta3',
+856 silly addNameRange     '1.3.0-beta4',
+856 silly addNameRange     '1.3.0-beta5',
+856 silly addNameRange     '1.3.0-beta6',
+856 silly addNameRange     '1.3.0-beta7',
+856 silly addNameRange     '1.3.0-beta8',
+856 silly addNameRange     '1.3.0-beta9',
+856 silly addNameRange     '1.3.1-beta1',
+856 silly addNameRange     '1.3.1-beta2',
+856 silly addNameRange     '1.3.1-beta3',
+856 silly addNameRange     '1.3.1-beta4',
+856 silly addNameRange     '1.3.1-beta5',
+856 silly addNameRange     '1.3.1-beta6',
+856 silly addNameRange     '1.3.1-beta7',
+856 silly addNameRange     '1.3.1-beta8',
+856 silly addNameRange     '1.3.1-beta9',
+856 silly addNameRange     '1.3.2-beta1',
+856 silly addNameRange     '1.3.2-beta2',
+856 silly addNameRange     '1.3.2-beta3',
+856 silly addNameRange     '1.3.2-beta4',
+856 silly addNameRange     '1.3.2-beta5',
+856 silly addNameRange     '1.3.2-beta6',
+856 silly addNameRange     '1.3.2-beta7',
+856 silly addNameRange     '1.3.2-beta8',
+856 silly addNameRange     '1.3.2-beta9',
+856 silly addNameRange     '1.3.3-beta1',
+856 silly addNameRange     '1.3.3-beta2',
+856 silly addNameRange     '1.3.4',
+856 silly addNameRange     '1.3.5',
+856 silly addNameRange     '1.3.6',
+856 silly addNameRange     '1.3.7',
+856 silly addNameRange     '1.4.0-beta1',
+856 silly addNameRange     '1.4.0-beta2',
+856 silly addNameRange     '1.4.0-beta3',
+856 silly addNameRange     '1.4.0-beta4',
+856 silly addNameRange     '1.4.0-beta5',
+856 silly addNameRange     '1.4.0-beta6',
+856 silly addNameRange     '1.4.0-beta7',
+856 silly addNameRange     '1.4.0-beta8',
+856 silly addNameRange     '1.4.0-beta9',
+856 silly addNameRange     '1.4.0-beta10',
+856 silly addNameRange     '1.4.1-beta1',
+856 silly addNameRange     '1.4.2',
+856 silly addNameRange     '1.4.3',
+856 silly addNameRange     '1.4.4',
+856 silly addNameRange     '1.4.5',
+856 silly addNameRange     '1.4.6',
+856 silly addNameRange     '1.4.7',
+856 silly addNameRange     '1.4.8',
+856 silly addNameRange     '1.4.9',
+856 silly addNameRange     '1.4.10',
+856 silly addNameRange     '1.4.11',
+856 silly addNameRange     '1.4.12',
+856 silly addNameRange     '1.4.13',
+856 silly addNameRange     '1.4.14',
+856 silly addNameRange     '1.4.15',
+856 silly addNameRange     '1.5.0',
+856 silly addNameRange     '1.5.1',
+856 silly addNameRange     '1.5.2',
+856 silly addNameRange     '1.5.3',
+856 silly addNameRange     '1.6.0',
+856 silly addNameRange     '1.7.0',
+856 silly addNameRange     '1.7.1',
+856 silly addNameRange     '1.7.2',
+856 silly addNameRange     '1.7.3',
+856 silly addNameRange     '1.8.0',
+856 silly addNameRange     '1.8.1',
+856 silly addNameRange     '1.8.2',
+856 silly addNameRange     '1.8.3',
+856 silly addNameRange     '1.8.4',
+856 silly addNameRange     '1.8.5',
+856 silly addNameRange     '1.8.6',
+856 silly addNameRange     '1.8.7',
+856 silly addNameRange     '1.8.8',
+856 silly addNameRange     '1.8.9',
+856 silly addNameRange     '1.8.10',
+856 silly addNameRange     '1.8.11',
+856 silly addNameRange     '1.9.0',
+856 silly addNameRange     '1.9.1',
+856 silly addNameRange     '1.9.2',
+856 silly addNameRange     '1.9.3',
+856 silly addNameRange     '1.9.4',
+856 silly addNameRange     '1.9.5',
+856 silly addNameRange     '1.9.6',
+856 silly addNameRange     '1.9.7',
+856 silly addNameRange     '1.9.8',
+856 silly addNameRange     '1.9.9',
+856 silly addNameRange     '1.9.10',
+856 silly addNameRange     '1.9.11',
+856 silly addNameRange     '1.9.12',
+856 silly addNameRange     '1.9.13',
+856 silly addNameRange     '1.10.0',
+856 silly addNameRange     '1.10.1',
+856 silly addNameRange     '1.10.2',
+856 silly addNameRange     '1.10.3',
+856 silly addNameRange     '1.10.4',
+856 silly addNameRange     '1.10.5',
+856 silly addNameRange     '1.11.0',
+856 silly addNameRange     '1.12.0',
+856 silly addNameRange     '1.12.1',
+856 silly addNameRange     '1.12.2',
+856 silly addNameRange     '2.0.0-beta',
+856 silly addNameRange     '1.12.3',
+856 silly addNameRange     '1.12.4',
+856 silly addNameRange     '1.12.5',
+856 silly addNameRange     '1.12.6',
+856 silly addNameRange     '1.12.7',
+856 silly addNameRange     '1.12.8',
+856 silly addNameRange     '1.12.9',
+856 silly addNameRange     '2.0.1-beta',
+856 silly addNameRange     '2.0.2-beta',
+856 silly addNameRange     '1.12.10',
+856 silly addNameRange     '1.12.11',
+856 silly addNameRange     '2.0.4-beta',
+856 silly addNameRange     '1.12.12',
+856 silly addNameRange     '2.0.5-beta',
+856 silly addNameRange     '2.0.6-beta',
+856 silly addNameRange     '2.0.7-beta',
+856 silly addNameRange     '1.12.13',
+856 silly addNameRange     '2.1.0-beta.0',
+856 silly addNameRange     '2.1.0-beta.1',
+856 silly addNameRange     '2.1.0-beta.2',
+856 silly addNameRange     '1.12.14',
+856 silly addNameRange     '2.1.0-beta.3',
+856 silly addNameRange     '2.1.0-beta.4',
+856 silly addNameRange     '2.1.0-beta.5',
+856 silly addNameRange     '1.12.15',
+856 silly addNameRange     '1.13.0',
+856 silly addNameRange     '2.1.0-beta.6',
+856 silly addNameRange     '2.1.0-beta.7',
+856 silly addNameRange     '1.13.1',
+856 silly addNameRange     '2.1.0-beta.8',
+856 silly addNameRange     '2.1.0-beta.9',
+856 silly addNameRange     '2.1.0-beta.10',
+856 silly addNameRange     '2.1.0-beta.11',
+856 silly addNameRange     '2.1.0-beta.12',
+856 silly addNameRange     '2.1.0-beta.13',
+856 silly addNameRange     '2.1.0-beta.14',
+856 silly addNameRange     '2.1.0-beta.15',
+856 silly addNameRange     '2.1.0-beta.16',
+856 silly addNameRange     '2.1.0-beta.17',
+856 silly addNameRange     '2.1.0-beta.18',
+856 silly addNameRange     '2.1.0-beta.19',
+856 silly addNameRange     '2.1.0-beta.20',
+856 silly addNameRange     '2.1.0-beta.21',
+856 silly addNameRange     '1.13.2',
+856 silly addNameRange     '2.1.0-beta.22',
+856 silly addNameRange     '2.1.0-beta.23',
+856 silly addNameRange     '2.1.0-beta.24',
+856 silly addNameRange     '2.1.0-beta.25',
+856 silly addNameRange     '1.13.3',
+856 silly addNameRange     '2.1.0-beta.26',
+856 silly addNameRange     '2.1.0-beta.27' ] ]
+857 silly lockFile ac0bcb2f-pack-2-1-0-beta-15-2-1-0-beta-22 webpack@2.1.0-beta.15 - 2.1.0-beta.22
+858 silly lockFile ac0bcb2f-pack-2-1-0-beta-15-2-1-0-beta-22 webpack@2.1.0-beta.15 - 2.1.0-beta.22
+859 http 304 https://registry.npmjs.org/del
+860 silly registry.get cb [ 304,
+860 silly registry.get   { date: 'Wed, 23 Nov 2016 05:06:06 GMT',
+860 silly registry.get     via: '1.1 varnish',
+860 silly registry.get     'cache-control': 'max-age=300',
+860 silly registry.get     etag: '"58336d98-71d1"',
+860 silly registry.get     age: '0',
+860 silly registry.get     connection: 'keep-alive',
+860 silly registry.get     'x-served-by': 'cache-lhr6334-LHR',
+860 silly registry.get     'x-cache': 'MISS',
+860 silly registry.get     'x-cache-hits': '0',
+860 silly registry.get     'x-timer': 'S1479877566.280696,VS0,VE31',
+860 silly registry.get     vary: 'Accept-Encoding' } ]
+861 verbose etag del from cache
+862 http 304 https://registry.npmjs.org/css-loader
+863 silly registry.get cb [ 304,
+863 silly registry.get   { date: 'Wed, 23 Nov 2016 05:06:06 GMT',
+863 silly registry.get     via: '1.1 varnish',
+863 silly registry.get     'cache-control': 'max-age=300',
+863 silly registry.get     etag: '"58303585-15659"',
+863 silly registry.get     age: '139',
+863 silly registry.get     connection: 'keep-alive',
+863 silly registry.get     'x-served-by': 'cache-lcy1121-LCY',
+863 silly registry.get     'x-cache': 'HIT',
+863 silly registry.get     'x-cache-hits': '29',
+863 silly registry.get     'x-timer': 'S1479877566.324071,VS0,VE0',
+863 silly registry.get     vary: 'Accept-Encoding' } ]
+864 verbose etag css-loader from cache
+865 verbose about to build /var/www/html/mkopo/node_modules/laravel-elixir-webpack-official
+866 info /var/www/html/mkopo/node_modules/laravel-elixir-webpack-official unbuild
+867 info preuninstall laravel-elixir-webpack-official@1.0.9
+868 info uninstall laravel-elixir-webpack-official@1.0.9
+869 verbose true,/var/www/html/mkopo/node_modules,/var/www/html/mkopo/node_modules unbuild laravel-elixir-webpack-official@1.0.9
+870 info postuninstall laravel-elixir-webpack-official@1.0.9
+871 silly addNameRange number 2 { name: 'del', range: '>=2.2.0-0 <3.0.0-0', hasData: true }
+872 silly addNameRange versions [ 'del',
+872 silly addNameRange   [ '0.1.0',
+872 silly addNameRange     '0.1.1',
+872 silly addNameRange     '0.1.2',
+872 silly addNameRange     '0.1.3',
+872 silly addNameRange     '1.0.0',
+872 silly addNameRange     '1.1.0',
+872 silly addNameRange     '1.1.1',
+872 silly addNameRange     '1.2.0',
+872 silly addNameRange     '1.2.1',
+872 silly addNameRange     '2.0.0',
+872 silly addNameRange     '2.0.1',
+872 silly addNameRange     '2.0.2',
+872 silly addNameRange     '2.1.0',
+872 silly addNameRange     '2.2.0',
+872 silly addNameRange     '2.2.1',
+872 silly addNameRange     '2.2.2' ] ]
+873 verbose addNamed [ 'del', '2.2.2' ]
+874 verbose addNamed [ '2.2.2', '2.2.2' ]
+875 silly lockFile 992765a9-del-2-2-2 del@2.2.2
+876 verbose lock del@2.2.2 /home/lonac_rally/.npm/992765a9-del-2-2-2.lock
+877 silly addNameRange number 2 { name: 'css-loader',
+877 silly addNameRange   range: '>=0.23.1-0 <0.24.0-0',
+877 silly addNameRange   hasData: true }
+878 silly addNameRange versions [ 'css-loader',
+878 silly addNameRange   [ '0.1.0',
+878 silly addNameRange     '0.1.1',
+878 silly addNameRange     '0.1.2',
+878 silly addNameRange     '0.2.0',
+878 silly addNameRange     '0.2.1',
+878 silly addNameRange     '0.2.2',
+878 silly addNameRange     '0.2.3',
+878 silly addNameRange     '0.2.4',
+878 silly addNameRange     '0.5.0',
+878 silly addNameRange     '0.5.1',
+878 silly addNameRange     '0.5.2',
+878 silly addNameRange     '0.6.0',
+878 silly addNameRange     '0.6.1',
+878 silly addNameRange     '0.6.2',
+878 silly addNameRange     '0.6.3',
+878 silly addNameRange     '0.6.4',
+878 silly addNameRange     '0.6.5',
+878 silly addNameRange     '0.6.6',
+878 silly addNameRange     '0.6.7',
+878 silly addNameRange     '0.6.8',
+878 silly addNameRange     '0.6.9',
+878 silly addNameRange     '0.6.10',
+878 silly addNameRange     '0.6.11',
+878 silly addNameRange     '0.6.12',
+878 silly addNameRange     '0.7.0',
+878 silly addNameRange     '0.7.1',
+878 silly addNameRange     '0.8.0',
+878 silly addNameRange     '0.9.0',
+878 silly addNameRange     '0.9.1',
+878 silly addNameRange     '0.10.0',
+878 silly addNameRange     '0.10.1',
+878 silly addNameRange     '0.11.0',
+878 silly addNameRange     '0.11.1',
+878 silly addNameRange     '0.11.2',
+878 silly addNameRange     '0.12.0',
+878 silly addNameRange     '0.12.1',
+878 silly addNameRange     '0.13.0',
+878 silly addNameRange     '0.13.1',
+878 silly addNameRange     '0.14.0',
+878 silly addNameRange     '0.14.1',
+878 silly addNameRange     '0.14.2',
+878 silly addNameRange     '0.14.3',
+878 silly addNameRange     '0.14.4',
+878 silly addNameRange     '0.14.5',
+878 silly addNameRange     '0.15.0',
+878 silly addNameRange     '0.15.1',
+878 silly addNameRange     '0.15.2',
+878 silly addNameRange     '0.15.3',
+878 silly addNameRange     '0.15.4',
+878 silly addNameRange     '0.15.5',
+878 silly addNameRange     '0.15.6',
+878 silly addNameRange     '0.16.0',
+878 silly addNameRange     '0.17.0',
+878 silly addNameRange     '0.18.0',
+878 silly addNameRange     '0.19.0',
+878 silly addNameRange     '0.20.0',
+878 silly addNameRange     '0.20.1',
+878 silly addNameRange     '0.20.2',
+878 silly addNameRange     '0.21.0',
+878 silly addNameRange     '0.22.0',
+878 silly addNameRange     '0.23.0',
+878 silly addNameRange     '0.23.1',
+878 silly addNameRange     '0.24.0',
+878 silly addNameRange     '0.25.0',
+878 silly addNameRange     '0.26.0' ] ]
+879 verbose addNamed [ 'css-loader', '0.23.1' ]
+880 verbose addNamed [ '0.23.1', '0.23.1' ]
+881 silly lockFile 0dd5a18a-css-loader-0-23-1 css-loader@0.23.1
+882 verbose lock css-loader@0.23.1 /home/lonac_rally/.npm/0dd5a18a-css-loader-0-23-1.lock
+883 http 304 https://registry.npmjs.org/gulp-concat
+884 silly registry.get cb [ 304,
+884 silly registry.get   { date: 'Wed, 23 Nov 2016 05:06:06 GMT',
+884 silly registry.get     via: '1.1 varnish',
+884 silly registry.get     'cache-control': 'max-age=300',
+884 silly registry.get     etag: '"58337634-a110"',
+884 silly registry.get     age: '0',
+884 silly registry.get     connection: 'keep-alive',
+884 silly registry.get     'x-served-by': 'cache-lhr6322-LHR',
+884 silly registry.get     'x-cache': 'MISS',
+884 silly registry.get     'x-cache-hits': '0',
+884 silly registry.get     'x-timer': 'S1479877566.360357,VS0,VE146',
+884 silly registry.get     vary: 'Accept-Encoding' } ]
+885 verbose etag gulp-concat from cache
+886 silly addNameRange number 2 { name: 'gulp-concat',
+886 silly addNameRange   range: '>=2.6.0-0 <3.0.0-0',
+886 silly addNameRange   hasData: true }
+887 silly addNameRange versions [ 'gulp-concat',
+887 silly addNameRange   [ '0.0.1',
+887 silly addNameRange     '1.0.0',
+887 silly addNameRange     '1.1.0',
+887 silly addNameRange     '2.0.0',
+887 silly addNameRange     '2.1.0',
+887 silly addNameRange     '2.1.1',
+887 silly addNameRange     '2.1.2',
+887 silly addNameRange     '2.1.3',
+887 silly addNameRange     '2.1.4',
+887 silly addNameRange     '2.1.5',
+887 silly addNameRange     '2.1.6',
+887 silly addNameRange     '2.1.7',
+887 silly addNameRange     '2.2.0',
+887 silly addNameRange     '2.3.0',
+887 silly addNameRange     '2.3.3',
+887 silly addNameRange     '2.3.4',
+887 silly addNameRange     '2.3.5',
+887 silly addNameRange     '2.4.0',
+887 silly addNameRange     '2.4.1',
+887 silly addNameRange     '2.4.2',
+887 silly addNameRange     '2.4.3',
+887 silly addNameRange     '2.5.0',
+887 silly addNameRange     '2.5.1',
+887 silly addNameRange     '2.5.2',
+887 silly addNameRange     '2.6.0',
+887 silly addNameRange     '2.6.1' ] ]
+888 verbose addNamed [ 'gulp-concat', '2.6.1' ]
+889 verbose addNamed [ '2.6.1', '2.6.1' ]
+890 silly lockFile 00090d25-gulp-concat-2-6-1 gulp-concat@2.6.1
+891 verbose lock gulp-concat@2.6.1 /home/lonac_rally/.npm/00090d25-gulp-concat-2-6-1.lock
+892 error Error: No compatible version found: webpack@'>=2.1.0-beta.15 <=2.1.0--beta.22'
+892 error Valid install targets:
+892 error ["0.1.0","0.1.1","0.1.2","0.1.3","0.1.4","0.1.5","0.1.6","0.2.0","0.2.1","0.2.2","0.2.3","0.2.4","0.2.6","0.2.7","0.2.8","0.3.0","0.3.1","0.3.2","0.3.3","0.3.4","0.3.6","0.3.7","0.3.8","0.3.9","0.3.10","0.3.11","0.3.12","0.3.13","0.3.14","0.3.15","0.3.16","0.3.17","0.3.18","0.3.19","0.3.20","0.4.0","0.4.1","0.4.2","0.4.3","0.4.4","0.4.5","0.4.6","0.4.7","0.4.8","0.4.9","0.4.10","0.4.11","0.4.12","0.4.13","0.4.14","0.4.15","0.4.16","0.4.17","0.4.18","0.4.19","0.4.20","0.4.21","0.4.23","0.4.24","0.4.25","0.5.0","0.5.1","0.5.2","0.5.3","0.5.4","0.5.5","0.5.6","0.5.7","0.5.8","0.5.10","0.6.0","0.6.1","0.6.2","0.7.0-beta","0.7.0-beta2","0.7.0-beta3","0.7.0-beta4","0.7.0-beta5","0.7.0-beta6","0.7.0-beta7","0.7.0-beta8","0.7.0","0.7.1","0.7.2","0.7.3","0.7.4","0.7.5","0.7.6","0.7.7","0.7.8","0.7.9","0.7.11","0.7.12","0.7.13","0.7.14","0.7.15","0.7.16","0.7.17","0.8.0-beta1","0.8.0-beta2","0.8.0-beta3","0.8.0-beta4","0.8.0","0.8.2","0.8.3","0.9.0-beta1","0.9.0-beta2","0.9.0-beta4","0.9.0-beta5","0.9.0-beta6","0.9.0-beta7","0.9.0-beta8","0.9.0-beta9","0.9.0-beta10","0.9.0-beta11","0.9.0-beta12","0.9.0-beta13","0.9.0-beta14","0.9.0-beta15","0.9.0-beta16","0.9.0-beta17","0.9.0-beta18","0.9.0-beta19","0.9.0-beta20","0.9.0-beta21","0.9.0-beta22","0.9.0-beta23","0.9.0-beta24","0.9.0-beta25","0.9.0-beta26","0.9.0-beta27","0.9.0-beta28","0.9.0-beta29","0.9.0-beta30","0.9.0-beta31","0.9.0-beta32","0.9.0-beta33","0.9.0-beta34","0.9.0-beta35","0.9.0-beta36","0.9.0-beta37","0.9.0-beta38","0.9.0","0.9.1","0.9.2","0.9.3","0.10.0-beta2","0.10.0-beta3","0.10.0-beta5","0.10.0-beta6","0.10.0-beta7","0.10.0-beta8","0.10.0-beta9","0.10.0-beta10","0.10.0-beta11","0.10.0-beta12","0.10.0-beta13","0.10.0-beta14","0.10.0-beta15","0.10.0-beta16","0.10.0-beta17","0.10.0-beta18","0.10.0-beta19","0.10.0-beta20","0.10.0-beta21","0.10.0-beta22","0.10.0-beta23","0.10.0-beta24","0.10.0-beta25","0.10.0","0.11.0-beta1","0.11.0-beta2","0.11.0-beta3","0.11.0-beta4","0.11.0-beta5","0.11.0-beta6","0.11.0-beta7","0.11.0-beta8","0.11.0-beta9","0.11.0-beta10","0.11.0-beta11","0.11.0-beta12","0.11.0-beta13","0.11.0-beta14","0.11.0-beta15","0.11.0-beta16","0.11.0-beta17","0.11.0-beta18","0.11.0-beta19","0.11.0-beta20","0.11.0-beta21","0.11.0-beta22","0.11.0-beta23","0.11.0-beta24","0.11.0-beta25","0.11.0-beta26","0.11.0-beta27","0.11.0-beta28","0.11.0-beta29","0.11.0","0.11.1","0.11.2","0.11.3","0.11.4","0.11.5","0.11.6","0.11.7","0.11.8","0.11.9","0.11.10","0.11.11","0.11.12","0.11.13","0.11.14","0.11.15","1.0.0-beta1","1.0.0-beta2","1.0.0-beta3","1.0.0-beta4","0.11.16","0.11.17","0.11.18","1.0.0-beta5","1.0.0-beta6","1.0.0-beta7","1.0.0-beta8","1.0.0-beta9","1.0.0-rc1","1.0.0-rc2","1.0.0-rc3","1.0.0-rc4","1.0.0-rc5","1.0.0-rc7","1.0.0-rc8","1.0.0-rc9","1.0.0-rc11","1.0.0-rc12","1.0.0","1.0.1","1.0.3","1.0.4","1.0.5","1.1.0-beta1","1.1.0-beta2","1.1.0-beta3","1.1.0-beta4","1.1.0-beta5","1.1.0-beta6","1.1.0-beta7","1.1.0-beta8","1.1.0-beta9","1.1.0-beta10","1.1.0-beta12","1.1.0","1.1.1","1.1.2","1.1.3","1.1.4","1.1.5","1.1.6","1.1.7","1.1.8","1.1.9","1.1.10","1.1.11","1.2.0-beta1","1.2.0-beta2","1.2.0-beta4","1.2.0-beta5","1.2.0-beta6","1.3.0-beta1","1.3.0-beta2","1.3.0-beta3","1.3.0-beta4","1.3.0-beta5","1.3.0-beta6","1.3.0-beta7","1.3.0-beta8","1.3.0-beta9","1.3.1-beta1","1.3.1-beta2","1.3.1-beta3","1.3.1-beta4","1.3.1-beta5","1.3.1-beta6","1.3.1-beta7","1.3.1-beta8","1.3.1-beta9","1.3.2-beta1","1.3.2-beta2","1.3.2-beta3","1.3.2-beta4","1.3.2-beta5","1.3.2-beta6","1.3.2-beta7","1.3.2-beta8","1.3.2-beta9","1.3.3-beta1","1.3.3-beta2","1.3.4","1.3.5","1.3.6","1.3.7","1.4.0-beta1","1.4.0-beta2","1.4.0-beta3","1.4.0-beta4","1.4.0-beta5","1.4.0-beta6","1.4.0-beta7","1.4.0-beta8","1.4.0-beta9","1.4.0-beta10","1.4.1-beta1","1.4.2","1.4.3","1.4.4","1.4.5","1.4.6","1.4.7","1.4.8","1.4.9","1.4.10","1.4.11","1.4.12","1.4.13","1.4.14","1.4.15","1.5.0","1.5.1","1.5.2","1.5.3","1.6.0","1.7.0","1.7.1","1.7.2","1.7.3","1.8.0","1.8.1","1.8.2","1.8.3","1.8.4","1.8.5","1.8.6","1.8.7","1.8.8","1.8.9","1.8.10","1.8.11","1.9.0","1.9.1","1.9.2","1.9.3","1.9.4","1.9.5","1.9.6","1.9.7","1.9.8","1.9.9","1.9.10","1.9.11","1.9.12","1.9.13","1.10.0","1.10.1","1.10.2","1.10.3","1.10.4","1.10.5","1.11.0","1.12.0","1.12.1","1.12.2","2.0.0-beta","1.12.3","1.12.4","1.12.5","1.12.6","1.12.7","1.12.8","1.12.9","2.0.1-beta","2.0.2-beta","1.12.10","1.12.11","2.0.4-beta","1.12.12","2.0.5-beta","2.0.6-beta","2.0.7-beta","1.12.13","2.1.0-beta.0","2.1.0-beta.1","2.1.0-beta.2","1.12.14","2.1.0-beta.3","2.1.0-beta.4","2.1.0-beta.5","1.12.15","1.13.0","2.1.0-beta.6","2.1.0-beta.7","1.13.1","2.1.0-beta.8","2.1.0-beta.9","2.1.0-beta.10","2.1.0-beta.11","2.1.0-beta.12","2.1.0-beta.13","2.1.0-beta.14","2.1.0-beta.15","2.1.0-beta.16","2.1.0-beta.17","2.1.0-beta.18","2.1.0-beta.19","2.1.0-beta.20","2.1.0-beta.21","1.13.2","2.1.0-beta.22","2.1.0-beta.23","2.1.0-beta.24","2.1.0-beta.25","1.13.3","2.1.0-beta.26","2.1.0-beta.27"]
+892 error     at installTargetsError (/usr/share/npm/lib/cache.js:719:10)
+892 error     at next (/usr/share/npm/lib/cache.js:698:17)
+892 error     at /usr/share/npm/lib/cache.js:675:5
+892 error     at saved (/usr/share/npm/node_modules/npm-registry-client/lib/get.js:142:7)
+892 error     at /usr/lib/nodejs/graceful-fs/polyfills.js:133:7
+892 error     at Object.oncomplete (fs.js:107:15)
+893 error If you need help, you may report this log at:
+893 error     <http://github.com/isaacs/npm/issues>
+893 error or email it to:
+893 error     <npm-@googlegroups.com>
+894 error System Linux 3.13.0-101-generic
+895 error command "/usr/bin/nodejs" "/usr/bin/npm" "install"
+896 error cwd /var/www/html/mkopo
+897 error node -v v0.10.25
+898 error npm -v 1.3.10
+899 verbose exit [ 1, true ]

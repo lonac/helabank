@@ -1,0 +1,26 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+class pagecontroller extends Controller
+{
+    //home
+    public function welcome()
+    {
+    	return view('welcome');
+    }
+
+    //about
+    public function about()
+    {
+        return view('about');
+    }
+
+    //contacts
+    public function contacts()
+    {
+    	return view('contacts');
+    }
+}
