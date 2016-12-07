@@ -23,4 +23,10 @@ class pagecontroller extends Controller
     {
     	return view('contacts');
     }
+
+    //companies
+    public function companies()
+    {
+        return view('companies');
+    }
 }
