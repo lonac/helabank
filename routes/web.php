@@ -32,3 +32,8 @@ Auth::routes();
 Route::get('/home', 'HomeController@index');
 
 Route::resource('companies', 'CompanyController');
+
+Route::get('loans', function() {
+	$loans = App\Loan::all();
+	return view('loans.index', compact('loans'));
+});
