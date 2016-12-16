@@ -30,3 +30,5 @@ Route::post('users/login','Auth\LoginController@posrLogin');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
+
+Route::resource('companies', 'CompanyController');
