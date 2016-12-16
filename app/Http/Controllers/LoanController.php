@@ -12,6 +12,12 @@ use App\Loan;
 
 class LoanController extends Controller
 {
+
+	public function __construct()
+	{
+		$this->middleware('auth');
+	}
+	
     public function index($id)
     {
     	$company = Company::whereUserId(Auth::user()->id)->whereId($id)->first();
