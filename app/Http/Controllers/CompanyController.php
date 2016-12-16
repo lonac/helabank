@@ -115,6 +115,10 @@ class CompanyController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $company = Company::whereUserId(Auth::user()->id)->whereId($id)->first();
+        
+        $company->delete();
+
+        return redirect('companies');
     }
 }

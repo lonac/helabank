@@ -10,6 +10,12 @@
 		@if( ! Auth::guest())
 			@if($company->ceo->id === Auth::user()->id)
 				<a href="{{ url('companies/' . $company->id . '/edit') }}">Edit</a>
+				{{-- TODO Add confirmation dialog --}}
+				<form method="POST" action="{{ url('companies/' . $company->id) }}">
+					{{ method_field('delete') }}
+					{{ csrf_field() }}
+					<button type="submit">Delete</button>
+				</form>
 			@endif		
 		@endif
 	</div>
