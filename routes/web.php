@@ -37,3 +37,5 @@ Route::get('loans', function() {
 	$loans = App\Loan::all();
 	return view('loans.index', compact('loans'));
 });
+
+Route::get('companies/{id}/loans', 'LoanController@index');
