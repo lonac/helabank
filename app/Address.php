@@ -11,4 +11,9 @@ class Address extends Model
     	'line_two',
     	'user_id',
     ];
+
+    public function user()
+    {
+    	return $this->belongsTo('App\User');
+    }
 }
