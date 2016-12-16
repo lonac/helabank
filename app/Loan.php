@@ -11,4 +11,14 @@ class Loan extends Model
     	'company_id',
     	'amount',
     ];
+
+    public function user()
+    {
+    	return $this->belongsTo('App\User');
+    }
+
+    public function company()
+    {
+    	return $this->belongsTo('App\Company');
+    }
 }

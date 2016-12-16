@@ -16,4 +16,9 @@ class Company extends Model
     {
     	return $this->belongsTo('App\User', 'user_id');
     }
+
+    public function loans()
+    {
+    	return $this->hasMany('App\Loan');
+    }
 }
