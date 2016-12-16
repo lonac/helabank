@@ -39,3 +39,5 @@ Route::get('loans', function() {
 });
 
 Route::get('companies/{id}/loans', 'LoanController@index');
+
+Route::get('account/my-loans', 'UserController@myLoans');
