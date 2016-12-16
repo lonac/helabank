@@ -11,4 +11,9 @@ class Company extends Model
     	'description',
     	'user_id',
     ];
+
+    public function ceo()
+    {
+    	return $this->belongsTo('App\User', 'user_id');
+    }
 }
