@@ -25,7 +25,7 @@ class CreateCustomerFormTable extends Migration
             $table->string('creditor');
             $table->string('edu_background');
             $table->string('loan_app_reason');
-            $table->string('total_loan1')
+            $table->string('total_loan1');
             $table->string('total_loan2');
             $table->string('working_company');
             $table->string('position_on_wc');

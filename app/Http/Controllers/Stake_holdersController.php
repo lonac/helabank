@@ -16,31 +16,7 @@ class Stake_holdersController extends Controller
         //
     }
 
-    public function firstname()
-    {
-        return view('company.stake_holders.firstname');
-    }
-
-    public function lastname()
-    {
-        return view('company.stake_holders.lastname');
-    }
-
-    public function position()
-    {
-        return view('company.stake_holders.position');
-    }
-
-    public function sh_email()
-    {
-        return view('company.stake_holders.sh_email');
-    }
-
-    public function sh_phone()
-    {
-        return view('company.stake_holders.sh_phone');
-    }
-
+   
     /**
      * Show the form for creating a new resource.
      *
