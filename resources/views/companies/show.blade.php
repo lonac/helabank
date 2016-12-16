@@ -45,7 +45,14 @@
 				<div class="panel-body">
 					{!! $company->description !!}
 				</div>
-			</div>			
+			</div>	
+			<div class="panel panel-default">
+				<div class="panel-heading">
+				</div>
+				<div class="panel-body">
+					<a href="{{ url('companies/'.$company->id.'/loans/apply') }}" class="btn btn-success btn-lg btn-block">Apply Loan</a>
+				</div>
+			</div>						
 		</div>
 		<div class="col-sm-3">
 			<div class="panel panel-default">
