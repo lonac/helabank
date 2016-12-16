@@ -78,7 +78,11 @@ class CompanyController extends Controller
      */
     public function edit($id)
     {
-        //
+        $company = Company::whereUserId(Auth::user()->id)->whereId($id)->first();
+        if($company){
+            return  view('companies.edit', compact('company'));
+        }
+        return redirect('companies');
     }
 
     /**
@@ -90,7 +94,17 @@ class CompanyController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $this->validate($request, [
+            'name' => 'required|max:255',
+            'description' => 'min:10',
+        ]);
+
+        $company = Company::whereUserId(Auth::user()->id)->whereId($id)->first();
+        $company->name = $request->input('name');
+        $company->description = $request->input('description');        
+        $company->save();
+
+        return redirect('companies/' . $company->id);
     }
 
     /**

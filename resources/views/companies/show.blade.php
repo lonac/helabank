@@ -7,6 +7,11 @@
 <div class="jumbotron">
 	<div class="container text-center">
 		<h1>{{ $company->name }}</h1>
+		@if( ! Auth::guest())
+			@if($company->ceo->id === Auth::user()->id)
+				<a href="{{ url('companies/' . $company->id . '/edit') }}">Edit</a>
+			@endif		
+		@endif
 	</div>
 </div>
 
