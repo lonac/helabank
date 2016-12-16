@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 
 use App\Company;
 
+use Auth;
+
 class CompanyController extends Controller
 {
     /**
@@ -26,7 +28,7 @@ class CompanyController extends Controller
      */
     public function create()
     {
-        //
+        return view('companies.create');
     }
 
     /**
@@ -37,7 +39,19 @@ class CompanyController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate($request, [
+            'name' => 'required|max:255',
+            'description' => 'min:10',
+        ]);
+
+        $company = new Company();
+        $company->name = $request->input('name');
+        $company->description = $request->input('description');
+        $company->user_id = Auth::user()->id;
+
+        $company->save();
+
+        return redirect('companies');
     }
 
     /**
