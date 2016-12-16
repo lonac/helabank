@@ -17,7 +17,7 @@
 						<h2>{{ $company->name }}</h2>
 						<p>{{ $company->description }}</p>
 						<p><strong>CEO</strong>: {{ $company->ceo->name }}</p>
-						<a href="#">Read more &raquo;</a>
+						<a href="{{ url('companies/' . $company->id) }}">Read more &raquo;</a>
 					</div>
 				</div>
 
