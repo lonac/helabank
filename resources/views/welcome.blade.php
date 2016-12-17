@@ -3,21 +3,15 @@
 
 @section('content')
     <div class="container">
+        <div class="well">
         <div class="row banner">
             <div class="col-sm-8 col-md-12">
-            <div class="side-borders">
-                    <div class="hero-bg" style="background-image:url('/images/mpunga.png');background-repeat: no-repeat;background-size: 100% 100%; height: 350px;">
-                        <div class="hero-cnt medium-8 large-6" align="right">
-                            <p><h1>Zaidi ya kampuni 10000 kukupa</p></h1>
-                                  <h1><p>pesa kwa asilimia ndogo.....!</p></h1>
-                            
-                            <div class="cta">
-                                    <a href="/compare-accounts.html" class="button alt">Learn more</a>
-                            </div>
+                <div class="side-borders">
+                        <div class="hero-bg" style="background-image:url('/images/mpunga.png');background-repeat: no-repeat;background-size: 100% 100%; height: 350px;">
                         </div>
-                    </div>
                 </div>
             </div>
+        </div>
         </div>
 
         <div class="row">
