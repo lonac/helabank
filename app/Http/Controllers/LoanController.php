@@ -41,6 +41,9 @@ class LoanController extends Controller
     	$loan->user_id = Auth::user()->id;
     	$loan->company_id = $company->id;
     	$loan->amount = $request->input('amount');
+        $loan->loantime= $request->input('loantime');
+        $loan->reason = $request->input('reason');
+        $loan->phone = $request->input('phone');
     	$loan->save();
 
     	return redirect('account/my-loans');

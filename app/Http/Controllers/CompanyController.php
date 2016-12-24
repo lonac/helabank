@@ -50,6 +50,11 @@ class CompanyController extends Controller
 
         $company = new Company();
         $company->name = $request->input('name');
+        $company->line_one= $request->input('line_one');
+        $company->line_two = $request->input('line_two');
+        $company->phone1 = $request->input('phone1');
+        $company->phone2 = $request->input('phone2');
+        $company->email = $request->input('email');
         $company->description = $request->input('description');
         $company->user_id = Auth::user()->id;
 
@@ -100,8 +105,15 @@ class CompanyController extends Controller
         ]);
 
         $company = Company::whereUserId(Auth::user()->id)->whereId($id)->first();
+        $company = new Company();
         $company->name = $request->input('name');
-        $company->description = $request->input('description');        
+        $company->line_one= $request->input('line_one');
+        $company->line_two = $request->input('line_two');
+        $company->phone1 = $request->input('phone1');
+        $company->phone2 = $request->input('phone2');
+        $company->email = $request->input('email');
+        $company->description = $request->input('description');
+        $company->user_id = Auth::user()->id;       
         $company->save();
 
         return redirect('companies/' . $company->id);

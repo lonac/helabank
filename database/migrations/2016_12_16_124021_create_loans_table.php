@@ -20,6 +20,9 @@ class CreateLoansTable extends Migration
             $table->integer('company_id')->unsigned()->index();
             $table->foreign('company_id')->references('id')->on('companies')->onUpdate('cascade');
             $table->double('amount')->default(0.0);
+            $table->integer('loantime')->default(31);
+            $table->string('phone');
+            $table->string('reason');
             $table->timestamps();
         });
     }

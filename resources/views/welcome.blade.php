@@ -15,52 +15,53 @@
         </div>
 
         <div class="row">
-            <div class="col-sm-6 col-md-3">
-                <div class="caption">
-                    <h3>5BFs Company</h3>
-                        <p>The company offers money for 10%. Become member and get 5% bonus!.......</p>
-                    <p>
-                        <a href="#" class="btn btn-primary" role="button">
-                            Read More
-                        </a>
-                    </p>
-                </div>
-            </div>
-
-             <div class="col-sm-6 col-md-3">
+            <div class="col-sm-6 col-md-4">
+                <div class="panel panel-primary">
+                    <div class="panel-body">
                         <div class="caption">
-                            <h3>LonacRally Company</h3>
-                                <p>Company name, categories, offers to member and other bonuses!</p>
-                            <p>
-                                <a href="#" class="btn btn-primary" role="button">
-                                    Read More
+                            <h3>Owning Financial Company?</h3>
+                                <p>Meet people easily with MKOPO site. You can now register your organization and let more people
+                                    visit and apply for loan or other services.</p>
+                                <a href="{{ url('register')}}" class="btn btn-primary" role="button">
+                                    Register Company
                                 </a>
                             </p>
                         </div>
-            </div>
-
-             <div class="col-sm-6 col-md-3">
-                <div class="caption">
-                    <h3>CIVE LTD company</h3>
-                        <p>Company name, categories, offers to member and other bonuses!</p>
-                    <p>
-                        <a href="#" class="btn btn-primary" role="button">
-                            Read More
-                        </a>
-                    </p>
+                    </div>
                 </div>
             </div>
 
-            <div class="col-sm-6 col-md-3">
+             <div class="col-sm-6 col-md-4">
+                <div class="panel panel-primary">
+                    <div class="panel-body">
                         <div class="caption">
-                            <h3>Tunakopesha LTD</h3>
-                                <p>Company name, categories, offers to member and other bonuses!</p>
-                            <p>
-                                <a href="#" class="btn btn-primary" role="button">
-                                    Read More
+                            <h3>Looking for Loan Application?</h3>
+                                <p>Here is the list of different organizations and companies which provides different loan 
+                                    services to their customers
+                               !</p>
+                                <a href="{{ url('companies')}}" class="btn btn-primary" role="button">
+                                    Choose Company
                                 </a>
                             </p>
-                      </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <div class="col-sm-6 col-md-4">
+                <div class="panel panel-primary">
+                    <div class="panel-body">
+                        <div class="caption">
+                            <h3>Learn about Power of Money!</h3>
+                                <p>The knowledge of getting, serving and using money is offered by different people
+                                    who have successed in this field.</p>
+                                <a href="{{ url('#')}}" class="btn btn-primary" role="button">
+                                   Financial Docs
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
     <h2 class="alt-h2">Mpung@ grows you richer!</h2>

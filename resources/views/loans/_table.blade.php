@@ -5,6 +5,9 @@
 			<th>Customer</th>
 			<th>Amount</th>
 			<th>Company</th>
+			<th>Loan Time</th>
+			<th>Phone Number</th>
+			<th>Reason</th>
 			<th>Date of application</th>
 			<th>Authorize</th>
 		</tr>
@@ -16,6 +19,9 @@
 				<td>{{ $loan->user->name }}</td>
 				<td>{{ $loan->amount }}</td>
 				<td>{{ $loan->company->name }}</td>
+				<td>{{ $loan->loantime }}</td>
+				<td>{{ $loan->phone }}</td>
+				<td>{{ $loan->reason }}</td>
 				<td>{{ $loan->created_at }}</td>
 				<td><a href="#" class="btn btn-info"><span class="glyphicon glyphicon-ok"></span></a></td>
 			</tr>

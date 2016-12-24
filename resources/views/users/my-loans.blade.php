@@ -19,17 +19,23 @@
 						<th>Customer</th>
 						<th>Amount</th>
 						<th>Company</th>
+						<th>Loan Time</th>
+						<th>Phone Number</th>
+						<th>Reason</th>
 						<th>Date of application</th>
-						<th>Status</th>
+						<th>Authorize</th>
 					</tr>
 				</thead>
 				<tbody>
 					@foreach($loans as $loan)
 						<tr>
 							<td>{{ $loan->id }}</td>
-							<td>{{ $loan->user->name }}</td>
+							<td>{{ $loan->user->firstname }}  {{ $loan->user->lastname }}</td>
 							<td>{{ $loan->amount }}</td>
 							<td>{{ $loan->company->name }}</td>
+							<td>{{ $loan->loantime }}</td>
+							<td>{{ $loan->phone }}</td>
+							<td>{{ $loan->reason }}</td>
 							<td>{{ $loan->created_at }}</td>
 							<td>Pending</td>
 						</tr>
