@@ -16,7 +16,7 @@
 		@foreach($loans as $loan)
 			<tr>
 				<td>{{ $loan->id }}</td>
-				<td>{{ $loan->user->name }}</td>
+				<td>{{ $loan->user->firstname }}</td>
 				<td>{{ $loan->amount }}</td>
 				<td>{{ $loan->company->name }}</td>
 				<td>{{ $loan->loantime }}</td>
