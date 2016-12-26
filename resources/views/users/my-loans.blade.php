@@ -44,8 +44,9 @@
 			</table>
 
 		@else
-
-			Nothing here
+		<h3>
+			<font color="red">Sorry! No Loans for this account!</font>
+		</h3>
 
 		@endif
 	</div>		

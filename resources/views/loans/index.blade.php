@@ -14,7 +14,7 @@
 
 		@else
 
-			Nothing here
+			There is no loan so far!
 
 		@endif		
 

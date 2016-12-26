@@ -6,8 +6,9 @@
 
 <div class="container">
 	<div class="row">
-		<h2>Companies</h2>
-
+		<div class="jumbotron">
+		<h3>Here are Companies and Organizations</h3>
+	</div>
 		@if($companies->count() > 0)
 
 			@foreach($companies as $company)

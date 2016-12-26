@@ -1,6 +1,6 @@
 <footer>
-    <div class="container">
-        <div class="row" style="background-color: #000000">
+    <div class="container-well">
+        <div class="row" style="background-color: #d1d1e0">
             <div class="col-sm-4">
                 <h3>Contacts Us:</h3>
                 <address>
@@ -28,9 +28,8 @@
 
                 </ul>
             </div>
-        </div>
-        <div class="row">
-            <p class="text-center">
+
+              <p class="text-center">
                 &copy 2016 Mpunga | All Rights Reserved
             </p>
         </div>

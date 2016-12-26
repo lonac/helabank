@@ -6,7 +6,8 @@
 
 <div class="jumbotron">
 	<div class="container text-center">
-		<h2>{{ $company->name }}</h2>
+
+		<h3>{{ $company->name }}</h3>
 		@if( ! Auth::guest())
 			@if($company->ceo->id === Auth::user()->id)
 				<a href="{{ url('companies/' . $company->id . '/edit') }}">Edit</a>
@@ -26,7 +27,7 @@
 		<div class="col-sm-3">
 			<div class="panel panel-default">
 				<div class="panel-heading">
-					<h3 class="panel-title">Contact</h3>
+					<h3 class="panel-title">Contacts:</h3>
 				</div>
 				<div class="panel-body">
 					<p><strong>Address</strong>: {{ $company->line_one}}
@@ -62,6 +63,7 @@
 				</div>
 				<div class="panel-body">
 					CEO: {{ $company->ceo->firstname }}  {{ $company->ceo->lastname }}
+					STAKE HOLDRES:
 				</div>
 			</div>	
 		</div>

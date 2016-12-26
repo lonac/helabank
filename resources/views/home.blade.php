@@ -19,7 +19,23 @@
         <div class="col-md-10 col-md-offset-1">
             <div class="panel panel-default">
                 <div class="panel-body">
-                     Here is <a href="{{url('loans')}}">Loan Customers:</a> 
+                   
+                    @if($companies->count() >0)
+                        This loans for a logged in person and the one who has created the company
+                         <p>Here are <a href="{{url('loans')}}">Loan Customers:</a> at  </p>
+                    
+                    @else
+                        <font color="red">Sorry You have no Company</font>
+                    @endif
+
+                    //check if the user has loans then display his or her loans
+
+                    @if( $loans->count()>0)
+                        <p>Here are <a href="{{url('account/my-loans')}}">My Loans:</a></p>
+                    @else
+                        <font color="red">Sorry You have no Loans</font>
+                    @endif
+
                 </div>
             </div>
         </div>
