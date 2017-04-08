@@ -1,6 +1,6 @@
 @extends('layout.master')
 
-@section('title', 'Companies')
+@section('title', 'Companies Loans')
 
 @section('content')
 

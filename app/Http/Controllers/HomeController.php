@@ -2,6 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Company;
+
+use Auth;
+
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -23,6 +27,7 @@ class HomeController extends Controller
      */
     public function index()
     {
+        //$company= Company::whereUserId(Auth::Company()->id)->whereId($id)->first();
         return view('home');
     }
 }

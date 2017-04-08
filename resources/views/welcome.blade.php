@@ -31,7 +31,7 @@
                             <h3>Owning Financial Company?</h3>
                                 <p>Meet people easily with MKOPO site. You can now register your organization and let more people
                                     visit and apply for loan or other services.</p>
-                                <a href="{{ url('register')}}" class="btn btn-primary" role="button">
+                                <a href="{{ url('companies/create')}}" class="btn btn-primary" role="button">
                                     Register Company
                                 </a>
                             </p>

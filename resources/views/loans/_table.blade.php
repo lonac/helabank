@@ -8,6 +8,7 @@
 			<th>Loan Time</th>
 			<th>Phone Number</th>
 			<th>Reason</th>
+			<th>Sponsor</th>
 			<th>Date of application</th>
 			<th>Authorize</th>
 		</tr>
@@ -22,6 +23,7 @@
 				<td>{{ $loan->loantime }}</td>
 				<td>{{ $loan->phone }}</td>
 				<td>{{ $loan->reason }}</td>
+				<td>{{ $loan->sponsor }}</td>
 				<td>{{ $loan->created_at }}</td>
 				<td><a href="#" class="btn btn-info"><span class="glyphicon glyphicon-ok"></span></a></td>
 			</tr>

@@ -36,6 +36,10 @@
 							<label for="reason">Reason</label>
 							<textarea name="reason" id="reason" class="form-control" rows="10" placeholder="Write something why you are applying"></textarea>
 						</div>
+						<div class="form-group">
+							<label for="sponsor">Sponsor</label>
+							<input type="text" name="sponsor" id="sponsor" class="form-control" rows="10" placeholder="Name of the Sponsor From this company">
+						</div>
 						<button type="submit" class="btn btn-success">Apply</button>
 					</form>
 

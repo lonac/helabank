@@ -44,6 +44,7 @@ class LoanController extends Controller
         $loan->loantime= $request->input('loantime');
         $loan->reason = $request->input('reason');
         $loan->phone = $request->input('phone');
+        $loan->sponsor = $request->input('sponsor');
     	$loan->save();
 
     	return redirect('account/my-loans');

@@ -1,6 +1,6 @@
 @extends('layout.master')
 
-@section('title', 'Companies')
+@section('title', 'My Loans')
 
 @section('content')
 
@@ -22,6 +22,7 @@
 						<th>Loan Time</th>
 						<th>Phone Number</th>
 						<th>Reason</th>
+						<th>Sponsor</th>
 						<th>Date of application</th>
 						<th>Authorize</th>
 					</tr>
@@ -36,6 +37,7 @@
 							<td>{{ $loan->loantime }}</td>
 							<td>{{ $loan->phone }}</td>
 							<td>{{ $loan->reason }}</td>
+							<td>{{ $loan->sponsor }}</td>
 							<td>{{ $loan->created_at }}</td>
 							<td>Pending</td>
 						</tr>
@@ -46,6 +48,7 @@
 		@else
 		<h3>
 			<font color="red">Sorry! No Loans for this account!</font>
+			<a href="{{url('companies')}}">Appy Now?</a>
 		</h3>
 
 		@endif

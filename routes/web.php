@@ -45,3 +45,19 @@ Route::get('account/my-loans', 'UserController@myLoans');
 Route::get('companies/{id}/loans/apply', 'LoanController@create');
 
 Route::post('companies/{id}/loans/apply', 'LoanController@store');
+
+Route::post('transactions/form_records','TransactionsController@store');
+
+Route::get('transactions/form_records','TransactionsController@create');
+
+Route::get('transactions/records','TransactionsController@index');
+
+Route::post('transactions/records','TransactionsController@index');
+
+Route::any('/searchCompany',function(){
+    $q = Input::get ( 'q' );
+    $comp = Company::where('name','LIKE','%'.$q.'%')->orWhere('email','LIKE','%'.$q.'%')->get();
+    if(count($comp) > 0)
+        return view('searchCompany')->withDetails($comp)->withQuery ( $q );
+    else return view ('searchCompany')->withMessage('No Details found. Try to search again !');
+});

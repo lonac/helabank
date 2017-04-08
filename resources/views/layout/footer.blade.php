@@ -30,7 +30,7 @@
             </div>
 
               <p class="text-center">
-                &copy 2016 Mpunga | All Rights Reserved
+                &copy 2016 Mkopo | All Rights Reserved
             </p>
         </div>
     </div>

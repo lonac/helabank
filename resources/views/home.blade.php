@@ -1,4 +1,5 @@
 @extends('layout.master')
+
 @section('title','Account')
 
 @section('content')
@@ -16,29 +17,62 @@
             </div>
         </div>
 
+        {{-- VIEW MY COMPANY --}}
+
         <div class="col-md-10 col-md-offset-1">
             <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Company:</h3>
+                </div>
                 <div class="panel-body">
-                   
-                    @if($companies->count() >0)
-                        This loans for a logged in person and the one who has created the company
-                         <p>Here are <a href="{{url('loans')}}">Loan Customers:</a> at  </p>
-                    
-                    @else
-                        <font color="red">Sorry You have no Company</font>
-                    @endif
+                    {{-- check if the logged user has company --}}
+                    @if (! Auth::guest())
 
-                    //check if the user has loans then display his or her loans
 
-                    @if( $loans->count()>0)
-                        <p>Here are <a href="{{url('account/my-loans')}}">My Loans:</a></p>
-                    @else
-                        <font color="red">Sorry You have no Loans</font>
                     @endif
 
                 </div>
             </div>
         </div>
+
+        {{-- VIEW COMPANY LOANS --}}
+        <div class="col-md-10 col-md-offset-1">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Company's Loans:</h3>
+                </div>
+                <div class="panel-body">
+                    {{-- The company should show the list all loans app-forms and other requests --}}
+                    <a href="{{url('/loans')}}">View</a>
+                </div>
+            </div>
+        </div>
+
+        {{-- VIEW MY LOANS --}}
+         <div class="col-md-10 col-md-offset-1">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">My Own Loans:</h3>
+                </div>
+                <div class="panel-body">
+                    <a href="{{url('/account/my-loans')}}">View My Loans</a>    
+                </div>
+            </div>
+        </div>
+
+        {{-- COMPANY TRANSACTIONS --}}
+         <div class="col-md-10 col-md-offset-1">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Company's Transactions:</h3>
+                </div>
+                <div class="panel-body">
+                    <a href="{{url('#')}}">View Company Transactions</a>    
+                </div>
+            </div>
+        </div>
+
+
     </div>
 </div>
 @endsection

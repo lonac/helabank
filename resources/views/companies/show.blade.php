@@ -11,11 +11,18 @@
 		@if( ! Auth::guest())
 			@if($company->ceo->id === Auth::user()->id)
 				<a href="{{ url('companies/' . $company->id . '/edit') }}">Edit</a>
+
+
+				{{-- My company loans--}}
+
+
+
 				{{-- TODO Add confirmation dialog --}}
 				<form method="POST" action="{{ url('companies/' . $company->id) }}">
 					{{ method_field('delete') }}
+
 					{{ csrf_field() }}
-					<button type="submit">Delete</button>
+					<button type="submit" class="btn btn-danger">Delete</button>
 				</form>
 			@endif		
 		@endif

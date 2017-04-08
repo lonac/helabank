@@ -46,6 +46,8 @@ class CompanyController extends Controller
         $this->validate($request, [
             'name' => 'required|max:255',
             'description' => 'min:10',
+            'phone1'=>'required|max:10',
+            'phone2'=>'required|max:10',
         ]);
 
         $company = new Company();
