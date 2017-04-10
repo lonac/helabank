@@ -8,17 +8,17 @@
 	<div class="row">
 		<div class="jumbotron">
 			{{-- Form to Search for Companies--}}
-			{{-- <form action="{{url('/searchCompany')}}" method="POST" role="search">
+			<form action="{{url('companies/search')}}" method="POST" role="search">
 			    {{ csrf_field() }}
 			    <div class="input-group">
-			        <input type="text" class="form-control" name="q"
+			        <input type="text" class="form-control" name="searchcompany"
 			            placeholder="You can Search Companies Here"> <span class="input-group-btn">
 			            <button type="submit" class="btn btn-default">
 			                <span class="glyphicon glyphicon-search"></span>
 			            </button>
 			        </span>
 			    </div>
-				</form> --}}
+				</form>
 			</div>
 		@if($companies->count() > 0)
 

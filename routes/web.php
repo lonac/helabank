@@ -54,10 +54,7 @@ Route::get('transactions/records','TransactionsController@index');
 
 Route::post('transactions/records','TransactionsController@index');
 
-Route::any('/searchCompany',function(){
-    $q = Input::get ( 'q' );
-    $comp = Company::where('name','LIKE','%'.$q.'%')->orWhere('email','LIKE','%'.$q.'%')->get();
-    if(count($comp) > 0)
-        return view('searchCompany')->withDetails($comp)->withQuery ( $q );
-    else return view ('searchCompany')->withMessage('No Details found. Try to search again !');
-});
+Route::post('companies/search', 'CompanyController@search');
+
+Route::get('companies/search', 'CompanyController@search');
+

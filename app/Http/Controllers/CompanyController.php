@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Support\Facades\DB;
+
 use Illuminate\Http\Request;
 
 use App\Company;
@@ -134,5 +136,13 @@ class CompanyController extends Controller
         $company->delete();
 
         return redirect('companies');
+    }
+
+    public function search()
+    {
+         $comp = DB::table('companies')
+                ->where('name', 'like', 'searchcompany')
+                ->get();
+                return view('companies.search',compact('comp'));
     }
 }
