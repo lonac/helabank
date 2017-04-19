@@ -12,18 +12,14 @@
 			@if($company->ceo->id === Auth::user()->id)
 				<a href="{{ url('companies/' . $company->id . '/edit') }}">Edit</a>
 
-
-				{{-- My company loans--}}
-
-
-
 				{{-- TODO Add confirmation dialog --}}
-				<form method="POST" action="{{ url('companies/' . $company->id) }}">
+				<form method="POST" action="{{ url('companies/' . $company->id) }}"  onclick="return confirm('You are about to delete Company?');">
 					{{ method_field('delete') }}
 
 					{{ csrf_field() }}
 					<button type="submit" class="btn btn-danger">Delete</button>
 				</form>
+
 			@endif		
 		@endif
 	</div>
@@ -32,7 +28,7 @@
 <div class="container">
 	<div class="row">
 		<div class="col-sm-3">
-			<div class="panel panel-default">
+			<div class="panel panel-info">
 				<div class="panel-heading">
 					<h3 class="panel-title">Contacts:</h3>
 				</div>
@@ -47,7 +43,7 @@
 			</div>
 		</div>
 		<div class="col-sm-6">
-			<div class="panel panel-default">
+			<div class="panel panel-danger">
 				<div class="panel-heading">
 					<h3 class="panel-title">About</h3>
 				</div>
@@ -55,7 +51,7 @@
 					{!! $company->description !!}
 				</div>
 			</div>	
-			<div class="panel panel-default">
+			<div class="panel panel-success">
 				<div class="panel-heading">
 				</div>
 				<div class="panel-body">
@@ -64,13 +60,13 @@
 			</div>						
 		</div>
 		<div class="col-sm-3">
-			<div class="panel panel-default">
+			<div class="panel panel-info">
 				<div class="panel-heading">
 					<h3 class="panel-title">Organization Structure</h3>
 				</div>
 				<div class="panel-body">
-					CEO: {{ $company->ceo->firstname }}  {{ $company->ceo->lastname }}
-					STAKE HOLDRES:
+					<strong>CEO:</strong> {{ $company->ceo->firstname }}  {{ $company->ceo->lastname }} </br>
+					<strong>STAKE HOLDERS:</strong>
 				</div>
 			</div>	
 		</div>

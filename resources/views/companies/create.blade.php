@@ -45,6 +45,10 @@
 							<label for="email">Email</label>
 							<input type="email" name="email" class="form-control" id="email" placeholder="Email-Address">
 						</div>
+						<div class="form-group">
+							<label for="capital">Capital:</label>
+							<input type="number" name="capital" class="form-control" id="capital" placeholder="Capital??">
+						</div>
 						<button type="submit" class="btn btn-success">Create</button>
 					</form>
 

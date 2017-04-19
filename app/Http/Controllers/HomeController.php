@@ -27,7 +27,11 @@ class HomeController extends Controller
      */
     public function index()
     {
-        //$company= Company::whereUserId(Auth::Company()->id)->whereId($id)->first();
-        return view('home');
+        //$company = Company::findOrFail($id);
+        $user = Auth::user();
+        $comp = $user->Company;
+        $loans = $user->loans;
+        //dd($comp);
+        return view('home',compact('comp','loans','company','user'));
     }
 }

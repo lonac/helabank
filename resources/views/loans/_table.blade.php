@@ -1,11 +1,11 @@
 <table class="table table-hover">
 	<thead>
 		<tr>
-			<th>SN</th>
+			{{-- <th>SN</th> --}}
 			<th>Customer</th>
 			<th>Amount</th>
 			<th>Company</th>
-			<th>Loan Time</th>
+			<th>Loan Time(Months)</th>
 			<th>Phone Number</th>
 			<th>Reason</th>
 			<th>Sponsor</th>
@@ -16,7 +16,7 @@
 	<tbody>
 		@foreach($loans as $loan)
 			<tr>
-				<td>{{ $loan->id }}</td>
+				{{-- <td>{{ $loan->id }}</td> --}}
 				<td>{{ $loan->user->firstname }}  {{$loan->user->lastname}}</td>
 				<td>{{ $loan->amount }}</td>
 				<td>{{ $loan->company->name }}</td>

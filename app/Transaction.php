@@ -12,12 +12,14 @@ class Transaction extends Model
     	'capital',
     	'firstname',
     	'lastname',
+        'sendtransactionId',
     	'takeDate',
     	'retDate',
     	'takeAmount',
     	'retAmount',
     	'totalAmount',
-    	'transactionId',
+    	'rectransactionId',
+        'status',
         'descriptions'
     ];
 

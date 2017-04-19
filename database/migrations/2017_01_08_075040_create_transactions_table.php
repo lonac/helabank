@@ -23,13 +23,16 @@ class CreateTransactionsTable extends Migration
             $table->integer('capital');
             $table->string('firstname');
             $table->string('lastname');
+            $table->string('sendtransactionsId')->nullable();
+            $table->string('rectransactionsId')->nullable();
             $table->date('takeDate')->nullable();
             $table->date('retDate')->nullable();
             $table->integer('takeAmount')->nullable();
             $table->integer('retAmount')->nullable();
             $table->integer('totalAmount');
-            $table->string('transactionId');
+            $table->string('status');
             $table->string('descriptions')->nullable();
+            $table->timestamps();
         });
     }
 

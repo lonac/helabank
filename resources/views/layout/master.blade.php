@@ -16,29 +16,29 @@
 </head>
 <body>
 
-@include('layout.navbar')
+    @include('layout.navbar')
 
-<div class="container">
-    @include('errors.list')
-</div>
+    <div class="container">
+        @include('errors.list')
+    </div>
 
-@yield('content')
+    @yield('content')
 
-<footer class="row">
-    @include('layout.footer')
-</footer>
+    <footer class="row">
+        @include('layout.footer')
+    </footer>
 
-<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-<script src="/js/ripples.min.js"></script>
-<script src="/js/material.min.js"></script>
-<script>
-    $(document).ready(function() {
-        // This command is used to initialize some elements and make them work properly
-        $.material.init();
-    });
-</script>
+    <script src="/js/ripples.min.js"></script>
+    <script src="/js/material.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // This command is used to initialize some elements and make them work properly
+            $.material.init();
+        });
+    </script>
 </body>
 
 </html>

@@ -13,6 +13,7 @@ class Company extends Model
         'line_two',
         'phone1',
         'phone2',
+        'capital',
         'email',
     	'user_id',
     ];
@@ -29,6 +30,6 @@ class Company extends Model
 
     public function transactions()
     {
-        return $this->hasMany('App\Transactions');
+        return $this->hasMany('App\Transaction');
     }
 }

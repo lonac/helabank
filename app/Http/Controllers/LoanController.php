@@ -20,9 +20,9 @@ class LoanController extends Controller
 	
     public function index($id)
     {
-    	$company = Company::whereUserId(Auth::user()->id)->whereId($id)->first();
+        $company = Company::findOrFail($id);
     	$loans = $company->loans;
-    	return view('loans.index', compact('loans'));
+    	return view('loans.show', compact('loans'));
     }
 
     public function create($id)

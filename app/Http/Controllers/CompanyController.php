@@ -59,6 +59,7 @@ class CompanyController extends Controller
         $company->phone1 = $request->input('phone1');
         $company->phone2 = $request->input('phone2');
         $company->email = $request->input('email');
+        $company->capital = $request->input('capital');
         $company->description = $request->input('description');
         $company->user_id = Auth::user()->id;
 
@@ -132,6 +133,12 @@ class CompanyController extends Controller
     public function destroy($id)
     {
         $company = Company::whereUserId(Auth::user()->id)->whereId($id)->first();
+
+        /*<script>
+            $(".delete").on("submit", function(){
+                return confirm("Do you want to delete this item?");
+            });
+        </script> */
         
         $company->delete();
 

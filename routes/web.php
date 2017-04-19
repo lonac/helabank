@@ -33,28 +33,20 @@ Route::get('/home', 'HomeController@index');
 
 Route::resource('companies', 'CompanyController');
 
-Route::get('loans', function() {
-	$loans = App\Loan::all();
-	return view('loans.index', compact('loans'));
-});
-
+Route::get('companies/{id}/loans/show','LoanController@index');
 Route::get('companies/{id}/loans', 'LoanController@index');
-
 Route::get('account/my-loans', 'UserController@myLoans');
 
 Route::get('companies/{id}/loans/apply', 'LoanController@create');
-
 Route::post('companies/{id}/loans/apply', 'LoanController@store');
-
-Route::post('transactions/form_records','TransactionsController@store');
-
-Route::get('transactions/form_records','TransactionsController@create');
-
-Route::get('transactions/records','TransactionsController@index');
-
-Route::post('transactions/records','TransactionsController@index');
-
 Route::post('companies/search', 'CompanyController@search');
-
 Route::get('companies/search', 'CompanyController@search');
 
+
+Route::get('transactions/form_records','TransactionsController@create');
+Route::post('transaction/form_records','TransactionController@savedata');
+Route::get('transactions/records','TransactionsController@index');
+
+Route::get('companies/{id}/transactions/create','TransactionTableController@create');
+Route::post('companies/{id}/transactions/create','TransactionTableController@store');
+Route::get('companies/{id}/transactions/show','TransactionTableController@show');

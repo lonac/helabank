@@ -8,11 +8,11 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">MKOPO</a>
+            <a class="navbar-brand" href="/">DIAW</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" background-color="blue">
             <ul class="nav navbar-nav navbar-left">
                 <li><a href="/home">Home</a></li>
                 <li><a href="/companies">Companies</a></li>

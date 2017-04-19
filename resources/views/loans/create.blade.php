@@ -12,11 +12,11 @@
 		<div class="col-sm-6 col-sm-offset-3">
 			<div class="panel panel-default">
 				<div class="panel-heading">
-					<h3 class="panel-title">Loan Application Form</h3>
+					<h3 class="panel-title">Loan Application Form:</h3>
 				</div>
 				<div class="panel-body">
 					
-					<form method="POST" action="{{ url('companies/'.$company->id.'/loans/apply') }}">
+					<form method="POST" action="{{ url('companies/'.$company->id.'/loans/apply') }}" >
 
 						{{ csrf_field() }}
 
@@ -25,8 +25,12 @@
 							<input type="number" name="amount" id="amount" class="form-control" placeholder="Amount" />
 						</div>
 						<div class="form-group">
-							<label for="loantime">Loan Time</label>
-							<input type="number" name="loantime" id="loantime" class="form-control" placeholder="write time in Days.eg. 30days">
+							<label for="LoanTime">Select Loan Time:(1month=30days)</label>
+								<select class="form-control" name="loantime">
+									<option value="1">1 Month</option>
+									<option value="2">2 Months</option>
+									<option value="3">3 Months</option>
+								</select>
 						</div>
 						<div class="form-group">
 							<label for="phone">Phone Number</label>
@@ -40,7 +44,8 @@
 							<label for="sponsor">Sponsor</label>
 							<input type="text" name="sponsor" id="sponsor" class="form-control" rows="10" placeholder="Name of the Sponsor From this company">
 						</div>
-						<button type="submit" class="btn btn-success">Apply</button>
+						<button type="submit" onclick="return confirm('Before Applying hope you have read terms&condtions for the company:');"
+						 class="btn btn-success">Apply</button>
 					</form>
 
 				</div>

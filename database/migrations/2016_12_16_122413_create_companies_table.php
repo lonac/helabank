@@ -21,6 +21,7 @@ class CreateCompaniesTable extends Migration
             $table->string('phone1');
             $table->string('phone2')->nullable();
             $table->string('email')->nullable();
+            $table->integer('capital')->default('0');
             $table->text('description')->nullable();
             $table->integer('user_id')->unsigned()->index();
             $table->foreign('user_id')->references('id')->on('users')->onUpdate('cascade');
