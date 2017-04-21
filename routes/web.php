@@ -61,37 +61,27 @@ Route::get('home','HomeController@index');
 Route::get('users/login','Auth\LoginController@ShowLoginForm');
 Route::post('users/login','Auth\LoginController@posrLogin');
 
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
+
+Route::resource('companies', 'CompanyController');
+
+Route::get('companies/{id}/loans/show','LoanController@index');
+Route::get('companies/{id}/loans', 'LoanController@index');
+Route::get('account/my-loans', 'UserController@myLoans');
+
+Route::get('companies/{id}/loans/apply', 'LoanController@create');
+Route::post('companies/{id}/loans/apply', 'LoanController@store');
+Route::post('companies/search', 'CompanyController@search');
+Route::get('companies/search', 'CompanyController@search');
 
 
-Route::get('company/stake_holders/firstname','Stake_holdersController@firstname');
-Route::post('company/stake_holders/firstname','Stake_holdersController@firstname');
+Route::get('transactions/form_records','TransactionsController@create');
+Route::post('transaction/form_records','TransactionController@savedata');
+Route::get('transactions/records','TransactionsController@index');
 
-Route::get('company/stake_holders/lastname','Stake_holdersController@lastname');
-Route::post('company/stake_holders/lastname','Stake_holdersController@lastname');
+Route::get('companies/{id}/transactions/create','TransactionTableController@create');
+Route::post('companies/{id}/transactions/create','TransactionTableController@store');
+Route::get('companies/{id}/transactions/show','TransactionTableController@show');
 
-Route::get('company/stake_holders/position','Stake_holdersController@position');
-Route::post('company/stake_holders/position','Stake_holdersController@position');
-
-Route::get('company/stake_holders/sh_email','Stake_holdersController@sh_email');
-Route::post('company/stake_holders/sh_email','Stake_holdersController@sh_email');
-
-Route::get('company/stake_holders/sh_phone','Stake_holdersController@sh_phone');
-Route::post('company/stake_holders/sh_phone','Stake_holdersController@sh_phone');
-
-Route::get('company/company_location','CompanyLocationController@company_location');
-Route::post('company/company_location','CompanyLocationController@company_location');
-
-Route::get('company/company_address','CompanyAddressController@company_address');
-Route::post('company/company_address','CompanyAddressController@company_address');
-
-Route::get('company/company_email','CompanyEmailController@company_email');
-Route::post('company/company_email','CompanyEmailController@company_email');
-
-Route::get('company/company_terms','CompanyTermsController@company_terms');
-Route::post('company/company_terms','CompanyTermsController@company_terms');
-
-Route::get('company/company_name','CompanyNamesController@company_name');
-Route::post('company/company_name','CompanyNamesController@company_name');
-
-Route::get('company/compRegstry','CompanyRegistryController@compRegstry');
-Route::post('company/compRegstry','CompanyRegistryController@compRegstry');

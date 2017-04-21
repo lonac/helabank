@@ -46,5 +46,9 @@
     },
     "config": {
         "preferred-install": "dist"
-    }
+    },
+
+  "require": {
+    "silex/silex": "~1.1"
+  }
 }
