@@ -31,7 +31,7 @@
                 </div>
 
                   <p class="text-center">
-                    &copy 2017 Mkopo | All Rights Reserved
+                    &copy 2017 DIAW | All Rights Reserved
                 </p>
             </div>
         </div>
