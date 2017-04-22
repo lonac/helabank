@@ -32,7 +32,7 @@ class CreateCustomerFormTable extends Migration
             $table->string('loantime');
             $table->string('bankaccount');
             $table->string('owned_business');
-            $table->interger('stake_holders_id')->unsigned();
+            $table->integer('stake_holders_id')->unsigned();
             $table->string('stake_holders_id')->references('lastname')->on('stake_holders')->onUpdate('cascade');
             $table->rememberToken();
             $table->timestamps();
