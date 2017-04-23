@@ -32,4 +32,9 @@ class Company extends Model
     {
         return $this->hasMany('App\Transaction');
     }
+
+    public function stakeholders()
+    {
+        return $this->hasMany('App\StakeHolders');
+    }
 }

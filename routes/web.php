@@ -85,3 +85,4 @@ Route::get('companies/{id}/transactions/create','TransactionTableController@crea
 Route::post('companies/{id}/transactions/create','TransactionTableController@store');
 Route::get('companies/{id}/transactions/show','TransactionTableController@show');
 
+Route::get('companies/{id}/stakeholders/create','StakeHoldersController@create');
