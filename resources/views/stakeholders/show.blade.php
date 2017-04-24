@@ -21,7 +21,7 @@
 						No stakeholders!
 
 					@endif
-					<h2><a href="/companies/{{ $company->id }}/stakeholders/create">Add Stakeholders?</a></h2>	
+					
 				</div>
 			</div>
 		</div>		

@@ -30,7 +30,7 @@
 							<label for="position">Position</label>
 							<input type="text" name="position" id="position" class="form-control" placeholder="Position" />
 						</div>
-						<button type="submit" class="btn btn-success">Save</button>
+						<button type="submit" class="btn btn-success">ADD</button>
 					</form>
 
 				</div>

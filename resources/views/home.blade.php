@@ -63,7 +63,10 @@
                         <h3 class="panel-title">Company's StakeHolders:</h3>
                     </div>
                     <div class="panel-body">
-                        <a href="/companies/{{ $comp->id }}/stakeholders/show">View</a>
+                        <a href="/companies/{{ $comp->id }}/stakeholders/create">Add StakeHolder?</a>
+                        <strong>OR</strong>
+                        <a href="/companies/{{ $comp->id }}/stakeholders/show">View</a> 
+                         
                     </div>
                 </div>
             </div>

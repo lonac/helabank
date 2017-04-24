@@ -66,7 +66,10 @@
 				</div>
 				<div class="panel-body">
 					<strong>CEO:</strong> {{ $company->ceo->firstname }}  {{ $company->ceo->lastname }} </br>
-					<strong>STAKE HOLDERS:</strong>
+					<strong>STAKEHOLDERS:</strong>
+					@if($stakeholder->count()>0)
+						<a href="/companies/{{ $company->id }}/stakeholders/show">View</a>
+					@endif
 				</div>
 			</div>	
 		</div>
