@@ -10,6 +10,8 @@ use Auth;
 
 use App\Loan;
 
+use App\StakeHolders;
+
 class LoanController extends Controller
 {
 
@@ -28,13 +30,22 @@ class LoanController extends Controller
     public function create($id)
     {
     	$company = Company::findOrFail($id);
-    	return view('loans.create', compact('company'));
+        $stakeholder = $company->stakeholders;
+
+    	return view('loans.create', compact('company','stakeholder'));
     }
 
     public function store(Request $request, $id)
     {
-    	$company = Company::findOrFail($id);
+    	
+       /* $this->validate($request, [
 
+       'terms' => 'required',
+    ]);
+
+        */
+
+        $company = Company::findOrFail($id);
     	// TODO Validate amount
 
     	$loan = new Loan();

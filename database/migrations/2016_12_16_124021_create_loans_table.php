@@ -23,7 +23,7 @@ class CreateLoansTable extends Migration
             $table->integer('loantime')->default(31);
             $table->string('phone');
             $table->string('reason');
-            $table->string('sponsor');
+            $table->string('sponsor')->nullable();
             $table->timestamps();
         });
     }

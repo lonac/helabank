@@ -46,6 +46,13 @@
 							<input type="email" name="email" class="form-control" id="email" placeholder="Email-Address">
 						</div>
 						<div class="form-group">
+							<label for="terms$conditions">Terms&Condtion File:</label>
+							<label class="btn btn-primary btn-file">
+							    Browse File<input type="file">
+							</label>
+						</div>
+
+						<div class="form-group">
 							<label for="capital">Capital:</label>
 							<input type="number" name="capital" class="form-control" id="capital" placeholder="Capital??">
 						</div>

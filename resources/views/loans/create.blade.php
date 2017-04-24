@@ -7,10 +7,10 @@
 <div class="container">
 	<div class="row">
 	
-		<h2>You are applying loan in {{ $company->name }}</h2>
+		<h2>You are applying loan at : {{ $company->name }}</h2>
 
 		<div class="col-sm-6 col-sm-offset-3">
-			<div class="panel panel-default">
+			<div class="panel panel-primary">
 				<div class="panel-heading">
 					<h3 class="panel-title">Loan Application Form:</h3>
 				</div>
@@ -40,12 +40,22 @@
 							<label for="reason">Reason</label>
 							<textarea name="reason" id="reason" class="form-control" rows="10" placeholder="Write something why you are applying"></textarea>
 						</div>
+
+						@if($stakeholder->count()>0)
+							<div class="form-group">
+								<label for="sponsor">Sponsor</label>
+								<select class="form-control" name="sponsor">
+									@foreach ($stakeholder as $stake)
+										<option value="{{$stake->firstname}}">{{$stake->firstname}}  {{$stake->laststname}}</option>
+									@endforeach
+
+								</select>
+							</div>
+						@endif
 						<div class="form-group">
-							<label for="sponsor">Sponsor</label>
-							<input type="text" name="sponsor" id="sponsor" class="form-control" rows="10" placeholder="Name of the Sponsor From this company">
+   							 <input type="checkbox" class="form-control" name="terms" value="{{ old('terms') }}" /> Agree with the <a href="#">Terms&Conditions:</a>
 						</div>
-						<button type="submit" onclick="return confirm('Before Applying hope you have read terms&condtions for the company:');"
-						 class="btn btn-success">Apply</button>
+						<button type="submit" class="btn btn-success">Apply</button>	 
 					</form>
 
 				</div>
