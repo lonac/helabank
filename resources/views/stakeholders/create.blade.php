@@ -8,13 +8,13 @@
 	<div class="row">
 
 		<div class="col-sm-6 col-sm-offset-3">
-			<div class="panel panel-default">
+			<div class="panel panel-primary">
 				<div class="panel-heading">
-					<h3 class="panel-title">Have Stake Holders?</h3>
+					<h3 class="panel-title">Have Stake Holders at {{ $company->name }} ?</h3>
 				</div>
 				<div class="panel-body">
 					
-					<form method="POST" action="{{ url('stakeholders') }}">
+					<form method="POST" action="{{ url('companies/'.$company->id.'/stakeholders/create') }}">
 
 						{{ csrf_field() }}
 
@@ -24,7 +24,7 @@
 						</div>
 						<div class="form-group">
 							<label for="latstname">Last Name</label>
-							<input type="text" name="firstname" id="lastname" class="form-control" placeholder="Last Name" />
+							<input type="text" name="lastname" id="lastname" class="form-control" placeholder="Last Name" />
 						</div>
 						<div class="form-group">
 							<label for="position">Position</label>

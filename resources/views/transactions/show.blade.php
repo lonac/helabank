@@ -13,9 +13,7 @@
 			@include('transactions.table')
 
 		@else
-
 			<font color="red">No Transactions records!</font>
-			<a href="/companies/{{ $company->id }}/transactions/create">Keep Records?</a>
 		@endif	
 		<h2><a href="/companies/{{ $company->id }}/transactions/create">Add Records?</a></h2>	
 	</div>

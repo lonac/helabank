@@ -8,6 +8,7 @@ use Auth;
 
 use App\Company;
 
+use App\StakeHolders;
 
 class StakeHoldersController extends Controller
 {
@@ -29,7 +30,9 @@ class StakeHoldersController extends Controller
     public function create()
     {
        $user = Auth::user();
-       $company = $user->stakeholders;
+       $company = $user->company;
+       //$stak = $company->stake_holders;
+      // dd($stak);
 
        return view('stakeholders.create',compact('company'));
     }
@@ -40,9 +43,19 @@ class StakeHoldersController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(Request $request, $id)
     {
-        //
+        $company = Company::findOrFail($id);
+
+        $stake = new StakeHolders;
+        $stake->firstname = $request->input('firstname');
+        $stake->lastname = $request->input('lastname');
+        $stake->position = $request->input('position');
+        $stake->user_id= Auth::user()->id;
+        $stake->company_id = $company->id; 
+        $stake->save();
+
+        return redirect('/home');
     }
 
     /**
@@ -53,7 +66,11 @@ class StakeHoldersController extends Controller
      */
     public function show($id)
     {
-        //
+
+        $company = Company::findOrFail($id);
+        $stakeholder = $company->stakeholders;
+
+        return view('stakeholders.show',compact('company','stakeholder'));
     }
 
     /**

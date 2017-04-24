@@ -26,7 +26,7 @@
                         <h3 class="panel-title">Company:</h3>
                     </div>
                     <div class="panel-body">
-                        <h4> {{ $comp->name }}</h4>
+                        <h4><a href="companies/{{ $comp->id }}">{{ $comp->name }}</a></h4>
                     </div>
                 </div>
             </div>
@@ -52,6 +52,18 @@
                     </div>
                     <div class="panel-body">
                         <a href="/companies/{{ $comp->id }}/transactions/show">View Company Transactions</a>    
+                    </div>
+                </div>
+            </div>
+
+            {{-- COMPANY STAKEHOLDERS --}}
+            <div class="col-md-6 col-md-offset-1">
+                <div class="panel panel-success">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Company's StakeHolders:</h3>
+                    </div>
+                    <div class="panel-body">
+                        <a href="/companies/{{ $comp->id }}/stakeholders/show">View</a>
                     </div>
                 </div>
             </div>

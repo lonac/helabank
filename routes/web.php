@@ -86,3 +86,5 @@ Route::post('companies/{id}/transactions/create','TransactionTableController@sto
 Route::get('companies/{id}/transactions/show','TransactionTableController@show');
 
 Route::get('companies/{id}/stakeholders/create','StakeHoldersController@create');
+Route::post('companies/{id}/stakeholders/create','StakeHoldersController@store');
+Route::get('companies/{id}/stakeholders/show','StakeHoldersController@show');

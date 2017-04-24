@@ -65,7 +65,7 @@ class CompanyController extends Controller
 
         $company->save();
 
-        return redirect('companies');
+        return redirect('/companies/'.$company->id.'/stakeholders/create');
     }
 
     /**

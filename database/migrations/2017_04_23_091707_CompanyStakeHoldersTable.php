@@ -13,12 +13,11 @@ class CompanyStakeHoldersTable extends Migration
      */
     public function up()
     {
-        Schema::create('stakeholders', function(Blueprint $table)
+        Schema::create('stake_holders', function(Blueprint $table)
         {
            $table->increments('id');
             $table->integer('user_id')->unsigned()->index();
-            $table->foreign('user_id')->references('id')->on('users')->onUpdate('cascade');
-            $table->integer('company_id')->unsigned()->index();
+            $table->foreign('user_id')->references('id')->on('users')->onUpdate('cascade');            $table->integer('company_id')->unsigned()->index();
             $table->foreign('company_id')->references('id')->on('companies')->onUpdate('cascade');
             $table->string('firstname');
             $table->string('lastname');
@@ -34,6 +33,6 @@ class CompanyStakeHoldersTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('stakeholders'); 
+        Schema::dropIfExists('stake_holders'); 
     }
 }
