@@ -10,6 +10,8 @@ use App\Company;
 
 use Auth;
 
+use App\StakeHolders;
+
 class CompanyController extends Controller
 {
     public function __construct()
@@ -77,7 +79,8 @@ class CompanyController extends Controller
     public function show($id)
     {
         $company = Company::findOrFail($id);
-        return view('companies.show', compact('company'));
+        $stakeholder = $company->stakeholders;
+        return view('companies.show', compact('company','stakeholder'));
     }
 
     /**
