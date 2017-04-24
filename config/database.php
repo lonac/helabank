@@ -25,9 +25,8 @@ return [
     | you may use many connections at once using the Database library.
     |
     */
-
-//'default' => 'pgsql',
-'default' => env('DB_CONNECTION', 'mysql'),
+   'default' => 'pgsql',
+  'default' => env('DB_CONNECTION', 'mysql'),
 
 
     /*
@@ -68,7 +67,7 @@ return [
             'engine' => null,
         ],
 
- /*       'pgsql' => [
+        'pgsql' => [
             'driver'   => 'pgsql',
             'host'     => parse_url(getenv("DATABASE_URL"))["host"],
             'database' => substr(parse_url(getenv("DATABASE_URL"))["path"], 1),
@@ -77,7 +76,7 @@ return [
             'charset'  => 'utf8',
             'prefix'   => '',
             'schema'   => 'public',
-        ], */
+        ], 
 
     ],
 
